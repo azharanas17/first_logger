@@ -1,0 +1,17 @@
+CMake Error at CMakeLists.txt:21 (find_package):
+  By not providing "Findfirst_interfaces.cmake" in CMAKE_MODULE_PATH this
+  project has asked CMake to find a package configuration file provided by
+  "first_interfaces", but CMake did not find one.
+
+  Could not find a package configuration file provided by "first_interfaces"
+  with any of the following names:
+
+    first_interfacesConfig.cmake
+    first_interfaces-config.cmake
+
+  Add the installation prefix of "first_interfaces" to CMAKE_PREFIX_PATH or
+  set "first_interfaces_DIR" to a directory containing one of the above
+  files.  If "first_interfaces" provides a separate development package or
+  SDK, be sure it has been installed.
+
+

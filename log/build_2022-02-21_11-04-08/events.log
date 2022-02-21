@@ -1,0 +1,256 @@
+[0.000000] (-) TimerEvent: {}
+[0.000208] (-) JobUnselected: {'identifier': 'first_pubsub'}
+[0.000270] (-) JobUnselected: {'identifier': 'turtlesim'}
+[0.000291] (first_interfaces) JobQueued: {'identifier': 'first_interfaces', 'dependencies': OrderedDict()}
+[0.000653] (first_interfaces) JobStarted: {'identifier': 'first_interfaces'}
+[0.007622] (first_interfaces) JobProgress: {'identifier': 'first_interfaces', 'progress': 'cmake'}
+[0.007815] (first_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/azharanas17/setunggal_ws/src/first_interfaces', '-DCMAKE_INSTALL_PREFIX=/home/azharanas17/setunggal_ws/install/first_interfaces'], 'cwd': '/home/azharanas17/setunggal_ws/build/first_interfaces', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'azharanas17'), ('LC_TIME', 'id_ID.UTF-8'), ('SSH_AGENT_PID', '1575'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/azharanas17'), ('OLDPWD', '/home/azharanas17/setunggal_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'id_ID.UTF-8'), ('MANAGERPID', '1387'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/foxy/'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'azharanas17'), ('JOURNAL_STREAM', '8:47406'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'azharanas17'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/NAZSEVENTEEN:@/tmp/.ICE-unix/1618,unix/NAZSEVENTEEN:/tmp/.ICE-unix/1618'), ('INVOCATION_ID', '338d94d88bb34d1ca1d51e01e5cd1284'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/73fe0160_fe28_4c47_abae_bee561d77ba3'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.482'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'id_ID.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/azharanas17/setunggal_ws/build/first_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.049067] (first_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.3.0\n'}
+[0.087067] (first_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.3.0\n'}
+[0.090304] (first_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.099878] (-) TimerEvent: {}
+[0.141533] (first_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.142260] (first_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.190939] (first_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.199053] (first_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.199306] (first_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.199937] (-) TimerEvent: {}
+[0.201184] (first_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.258699] (first_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.259562] (first_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.300061] (-) TimerEvent: {}
+[0.316155] (first_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.324090] (first_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.324515] (first_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.325962] (first_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.344751] (first_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.344946] (first_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.400151] (-) TimerEvent: {}
+[0.472919] (first_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[0.475133] (first_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.479254] (first_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.500273] (-) TimerEvent: {}
+[0.543678] (first_interfaces) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[0.563639] (first_interfaces) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[0.600391] (-) TimerEvent: {}
+[0.617909] (first_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.653872] (first_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[0.700510] (-) TimerEvent: {}
+[0.744082] (first_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)\n'}
+[0.800645] (-) TimerEvent: {}
+[0.817093] (first_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.823322] (first_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.840519] (first_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[0.841946] (first_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)\n'}
+[0.861264] (first_interfaces) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[0.861514] (first_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.861582] (first_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8\n'}
+[0.861635] (first_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so\n'}
+[0.877308] (first_interfaces) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[0.900777] (-) TimerEvent: {}
+[0.906498] (first_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[0.927565] (first_interfaces) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[0.929394] (first_interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.930389] (first_interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.934074] (first_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.952175] (first_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[0.953879] (first_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/azharanas17/setunggal_ws/build/first_interfaces\n'}
+[0.959207] (first_interfaces) CommandEnded: {'returncode': 0}
+[0.959705] (first_interfaces) JobProgress: {'identifier': 'first_interfaces', 'progress': 'build'}
+[0.960418] (first_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/azharanas17/setunggal_ws/build/first_interfaces', '--', '-j4', '-l4'], 'cwd': '/home/azharanas17/setunggal_ws/build/first_interfaces', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'azharanas17'), ('LC_TIME', 'id_ID.UTF-8'), ('SSH_AGENT_PID', '1575'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/azharanas17'), ('OLDPWD', '/home/azharanas17/setunggal_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'id_ID.UTF-8'), ('MANAGERPID', '1387'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/foxy/'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'azharanas17'), ('JOURNAL_STREAM', '8:47406'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'azharanas17'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/NAZSEVENTEEN:@/tmp/.ICE-unix/1618,unix/NAZSEVENTEEN:/tmp/.ICE-unix/1618'), ('INVOCATION_ID', '338d94d88bb34d1ca1d51e01e5cd1284'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/73fe0160_fe28_4c47_abae_bee561d77ba3'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.482'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'id_ID.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/azharanas17/setunggal_ws/build/first_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.990530] (first_interfaces) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[0.990809] (first_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target first_interfaces__cpp\x1b[0m\n'}
+[0.998179] (first_interfaces) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[1.000888] (-) TimerEvent: {}
+[1.101299] (-) TimerEvent: {}
+[1.199232] (first_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target first_interfaces__rosidl_generator_c\x1b[0m\n'}
+[1.201418] (-) TimerEvent: {}
+[1.210242] (first_interfaces) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/first_interfaces__rosidl_generator_c.dir/rosidl_generator_c/first_interfaces/msg/detail/log__functions.c.o\x1b[0m\n'}
+[1.217189] (first_interfaces) StdoutLine: {'line': b'[  9%] Built target first_interfaces__cpp\n'}
+[1.229308] (first_interfaces) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[1.229832] (first_interfaces) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.229999] (first_interfaces) StdoutLine: {'line': b'[ 19%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[1.252539] (first_interfaces) StdoutLine: {'line': b'[ 22%] \x1b[32m\x1b[1mLinking C shared library libfirst_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[1.294877] (first_interfaces) StdoutLine: {'line': b'[ 22%] Built target first_interfaces__rosidl_generator_c\n'}
+[1.301513] (-) TimerEvent: {}
+[1.307024] (first_interfaces) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[1.401604] (-) TimerEvent: {}
+[1.501913] (-) TimerEvent: {}
+[1.524135] (first_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target first_interfaces__rosidl_typesupport_cpp\x1b[0m\n'}
+[1.539325] (first_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target first_interfaces__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[1.539571] (first_interfaces) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/first_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/first_interfaces/msg/log__type_support.cpp.o\x1b[0m\n'}
+[1.551997] (first_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target first_interfaces__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[1.554557] (first_interfaces) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/first_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/first_interfaces/msg/detail/log__type_support.cpp.o\x1b[0m\n'}
+[1.573008] (first_interfaces) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/first_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/first_interfaces/msg/detail/dds_fastrtps/log__type_support.cpp.o\x1b[0m\n'}
+[1.602034] (-) TimerEvent: {}
+[1.617028] (first_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target first_interfaces__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[1.634408] (first_interfaces) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding C object CMakeFiles/first_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/first_interfaces/msg/detail/log__type_support.c.o\x1b[0m\n'}
+[1.680129] (first_interfaces) StdoutLine: {'line': b'[ 41%] \x1b[32m\x1b[1mLinking C shared library libfirst_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[1.702171] (-) TimerEvent: {}
+[1.717506] (first_interfaces) StdoutLine: {'line': b'[ 41%] Built target first_interfaces__rosidl_typesupport_introspection_c\n'}
+[1.730458] (first_interfaces) StdoutLine: {'line': b'[ 45%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.802272] (-) TimerEvent: {}
+[1.878060] (first_interfaces) StdoutLine: {'line': b'[ 48%] \x1b[32m\x1b[1mLinking CXX shared library libfirst_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[1.902400] (-) TimerEvent: {}
+[1.912522] (first_interfaces) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking CXX shared library libfirst_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[1.929026] (first_interfaces) StdoutLine: {'line': b'[ 51%] Built target first_interfaces__rosidl_typesupport_cpp\n'}
+[1.986783] (first_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target first_interfaces__rosidl_typesupport_c\x1b[0m\n'}
+[1.998289] (first_interfaces) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/first_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/first_interfaces/msg/log__type_support.cpp.o\x1b[0m\n'}
+[1.998567] (first_interfaces) StdoutLine: {'line': b'[ 54%] Built target first_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[2.002510] (-) TimerEvent: {}
+[2.023645] (first_interfaces) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking CXX shared library libfirst_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[2.056081] (first_interfaces) StdoutLine: {'line': b'[ 58%] Built target first_interfaces__rosidl_typesupport_c\n'}
+[2.056609] (first_interfaces) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking CXX shared library libfirst_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[2.102631] (-) TimerEvent: {}
+[2.119774] (first_interfaces) StdoutLine: {'line': b'[ 61%] Built target first_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[2.127412] (first_interfaces) StdoutLine: {'line': b'[ 64%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[2.202727] (-) TimerEvent: {}
+[2.282487] (first_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target first_interfaces__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[2.293011] (first_interfaces) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/first_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/first_interfaces/msg/detail/log__type_support_c.cpp.o\x1b[0m\n'}
+[2.302961] (-) TimerEvent: {}
+[2.403305] (-) TimerEvent: {}
+[2.503643] (-) TimerEvent: {}
+[2.534740] (first_interfaces) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libfirst_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[2.598543] (first_interfaces) StdoutLine: {'line': b'[ 70%] Built target first_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[2.603905] (-) TimerEvent: {}
+[2.606226] (first_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target first_interfaces\x1b[0m\n'}
+[2.613914] (first_interfaces) StdoutLine: {'line': b'[ 70%] Built target first_interfaces\n'}
+[2.621198] (first_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target first_interfaces__py\x1b[0m\n'}
+[2.628875] (first_interfaces) StdoutLine: {'line': b'[ 74%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[2.703968] (-) TimerEvent: {}
+[2.804239] (-) TimerEvent: {}
+[2.904505] (-) TimerEvent: {}
+[2.959488] (first_interfaces) StdoutLine: {'line': b'[ 74%] Built target first_interfaces__py\n'}
+[2.966809] (first_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target first_interfaces__python\x1b[0m\n'}
+[2.979248] (first_interfaces) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding C object CMakeFiles/first_interfaces__python.dir/rosidl_generator_py/first_interfaces/msg/_log_s.c.o\x1b[0m\n'}
+[3.004618] (-) TimerEvent: {}
+[3.043152] (first_interfaces) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/first_interfaces/libfirst_interfaces__python.so\x1b[0m\n'}
+[3.071675] (first_interfaces) StdoutLine: {'line': b'[ 80%] Built target first_interfaces__python\n'}
+[3.079834] (first_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target first_interfaces__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[3.081133] (first_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target first_interfaces__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[3.081323] (first_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target first_interfaces__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[3.095327] (first_interfaces) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/first_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/first_interfaces/_first_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[3.099462] (first_interfaces) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/first_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/first_interfaces/_first_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[3.102151] (first_interfaces) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/first_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/first_interfaces/_first_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[3.104723] (-) TimerEvent: {}
+[3.166660] (first_interfaces) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking CXX shared library rosidl_generator_py/first_interfaces/first_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[3.192988] (first_interfaces) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/first_interfaces/first_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[3.193629] (first_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/first_interfaces/first_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[3.204838] (-) TimerEvent: {}
+[3.225099] (first_interfaces) StdoutLine: {'line': b'[100%] Built target first_interfaces__rosidl_typesupport_c__pyext\n'}
+[3.228606] (first_interfaces) StdoutLine: {'line': b'[100%] Built target first_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[3.230062] (first_interfaces) StdoutLine: {'line': b'[100%] Built target first_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[3.240161] (first_interfaces) CommandEnded: {'returncode': 0}
+[3.270649] (first_interfaces) JobProgress: {'identifier': 'first_interfaces', 'progress': 'install'}
+[3.278221] (first_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/azharanas17/setunggal_ws/build/first_interfaces'], 'cwd': '/home/azharanas17/setunggal_ws/build/first_interfaces', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'azharanas17'), ('LC_TIME', 'id_ID.UTF-8'), ('SSH_AGENT_PID', '1575'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/azharanas17'), ('OLDPWD', '/home/azharanas17/setunggal_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'id_ID.UTF-8'), ('MANAGERPID', '1387'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/foxy/'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'azharanas17'), ('JOURNAL_STREAM', '8:47406'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'azharanas17'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/NAZSEVENTEEN:@/tmp/.ICE-unix/1618,unix/NAZSEVENTEEN:/tmp/.ICE-unix/1618'), ('INVOCATION_ID', '338d94d88bb34d1ca1d51e01e5cd1284'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/73fe0160_fe28_4c47_abae_bee561d77ba3'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.482'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'id_ID.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/azharanas17/setunggal_ws/build/first_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[3.286726] (first_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[3.287012] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/azharanas17/setunggal_ws/install/first_interfaces/share/ament_index/resource_index/rosidl_interfaces/first_interfaces\n'}
+[3.287074] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/azharanas17/setunggal_ws/install/first_interfaces/include/first_interfaces\n'}
+[3.287126] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/azharanas17/setunggal_ws/install/first_interfaces/include/first_interfaces/msg\n'}
+[3.287177] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/azharanas17/setunggal_ws/install/first_interfaces/include/first_interfaces/msg/log.h\n'}
+[3.287225] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/azharanas17/setunggal_ws/install/first_interfaces/include/first_interfaces/msg/detail\n'}
+[3.287273] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/azharanas17/setunggal_ws/install/first_interfaces/include/first_interfaces/msg/detail/log__functions.h\n'}
+[3.287356] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/azharanas17/setunggal_ws/install/first_interfaces/include/first_interfaces/msg/detail/log__struct.h\n'}
+[3.287454] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/azharanas17/setunggal_ws/install/first_interfaces/include/first_interfaces/msg/detail/log__functions.c\n'}
+[3.287498] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/azharanas17/setunggal_ws/install/first_interfaces/include/first_interfaces/msg/detail/log__type_support.h\n'}
+[3.287560] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/azharanas17/setunggal_ws/install/first_interfaces/include/first_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[3.287604] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/azharanas17/setunggal_ws/install/first_interfaces/share/first_interfaces/environment/library_path.sh\n'}
+[3.287644] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/azharanas17/setunggal_ws/install/first_interfaces/share/first_interfaces/environment/library_path.dsv\n'}
+[3.287685] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/azharanas17/setunggal_ws/install/first_interfaces/lib/libfirst_interfaces__rosidl_generator_c.so\n'}
+[3.287864] (first_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/azharanas17/setunggal_ws/install/first_interfaces/lib/libfirst_interfaces__rosidl_generator_c.so" to ""\n'}
+[3.287929] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/azharanas17/setunggal_ws/install/first_interfaces/include/first_interfaces\n'}
+[3.288003] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/azharanas17/setunggal_ws/install/first_interfaces/include/first_interfaces/msg\n'}
+[3.288077] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/azharanas17/setunggal_ws/install/first_interfaces/include/first_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[3.288141] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/azharanas17/setunggal_ws/install/first_interfaces/include/first_interfaces/msg/detail\n'}
+[3.288187] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/azharanas17/setunggal_ws/install/first_interfaces/include/first_interfaces/msg/detail/log__rosidl_typesupport_fastrtps_c.h\n'}
+[3.288256] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/azharanas17/setunggal_ws/install/first_interfaces/lib/libfirst_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[3.288404] (first_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/azharanas17/setunggal_ws/install/first_interfaces/lib/libfirst_interfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[3.288485] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/azharanas17/setunggal_ws/install/first_interfaces/include/first_interfaces\n'}
+[3.288532] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/azharanas17/setunggal_ws/install/first_interfaces/include/first_interfaces/msg\n'}
+[3.288607] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/azharanas17/setunggal_ws/install/first_interfaces/include/first_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[3.288696] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/azharanas17/setunggal_ws/install/first_interfaces/include/first_interfaces/msg/detail\n'}
+[3.288739] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/azharanas17/setunggal_ws/install/first_interfaces/include/first_interfaces/msg/detail/dds_fastrtps\n'}
+[3.288786] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/azharanas17/setunggal_ws/install/first_interfaces/include/first_interfaces/msg/detail/log__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.288853] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/azharanas17/setunggal_ws/install/first_interfaces/lib/libfirst_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[3.288995] (first_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/azharanas17/setunggal_ws/install/first_interfaces/lib/libfirst_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[3.289081] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/azharanas17/setunggal_ws/install/first_interfaces/include/first_interfaces\n'}
+[3.289125] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/azharanas17/setunggal_ws/install/first_interfaces/include/first_interfaces/msg\n'}
+[3.289173] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/azharanas17/setunggal_ws/install/first_interfaces/include/first_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[3.289251] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/azharanas17/setunggal_ws/install/first_interfaces/include/first_interfaces/msg/detail\n'}
+[3.289292] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/azharanas17/setunggal_ws/install/first_interfaces/include/first_interfaces/msg/detail/log__type_support.c\n'}
+[3.289332] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/azharanas17/setunggal_ws/install/first_interfaces/include/first_interfaces/msg/detail/log__rosidl_typesupport_introspection_c.h\n'}
+[3.289403] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/azharanas17/setunggal_ws/install/first_interfaces/lib/libfirst_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[3.289567] (first_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/azharanas17/setunggal_ws/install/first_interfaces/lib/libfirst_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[3.289649] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/azharanas17/setunggal_ws/install/first_interfaces/lib/libfirst_interfaces__rosidl_typesupport_c.so\n'}
+[3.289821] (first_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/azharanas17/setunggal_ws/install/first_interfaces/lib/libfirst_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[3.289909] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/azharanas17/setunggal_ws/install/first_interfaces/include/first_interfaces\n'}
+[3.289953] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/azharanas17/setunggal_ws/install/first_interfaces/include/first_interfaces/msg\n'}
+[3.290000] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/azharanas17/setunggal_ws/install/first_interfaces/include/first_interfaces/msg/log.hpp\n'}
+[3.290071] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/azharanas17/setunggal_ws/install/first_interfaces/include/first_interfaces/msg/detail\n'}
+[3.290152] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/azharanas17/setunggal_ws/install/first_interfaces/include/first_interfaces/msg/detail/log__builder.hpp\n'}
+[3.290199] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/azharanas17/setunggal_ws/install/first_interfaces/include/first_interfaces/msg/detail/log__traits.hpp\n'}
+[3.290262] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/azharanas17/setunggal_ws/install/first_interfaces/include/first_interfaces/msg/detail/log__struct.hpp\n'}
+[3.290308] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/azharanas17/setunggal_ws/install/first_interfaces/include/first_interfaces\n'}
+[3.290394] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/azharanas17/setunggal_ws/install/first_interfaces/include/first_interfaces/msg\n'}
+[3.290436] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/azharanas17/setunggal_ws/install/first_interfaces/include/first_interfaces/msg/detail\n'}
+[3.290483] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/azharanas17/setunggal_ws/install/first_interfaces/include/first_interfaces/msg/detail/log__type_support.cpp\n'}
+[3.290528] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/azharanas17/setunggal_ws/install/first_interfaces/include/first_interfaces/msg/detail/log__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.290595] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/azharanas17/setunggal_ws/install/first_interfaces/lib/libfirst_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[3.290707] (first_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/azharanas17/setunggal_ws/install/first_interfaces/lib/libfirst_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[3.290788] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/azharanas17/setunggal_ws/install/first_interfaces/lib/libfirst_interfaces__rosidl_typesupport_cpp.so\n'}
+[3.290967] (first_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/azharanas17/setunggal_ws/install/first_interfaces/lib/libfirst_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[3.291037] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/azharanas17/setunggal_ws/install/first_interfaces/share/first_interfaces/environment/pythonpath.sh\n'}
+[3.291106] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/azharanas17/setunggal_ws/install/first_interfaces/share/first_interfaces/environment/pythonpath.dsv\n'}
+[3.291227] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/azharanas17/setunggal_ws/install/first_interfaces/lib/python3.8/site-packages/first_interfaces/__init__.py\n'}
+[3.305025] (-) TimerEvent: {}
+[3.311834] (first_interfaces) StdoutLine: {'line': b"Compiling '/home/azharanas17/setunggal_ws/install/first_interfaces/lib/python3.8/site-packages/first_interfaces/__init__.py'...\n"}
+[3.314731] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/azharanas17/setunggal_ws/install/first_interfaces/lib/python3.8/site-packages/first_interfaces/msg\n'}
+[3.314916] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/azharanas17/setunggal_ws/install/first_interfaces/lib/python3.8/site-packages/first_interfaces/msg/__init__.py\n'}
+[3.315092] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/azharanas17/setunggal_ws/install/first_interfaces/lib/python3.8/site-packages/first_interfaces/msg/_log.py\n'}
+[3.315174] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/azharanas17/setunggal_ws/install/first_interfaces/lib/python3.8/site-packages/first_interfaces/msg/_log_s.c\n'}
+[3.315258] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/azharanas17/setunggal_ws/install/first_interfaces/lib/python3.8/site-packages/first_interfaces/first_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\n'}
+[3.315498] (first_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/azharanas17/setunggal_ws/install/first_interfaces/lib/python3.8/site-packages/first_interfaces/first_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[3.315663] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/azharanas17/setunggal_ws/install/first_interfaces/lib/python3.8/site-packages/first_interfaces/first_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\n'}
+[3.316039] (first_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/azharanas17/setunggal_ws/install/first_interfaces/lib/python3.8/site-packages/first_interfaces/first_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[3.316230] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/azharanas17/setunggal_ws/install/first_interfaces/lib/python3.8/site-packages/first_interfaces/first_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\n'}
+[3.316584] (first_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/azharanas17/setunggal_ws/install/first_interfaces/lib/python3.8/site-packages/first_interfaces/first_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[3.316703] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/azharanas17/setunggal_ws/install/first_interfaces/lib/libfirst_interfaces__python.so\n'}
+[3.316825] (first_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/azharanas17/setunggal_ws/install/first_interfaces/lib/libfirst_interfaces__python.so" to ""\n'}
+[3.316908] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/azharanas17/setunggal_ws/install/first_interfaces/share/first_interfaces/msg/Log.idl\n'}
+[3.316985] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/azharanas17/setunggal_ws/install/first_interfaces/share/first_interfaces/msg/Log.msg\n'}
+[3.317090] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/azharanas17/setunggal_ws/install/first_interfaces/share/ament_index/resource_index/package_run_dependencies/first_interfaces\n'}
+[3.317188] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/azharanas17/setunggal_ws/install/first_interfaces/share/ament_index/resource_index/parent_prefix_path/first_interfaces\n'}
+[3.317264] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/azharanas17/setunggal_ws/install/first_interfaces/share/first_interfaces/environment/ament_prefix_path.sh\n'}
+[3.317336] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/azharanas17/setunggal_ws/install/first_interfaces/share/first_interfaces/environment/ament_prefix_path.dsv\n'}
+[3.317407] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/azharanas17/setunggal_ws/install/first_interfaces/share/first_interfaces/environment/path.sh\n'}
+[3.317479] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/azharanas17/setunggal_ws/install/first_interfaces/share/first_interfaces/environment/path.dsv\n'}
+[3.317548] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/azharanas17/setunggal_ws/install/first_interfaces/share/first_interfaces/local_setup.bash\n'}
+[3.317616] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/azharanas17/setunggal_ws/install/first_interfaces/share/first_interfaces/local_setup.sh\n'}
+[3.317683] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/azharanas17/setunggal_ws/install/first_interfaces/share/first_interfaces/local_setup.zsh\n'}
+[3.317754] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/azharanas17/setunggal_ws/install/first_interfaces/share/first_interfaces/local_setup.dsv\n'}
+[3.317819] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/azharanas17/setunggal_ws/install/first_interfaces/share/first_interfaces/package.dsv\n'}
+[3.317916] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/azharanas17/setunggal_ws/install/first_interfaces/share/ament_index/resource_index/packages/first_interfaces\n'}
+[3.318038] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/azharanas17/setunggal_ws/install/first_interfaces/share/first_interfaces/cmake/first_interfaces__rosidl_generator_cExport.cmake\n'}
+[3.318116] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/azharanas17/setunggal_ws/install/first_interfaces/share/first_interfaces/cmake/first_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[3.318234] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/azharanas17/setunggal_ws/install/first_interfaces/share/first_interfaces/cmake/first_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[3.318316] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/azharanas17/setunggal_ws/install/first_interfaces/share/first_interfaces/cmake/first_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[3.318426] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/azharanas17/setunggal_ws/install/first_interfaces/share/first_interfaces/cmake/first_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[3.318499] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/azharanas17/setunggal_ws/install/first_interfaces/share/first_interfaces/cmake/first_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[3.318604] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/azharanas17/setunggal_ws/install/first_interfaces/share/first_interfaces/cmake/first_interfaces__rosidl_generator_cppExport.cmake\n'}
+[3.318737] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/azharanas17/setunggal_ws/install/first_interfaces/share/first_interfaces/cmake/first_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[3.318821] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/azharanas17/setunggal_ws/install/first_interfaces/share/first_interfaces/cmake/first_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[3.319048] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/azharanas17/setunggal_ws/install/first_interfaces/share/first_interfaces/cmake/first_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[3.319129] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/azharanas17/setunggal_ws/install/first_interfaces/share/first_interfaces/cmake/first_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[3.319198] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/azharanas17/setunggal_ws/install/first_interfaces/share/first_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[3.319267] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/azharanas17/setunggal_ws/install/first_interfaces/share/first_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[3.319336] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/azharanas17/setunggal_ws/install/first_interfaces/share/first_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[3.319404] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/azharanas17/setunggal_ws/install/first_interfaces/share/first_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[3.319478] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/azharanas17/setunggal_ws/install/first_interfaces/share/first_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[3.319547] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/azharanas17/setunggal_ws/install/first_interfaces/share/first_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[3.319620] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/azharanas17/setunggal_ws/install/first_interfaces/share/first_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[3.319689] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/azharanas17/setunggal_ws/install/first_interfaces/share/first_interfaces/cmake/first_interfacesConfig.cmake\n'}
+[3.319755] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/azharanas17/setunggal_ws/install/first_interfaces/share/first_interfaces/cmake/first_interfacesConfig-version.cmake\n'}
+[3.319805] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/azharanas17/setunggal_ws/install/first_interfaces/share/first_interfaces/package.xml\n'}
+[3.321619] (first_interfaces) CommandEnded: {'returncode': 0}
+[3.369627] (first_interfaces) JobEnded: {'identifier': 'first_interfaces', 'rc': 0}
+[3.370189] (-) EventReactorShutdown: {}

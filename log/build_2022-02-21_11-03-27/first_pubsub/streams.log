@@ -1,0 +1,56 @@
+[0.010s] Invoking command in '/home/azharanas17/setunggal_ws/build/first_pubsub': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/azharanas17/setunggal_ws/src/first_pubsub -DCMAKE_INSTALL_PREFIX=/home/azharanas17/setunggal_ws/install/first_pubsub
+[0.059s] -- The C compiler identification is GNU 9.3.0
+[0.099s] -- The CXX compiler identification is GNU 9.3.0
+[0.104s] -- Check for working C compiler: /usr/bin/cc
+[0.157s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.158s] -- Detecting C compiler ABI info
+[0.208s] -- Detecting C compiler ABI info - done
+[0.216s] -- Detecting C compile features
+[0.216s] -- Detecting C compile features - done
+[0.218s] -- Check for working CXX compiler: /usr/bin/c++
+[0.277s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.278s] -- Detecting CXX compiler ABI info
+[0.335s] -- Detecting CXX compiler ABI info - done
+[0.343s] -- Detecting CXX compile features
+[0.344s] -- Detecting CXX compile features - done
+[0.352s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.372s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.372s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.524s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.568s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.575s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.652s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.672s] -- Found FastRTPS: /opt/ros/foxy/include  
+[0.736s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.783s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.784s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.786s] -- Looking for pthread.h
+[0.837s] -- Looking for pthread.h - found
+[0.837s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.890s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[0.890s] -- Looking for pthread_create in pthreads
+[0.933s] -- Looking for pthread_create in pthreads - not found
+[0.933s] -- Looking for pthread_create in pthread
+[0.984s] -- Looking for pthread_create in pthread - found
+[0.985s] -- Found Threads: TRUE  
+[1.109s] CMake Error at CMakeLists.txt:21 (find_package):
+[1.109s]   By not providing "Findfirst_interfaces.cmake" in CMAKE_MODULE_PATH this
+[1.109s]   project has asked CMake to find a package configuration file provided by
+[1.109s]   "first_interfaces", but CMake did not find one.
+[1.109s] 
+[1.109s]   Could not find a package configuration file provided by "first_interfaces"
+[1.109s]   with any of the following names:
+[1.109s] 
+[1.109s]     first_interfacesConfig.cmake
+[1.110s]     first_interfaces-config.cmake
+[1.110s] 
+[1.110s]   Add the installation prefix of "first_interfaces" to CMAKE_PREFIX_PATH or
+[1.110s]   set "first_interfaces_DIR" to a directory containing one of the above
+[1.110s]   files.  If "first_interfaces" provides a separate development package or
+[1.110s]   SDK, be sure it has been installed.
+[1.110s] 
+[1.110s] 
+[1.110s] -- Configuring incomplete, errors occurred!
+[1.110s] See also "/home/azharanas17/setunggal_ws/build/first_pubsub/CMakeFiles/CMakeOutput.log".
+[1.110s] See also "/home/azharanas17/setunggal_ws/build/first_pubsub/CMakeFiles/CMakeError.log".
+[1.116s] Invoked command in '/home/azharanas17/setunggal_ws/build/first_pubsub' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/azharanas17/setunggal_ws/src/first_pubsub -DCMAKE_INSTALL_PREFIX=/home/azharanas17/setunggal_ws/install/first_pubsub

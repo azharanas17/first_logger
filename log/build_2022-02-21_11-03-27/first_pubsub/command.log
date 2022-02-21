@@ -1,0 +1,2 @@
+Invoking command in '/home/azharanas17/setunggal_ws/build/first_pubsub': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/azharanas17/setunggal_ws/src/first_pubsub -DCMAKE_INSTALL_PREFIX=/home/azharanas17/setunggal_ws/install/first_pubsub
+Invoked command in '/home/azharanas17/setunggal_ws/build/first_pubsub' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/azharanas17/setunggal_ws/src/first_pubsub -DCMAKE_INSTALL_PREFIX=/home/azharanas17/setunggal_ws/install/first_pubsub
