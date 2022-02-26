@@ -1,0 +1,8 @@
+[35m[1mScanning dependencies of target listener[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/listener.dir/src/logger_node.cpp.o[0m
+[01m[K/home/azharanas17/setunggal_ws/src/first_pubsub/src/logger_node.cpp:29:5:[m[K [01;31m[Kerror: [m[K‘[01m[Klogger[m[K’ does not name a type
+   29 |     [01;31m[Klogger[m[K.write_logger();
+      |     [01;31m[K^~~~~~[m[K
+make[2]: *** [CMakeFiles/listener.dir/build.make:63: CMakeFiles/listener.dir/src/logger_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/listener.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

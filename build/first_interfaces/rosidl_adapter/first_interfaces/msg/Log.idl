@@ -11,6 +11,8 @@ module first_interfaces {
       string message_log;
 
       string level;
+
+      string time;
     };
   };
 };

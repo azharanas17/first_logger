@@ -1,0 +1,13 @@
+[01m[K/home/azharanas17/setunggal_ws/src/first_pubsub/src/logger_node.cpp:4:10:[m[K [01;31m[Kfatal error: [m[Kfirst_interfaces/msg/log.hpp: No such file or directory
+    4 | #include [01;31m[K"first_interfaces/msg/log.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/first_pubsub.dir/build.make:63: CMakeFiles/first_pubsub.dir/src/logger_node.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+[01m[K/home/azharanas17/setunggal_ws/src/first_pubsub/src/logger.cpp:9:10:[m[K [01;31m[Kfatal error: [m[Kfirst_interfaces/msg/log.hpp: No such file or directory
+    9 | #include [01;31m[K"first_interfaces/msg/log.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/first_pubsub.dir/build.make:76: CMakeFiles/first_pubsub.dir/src/logger.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/first_pubsub.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

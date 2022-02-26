@@ -1,0 +1,19 @@
+[0.007s] Invoking command in '/home/azharanas17/setunggal_ws/build/first_pubsub': AMENT_PREFIX_PATH=/home/azharanas17/setunggal_ws/install/first_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/azharanas17/setunggal_ws/install/first_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/azharanas17/setunggal_ws/install/first_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/azharanas17/setunggal_ws/install/first_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/azharanas17/setunggal_ws/build/first_pubsub -- -j4 -l4
+[0.040s] [35m[1mScanning dependencies of target first_pubsub[0m
+[0.061s] [ 66%] [32mBuilding CXX object CMakeFiles/first_pubsub.dir/src/logger.cpp.o[0m
+[0.061s] [ 66%] [32mBuilding CXX object CMakeFiles/first_pubsub.dir/src/logger_node.cpp.o[0m
+[0.950s] [01m[K/home/azharanas17/setunggal_ws/src/first_pubsub/src/logger_node.cpp:32:5:[m[K [01;31m[Kerror: [m[K‘[01m[Klogger[m[K’ does not name a type
+[0.950s]    32 |     [01;31m[Klogger[m[K.write_logger();
+[0.950s]       |     [01;31m[K^~~~~~[m[K
+[1.250s] [01m[K/home/azharanas17/setunggal_ws/src/first_pubsub/src/logger.cpp:17:29:[m[K [01;31m[Kerror: [m[K‘[01m[Ks[m[K’ does not name a type
+[1.251s]    17 | using json = nlohmann::json;[01;31m[Ks[m[K
+[1.251s]       |                             [01;31m[K^[m[K
+[1.251s] [01m[K/home/azharanas17/setunggal_ws/src/first_pubsub/src/logger.cpp:50:2:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[1.251s]    50 | }[01;35m[K;[m[K
+[1.251s]       |  [01;35m[K^[m[K
+[2.014s] make[2]: *** [CMakeFiles/first_pubsub.dir/build.make:76: CMakeFiles/first_pubsub.dir/src/logger.cpp.o] Error 1
+[2.014s] make[2]: *** Waiting for unfinished jobs....
+[2.138s] make[2]: *** [CMakeFiles/first_pubsub.dir/build.make:63: CMakeFiles/first_pubsub.dir/src/logger_node.cpp.o] Error 1
+[2.138s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/first_pubsub.dir/all] Error 2
+[2.139s] make: *** [Makefile:141: all] Error 2
+[2.140s] Invoked command in '/home/azharanas17/setunggal_ws/build/first_pubsub' returned '2': AMENT_PREFIX_PATH=/home/azharanas17/setunggal_ws/install/first_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/azharanas17/setunggal_ws/install/first_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/azharanas17/setunggal_ws/install/first_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/azharanas17/setunggal_ws/install/first_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/azharanas17/setunggal_ws/build/first_pubsub -- -j4 -l4

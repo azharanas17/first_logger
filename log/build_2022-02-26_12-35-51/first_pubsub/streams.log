@@ -1,0 +1,29 @@
+[0.009s] Invoking command in '/home/azharanas17/setunggal_ws/build/first_pubsub': AMENT_PREFIX_PATH=/home/azharanas17/setunggal_ws/install/first_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/azharanas17/setunggal_ws/install/first_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/azharanas17/setunggal_ws/install/first_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/azharanas17/setunggal_ws/install/first_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/azharanas17/setunggal_ws/build/first_pubsub -- -j4 -l4
+[0.045s] [35m[1mScanning dependencies of target first_pubsub[0m
+[0.068s] [ 33%] [32mBuilding CXX object CMakeFiles/first_pubsub.dir/src/logger_node.cpp.o[0m
+[0.070s] [ 66%] [32mBuilding CXX object CMakeFiles/first_pubsub.dir/src/logger.cpp.o[0m
+[1.199s] [01m[K/home/azharanas17/setunggal_ws/src/first_pubsub/src/logger_node.cpp:32:5:[m[K [01;31m[Kerror: [m[K‘[01m[Klogger[m[K’ does not name a type
+[1.200s]    32 |     [01;31m[Klogger[m[K.write_logger();
+[1.200s]       |     [01;31m[K^~~~~~[m[K
+[1.556s] [01m[K/home/azharanas17/setunggal_ws/src/first_pubsub/src/logger.cpp:[m[K In member function ‘[01m[Kvoid Logger::write_logger(first_interfaces::msg::Log_<std::allocator<void> >::SharedPtr) const[m[K’:
+[1.557s] [01m[K/home/azharanas17/setunggal_ws/src/first_pubsub/src/logger.cpp:36:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst class Logger[m[K’ has no member named ‘[01m[Kget_logger[m[K’; did you mean ‘[01m[Kwrite_logger[m[K’?
+[1.557s]    36 |                     {"", this->[01;31m[Kget_logger[m[K()},
+[1.557s]       |                                [01;31m[K^~~~~~~~~~[m[K
+[1.557s]       |                                [32m[Kwrite_logger[m[K
+[1.557s] [01m[K/home/azharanas17/setunggal_ws/src/first_pubsub/src/logger.cpp:39:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct first_interfaces::msg::Log_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct first_interfaces::msg::Log_<std::allocator<void> >[m[K’} has no member named ‘[01m[Ktime[m[K’
+[1.557s]    39 |                     {"time", msg->[01;31m[Ktime[m[K}
+[1.557s]       |                                   [01;31m[K^~~~[m[K
+[1.559s] [01m[K/home/azharanas17/setunggal_ws/src/first_pubsub/src/logger.cpp:40:17:[m[K [01;31m[Kerror: [m[Kcould not convert ‘[01m[K{{"", <expression error>}, {"message_log", ((const std::__shared_ptr_access<first_interfaces::msg::Log_<std::allocator<void> >, __gnu_cxx::_S_atomic, false, false>*)(& msg))->std::__shared_ptr_access<first_interfaces::msg::Log_<std::allocator<void> >, __gnu_cxx::_S_atomic, false, false>::operator->()->first_interfaces::msg::Log_<std::allocator<void> >::message_log}, {"level", ((const std::__shared_ptr_access<first_interfaces::msg::Log_<std::allocator<void> >, __gnu_cxx::_S_atomic, false, false>*)(& msg))->std::__shared_ptr_access<first_interfaces::msg::Log_<std::allocator<void> >, __gnu_cxx::_S_atomic, false, false>::operator->()->first_interfaces::msg::Log_<std::allocator<void> >::level}, {"time", <expression error>}}[m[K’ from ‘[01m[K<brace-enclosed initializer list>[m[K’ to ‘[01m[Kjson[m[K’ {aka ‘[01m[Knlohmann::basic_json<>[m[K’}
+[1.559s]    40 |                 [01;31m[K}[m[K;
+[1.559s]       |                 [01;31m[K^[m[K
+[1.559s]       |                 [01;31m[K|[m[K
+[1.559s]       |                 [01;31m[K<brace-enclosed initializer list>[m[K
+[1.561s] [01m[K/home/azharanas17/setunggal_ws/src/first_pubsub/src/logger.cpp:48:20:[m[K [01;31m[Kerror: [m[Kreturn-statement with a value, in function returning ‘[01m[Kvoid[m[K’ [[01;31m[K-fpermissive[m[K]
+[1.561s]    48 |             return [01;31m[K0[m[K;
+[1.561s]       |                    [01;31m[K^[m[K
+[2.455s] make[2]: *** [CMakeFiles/first_pubsub.dir/build.make:76: CMakeFiles/first_pubsub.dir/src/logger.cpp.o] Error 1
+[2.455s] make[2]: *** Waiting for unfinished jobs....
+[2.551s] make[2]: *** [CMakeFiles/first_pubsub.dir/build.make:63: CMakeFiles/first_pubsub.dir/src/logger_node.cpp.o] Error 1
+[2.551s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/first_pubsub.dir/all] Error 2
+[2.552s] make: *** [Makefile:141: all] Error 2
+[2.554s] Invoked command in '/home/azharanas17/setunggal_ws/build/first_pubsub' returned '2': AMENT_PREFIX_PATH=/home/azharanas17/setunggal_ws/install/first_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/azharanas17/setunggal_ws/install/first_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/azharanas17/setunggal_ws/install/first_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/azharanas17/setunggal_ws/install/first_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/azharanas17/setunggal_ws/build/first_pubsub -- -j4 -l4

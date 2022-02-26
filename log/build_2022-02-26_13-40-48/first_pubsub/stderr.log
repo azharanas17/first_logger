@@ -1,0 +1,7 @@
+[01m[K/home/azharanas17/setunggal_ws/src/first_pubsub/src/logger_node.cpp:34:5:[m[K [01;31m[Kerror: [m[K‘[01m[KLogger[m[K’ does not name a type; did you mean ‘[01m[KLoggerNode[m[K’?
+   34 |     [01;31m[KLogger[m[K->write_logger();
+      |     [01;31m[K^~~~~~[m[K
+      |     [32m[KLoggerNode[m[K
+make[2]: *** [CMakeFiles/first_pubsub.dir/build.make:63: CMakeFiles/first_pubsub.dir/src/logger_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/first_pubsub.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

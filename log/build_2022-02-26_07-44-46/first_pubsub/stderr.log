@@ -1,0 +1,3 @@
+make[2]: *** No rule to make target '/home/azharanas17/setunggal_ws/src/first_pubsub/src/subscriber_log.cpp', needed by 'CMakeFiles/listener.dir/src/subscriber_log.cpp.o'.  Stop.
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/listener.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

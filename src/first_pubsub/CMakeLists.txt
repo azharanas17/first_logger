@@ -19,29 +19,35 @@ endif()
 find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(first_interfaces REQUIRED)
+find_package(first_pubsub REQUIRED)
 
-#add_executable(talker src/publisher_log.cpp)
-#ament_target_dependencies(talker rclcpp first_interfaces)
+add_library(${PROJECT_NAME} SHARED
+  "src/logger_node.cpp"
+  "src/logger.cpp")
 
-add_executable(listener src/subscriber_log.cpp)
-ament_target_dependencies(listener rclcpp first_interfaces)
+target_include_directories(${PROJECT_NAME} PUBLIC
+  $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
+  $<INSTALL_INTERFACE:include>)
 
-install(
-  TARGETS
-  #talker
-  listener
-  DESTINATION lib/${PROJECT_NAME}
-)
+ament_target_dependencies(${PROJECT_NAME}
+  rclcpp
+  first_interfaces)
+
+install(DIRECTORY "include" DESTINATION ".")
+
+install(TARGETS ${PROJECT_NAME}
+  EXPORT export_${PROJECT_NAME}
+  ARCHIVE DESTINATION "lib"
+  LIBRARY DESTINATION "lib"
+  RUNTIME DESTINATION "bin")
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
-  # the following line skips the linter which checks for copyrights
-  # uncomment the line when a copyright and license is not present in all source files
-  #set(ament_cmake_copyright_FOUND TRUE)
-  # the following line skips cpplint (only works in a git repo)
-  # uncomment the line when this package is not in a git repo
-  #set(ament_cmake_cpplint_FOUND TRUE)
   ament_lint_auto_find_test_dependencies()
 endif()
 
+ament_export_dependencies(
+  rclcpp)
+ament_export_include_directories("include")
+ament_export_libraries(${PROJECT_NAME})
 ament_package()

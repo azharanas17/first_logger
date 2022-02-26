@@ -1,0 +1,37 @@
+[0.007s] Invoking command in '/home/azharanas17/setunggal_ws/build/first_pubsub': AMENT_PREFIX_PATH=/home/azharanas17/setunggal_ws/install/first_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/azharanas17/setunggal_ws/install/first_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/azharanas17/setunggal_ws/install/first_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/azharanas17/setunggal_ws/install/first_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/azharanas17/setunggal_ws/build/first_pubsub -- -j4 -l4
+[0.028s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.044s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.160s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.187s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.189s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.271s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.312s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.314s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.420s] -- Found first_interfaces: 0.0.0 (/home/azharanas17/setunggal_ws/install/first_interfaces/share/first_interfaces/cmake)
+[0.424s] -- Found first_pubsub: 0.0.0 (/home/azharanas17/setunggal_ws/install/first_pubsub/share/first_pubsub/cmake)
+[0.425s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.473s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.473s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.474s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/azharanas17/setunggal_ws/src/first_pubsub/include>
+[0.474s] -- Configured cppcheck exclude dirs and/or files: 
+[0.474s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.474s] -- Configured cpplint exclude dirs and/or files: 
+[0.474s] -- Added test 'lint_cmake' to check CMake code style
+[0.475s] -- Added test 'uncrustify' to check C / C++ code style
+[0.475s] -- Configured uncrustify additional arguments: 
+[0.475s] -- Added test 'xmllint' to check XML markup files
+[0.479s] -- Configuring done
+[0.484s] -- Generating done
+[0.485s] -- Build files have been written to: /home/azharanas17/setunggal_ws/build/first_pubsub
+[0.505s] [35m[1mScanning dependencies of target first_pubsub[0m
+[0.526s] [ 66%] [32mBuilding CXX object CMakeFiles/first_pubsub.dir/src/logger.cpp.o[0m
+[0.526s] [ 66%] [32mBuilding CXX object CMakeFiles/first_pubsub.dir/src/logger_node.cpp.o[0m
+[1.792s] [01m[K/home/azharanas17/setunggal_ws/src/first_pubsub/src/logger.cpp:[m[K In member function ‘[01m[Kvoid Logger::write_logger(first_interfaces::msg::Log_<std::allocator<void> >::SharedPtr) const[m[K’:
+[1.793s] [01m[K/home/azharanas17/setunggal_ws/src/first_pubsub/src/logger.cpp:48:20:[m[K [01;31m[Kerror: [m[Kreturn-statement with a value, in function returning ‘[01m[Kvoid[m[K’ [[01;31m[K-fpermissive[m[K]
+[1.793s]    48 |             return [01;31m[K0[m[K;
+[1.793s]       |                    [01;31m[K^[m[K
+[2.630s] make[2]: *** [CMakeFiles/first_pubsub.dir/build.make:76: CMakeFiles/first_pubsub.dir/src/logger.cpp.o] Error 1
+[2.630s] make[2]: *** Waiting for unfinished jobs....
+[4.090s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/first_pubsub.dir/all] Error 2
+[4.090s] make: *** [Makefile:141: all] Error 2
+[4.103s] Invoked command in '/home/azharanas17/setunggal_ws/build/first_pubsub' returned '2': AMENT_PREFIX_PATH=/home/azharanas17/setunggal_ws/install/first_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/azharanas17/setunggal_ws/install/first_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/azharanas17/setunggal_ws/install/first_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/azharanas17/setunggal_ws/install/first_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/azharanas17/setunggal_ws/build/first_pubsub -- -j4 -l4

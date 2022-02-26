@@ -20,16 +20,32 @@ namespace msg
 namespace builder
 {
 
+class Init_Log_time
+{
+public:
+  explicit Init_Log_time(::first_interfaces::msg::Log & msg)
+  : msg_(msg)
+  {}
+  ::first_interfaces::msg::Log time(::first_interfaces::msg::Log::_time_type arg)
+  {
+    msg_.time = std::move(arg);
+    return std::move(msg_);
+  }
+
+private:
+  ::first_interfaces::msg::Log msg_;
+};
+
 class Init_Log_level
 {
 public:
   explicit Init_Log_level(::first_interfaces::msg::Log & msg)
   : msg_(msg)
   {}
-  ::first_interfaces::msg::Log level(::first_interfaces::msg::Log::_level_type arg)
+  Init_Log_time level(::first_interfaces::msg::Log::_level_type arg)
   {
     msg_.level = std::move(arg);
-    return std::move(msg_);
+    return Init_Log_time(msg_);
   }
 
 private:

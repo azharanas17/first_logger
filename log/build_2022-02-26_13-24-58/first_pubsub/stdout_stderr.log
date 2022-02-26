@@ -1,0 +1,37 @@
+[35m[1mScanning dependencies of target first_pubsub[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/first_pubsub.dir/src/logger_node.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/first_pubsub.dir/src/logger.cpp.o[0m
+[01m[K/home/azharanas17/setunggal_ws/src/first_pubsub/src/logger_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/azharanas17/setunggal_ws/src/first_pubsub/src/logger_node.cpp:38:5:[m[K [01;31m[Kerror: [m[K‘[01m[KLogger[m[K’ was not declared in this scope; did you mean ‘[01m[Krclcpp::Logger[m[K’?
+   38 |     [01;31m[KLogger[m[K logger;
+      |     [01;31m[K^~~~~~[m[K
+      |     [32m[Krclcpp::Logger[m[K
+In file included from [01m[K/opt/ros/foxy/include/rclcpp/logging.hpp:23[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/service.hpp:34[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+                 from [01m[K/home/azharanas17/setunggal_ws/src/first_pubsub/src/logger_node.cpp:6[m[K:
+[01m[K/opt/ros/foxy/include/rclcpp/logger.hpp:77:7:[m[K [01;36m[Knote: [m[K‘[01m[Krclcpp::Logger[m[K’ declared here
+   77 | class [01;36m[KLogger[m[K
+      |       [01;36m[K^~~~~~[m[K
+[01m[K/home/azharanas17/setunggal_ws/src/first_pubsub/src/logger_node.cpp:39:5:[m[K [01;31m[Kerror: [m[K‘[01m[Klogger[m[K’ was not declared in this scope
+   39 |     [01;31m[Klogger[m[K.write_logger();
+      |     [01;31m[K^~~~~~[m[K
+[01m[K/home/azharanas17/setunggal_ws/src/first_pubsub/src/logger.cpp:17:29:[m[K [01;31m[Kerror: [m[K‘[01m[Ks[m[K’ does not name a type
+   17 | using json = nlohmann::json;[01;31m[Ks[m[K
+      |                             [01;31m[K^[m[K
+[01m[K/home/azharanas17/setunggal_ws/src/first_pubsub/src/logger.cpp:50:2:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+   50 | }[01;35m[K;[m[K
+      |  [01;35m[K^[m[K
+make[2]: *** [CMakeFiles/first_pubsub.dir/build.make:76: CMakeFiles/first_pubsub.dir/src/logger.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+make[2]: *** [CMakeFiles/first_pubsub.dir/build.make:63: CMakeFiles/first_pubsub.dir/src/logger_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/first_pubsub.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

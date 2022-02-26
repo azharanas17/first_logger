@@ -21,6 +21,7 @@ extern "C"
 // Member 'filename'
 // Member 'message_log'
 // Member 'level'
+// Member 'time'
 #include "rosidl_runtime_c/string.h"
 
 // Struct defined in msg/Log in the package first_interfaces.
@@ -29,6 +30,7 @@ typedef struct first_interfaces__msg__Log
   rosidl_runtime_c__String filename;
   rosidl_runtime_c__String message_log;
   rosidl_runtime_c__String level;
+  rosidl_runtime_c__String time;
 } first_interfaces__msg__Log;
 
 // Struct for a sequence of first_interfaces__msg__Log.

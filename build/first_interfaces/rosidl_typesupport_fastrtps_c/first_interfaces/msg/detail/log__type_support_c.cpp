@@ -34,8 +34,8 @@ extern "C"
 {
 #endif
 
-#include "rosidl_runtime_c/string.h"  // filename, level, message_log
-#include "rosidl_runtime_c/string_functions.h"  // filename, level, message_log
+#include "rosidl_runtime_c/string.h"  // filename, level, message_log, time
+#include "rosidl_runtime_c/string_functions.h"  // filename, level, message_log, time
 
 // forward declare type support functions
 
@@ -82,6 +82,20 @@ static bool _Log__cdr_serialize(
   // Field name: level
   {
     const rosidl_runtime_c__String * str = &ros_message->level;
+    if (str->capacity == 0 || str->capacity <= str->size) {
+      fprintf(stderr, "string capacity not greater than size\n");
+      return false;
+    }
+    if (str->data[str->size] != '\0') {
+      fprintf(stderr, "string not null-terminated\n");
+      return false;
+    }
+    cdr << str->data;
+  }
+
+  // Field name: time
+  {
+    const rosidl_runtime_c__String * str = &ros_message->time;
     if (str->capacity == 0 || str->capacity <= str->size) {
       fprintf(stderr, "string capacity not greater than size\n");
       return false;
@@ -153,6 +167,22 @@ static bool _Log__cdr_deserialize(
     }
   }
 
+  // Field name: time
+  {
+    std::string tmp;
+    cdr >> tmp;
+    if (!ros_message->time.data) {
+      rosidl_runtime_c__String__init(&ros_message->time);
+    }
+    bool succeeded = rosidl_runtime_c__String__assign(
+      &ros_message->time,
+      tmp.c_str());
+    if (!succeeded) {
+      fprintf(stderr, "failed to assign string into field 'time'\n");
+      return false;
+    }
+  }
+
   return true;
 }
 
@@ -182,6 +212,10 @@ size_t get_serialized_size_first_interfaces__msg__Log(
   current_alignment += padding +
     eprosima::fastcdr::Cdr::alignment(current_alignment, padding) +
     (ros_message->level.size + 1);
+  // field.name time
+  current_alignment += padding +
+    eprosima::fastcdr::Cdr::alignment(current_alignment, padding) +
+    (ros_message->time.size + 1);
 
   return current_alignment - initial_alignment;
 }
@@ -229,6 +263,17 @@ size_t max_serialized_size_first_interfaces__msg__Log(
     }
   }
   // member: level
+  {
+    size_t array_size = 1;
+
+    full_bounded = false;
+    for (size_t index = 0; index < array_size; ++index) {
+      current_alignment += padding +
+        eprosima::fastcdr::Cdr::alignment(current_alignment, padding) +
+        1;
+    }
+  }
+  // member: time
   {
     size_t array_size = 1;
 

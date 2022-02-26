@@ -37,7 +37,7 @@ void Log_fini_function(void * message_memory)
   typed_message->~Log();
 }
 
-static const ::rosidl_typesupport_introspection_cpp::MessageMember Log_message_member_array[3] = {
+static const ::rosidl_typesupport_introspection_cpp::MessageMember Log_message_member_array[4] = {
   {
     "filename",  // name
     ::rosidl_typesupport_introspection_cpp::ROS_TYPE_STRING,  // type
@@ -82,13 +82,28 @@ static const ::rosidl_typesupport_introspection_cpp::MessageMember Log_message_m
     nullptr,  // get_const(index) function pointer
     nullptr,  // get(index) function pointer
     nullptr  // resize(index) function pointer
+  },
+  {
+    "time",  // name
+    ::rosidl_typesupport_introspection_cpp::ROS_TYPE_STRING,  // type
+    0,  // upper bound of string
+    nullptr,  // members of sub message
+    false,  // is array
+    0,  // array size
+    false,  // is upper bound
+    offsetof(first_interfaces::msg::Log, time),  // bytes offset in struct
+    nullptr,  // default value
+    nullptr,  // size() function pointer
+    nullptr,  // get_const(index) function pointer
+    nullptr,  // get(index) function pointer
+    nullptr  // resize(index) function pointer
   }
 };
 
 static const ::rosidl_typesupport_introspection_cpp::MessageMembers Log_message_members = {
   "first_interfaces::msg",  // message namespace
   "Log",  // message name
-  3,  // number of fields
+  4,  // number of fields
   sizeof(first_interfaces::msg::Log),
   Log_message_member_array,  // message members
   Log_init_function,  // function to initialize message memory (memory has to be allocated)

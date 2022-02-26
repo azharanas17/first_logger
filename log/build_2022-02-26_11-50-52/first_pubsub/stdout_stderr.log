@@ -1,0 +1,14 @@
+-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found first_interfaces: 0.0.0 (/home/azharanas17/setunggal_ws/install/first_interfaces/share/first_interfaces/cmake)
+CMake Error at /opt/ros/foxy/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:77 (message):
+  ament_target_dependencies() the passed package name 'rclcpp' was not found
+  before
+Call Stack (most recent call first):
+  CMakeLists.txt:36 (ament_target_dependencies)
+
+
+-- Configuring incomplete, errors occurred!
+See also "/home/azharanas17/setunggal_ws/build/first_pubsub/CMakeFiles/CMakeOutput.log".
+See also "/home/azharanas17/setunggal_ws/build/first_pubsub/CMakeFiles/CMakeError.log".
+make: *** [Makefile:313: cmake_check_build_system] Error 1

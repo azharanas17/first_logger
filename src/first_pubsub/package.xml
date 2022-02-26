@@ -8,6 +8,7 @@
   <license>TODO: License declaration</license>
 
   <depend>first_interfaces</depend>
+  <depend>rclcpp</depend>
 
   <buildtool_depend>ament_cmake</buildtool_depend>
 

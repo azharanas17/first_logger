@@ -40,13 +40,15 @@ struct Log_
       this->filename = "";
       this->message_log = "";
       this->level = "";
+      this->time = "";
     }
   }
 
   explicit Log_(const ContainerAllocator & _alloc, rosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL)
   : filename(_alloc),
     message_log(_alloc),
-    level(_alloc)
+    level(_alloc),
+    time(_alloc)
   {
     if (rosidl_runtime_cpp::MessageInitialization::ALL == _init ||
       rosidl_runtime_cpp::MessageInitialization::ZERO == _init)
@@ -54,6 +56,7 @@ struct Log_
       this->filename = "";
       this->message_log = "";
       this->level = "";
+      this->time = "";
     }
   }
 
@@ -67,6 +70,9 @@ struct Log_
   using _level_type =
     std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other>;
   _level_type level;
+  using _time_type =
+    std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other>;
+  _time_type time;
 
   // setters for named parameter idiom
   Type & set__filename(
@@ -85,6 +91,12 @@ struct Log_
     const std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other> & _arg)
   {
     this->level = _arg;
+    return *this;
+  }
+  Type & set__time(
+    const std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other> & _arg)
+  {
+    this->time = _arg;
     return *this;
   }
 
@@ -137,6 +149,9 @@ struct Log_
       return false;
     }
     if (this->level != other.level) {
+      return false;
+    }
+    if (this->time != other.time) {
       return false;
     }
     return true;

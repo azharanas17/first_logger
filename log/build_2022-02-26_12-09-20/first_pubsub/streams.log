@@ -1,0 +1,25 @@
+[0.010s] Invoking command in '/home/azharanas17/setunggal_ws/build/first_pubsub': AMENT_PREFIX_PATH=/home/azharanas17/setunggal_ws/install/first_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/azharanas17/setunggal_ws/install/first_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/azharanas17/setunggal_ws/install/first_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/azharanas17/setunggal_ws/install/first_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/azharanas17/setunggal_ws/build/first_pubsub -- -j4 -l4
+[0.052s] [ 20%] [32mBuilding CXX object CMakeFiles/first_pubsub.dir/src/logger_node.cpp.o[0m
+[0.053s] [ 40%] [32mBuilding CXX object CMakeFiles/first_pubsub.dir/src/logger.cpp.o[0m
+[0.060s] [ 60%] [32mBuilding CXX object CMakeFiles/listener.dir/src/logger_node.cpp.o[0m
+[0.099s] [01m[K/home/azharanas17/setunggal_ws/src/first_pubsub/src/logger_node.cpp:3:10:[m[K [01;31m[Kfatal error: [m[Krclcpp/rclcpp.hpp: No such file or directory
+[0.099s]     3 | #include [01;31m[K"rclcpp/rclcpp.hpp"[m[K
+[0.100s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[0.100s] compilation terminated.
+[0.102s] make[2]: *** [CMakeFiles/first_pubsub.dir/build.make:63: CMakeFiles/first_pubsub.dir/src/logger_node.cpp.o] Error 1
+[0.102s] make[2]: *** Waiting for unfinished jobs....
+[0.137s] [01m[K/home/azharanas17/setunggal_ws/src/first_pubsub/src/logger.cpp:8:10:[m[K [01;31m[Kfatal error: [m[Krclcpp/rclcpp.hpp: No such file or directory
+[0.137s]     8 | #include [01;31m[K"rclcpp/rclcpp.hpp"[m[K
+[0.138s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[0.138s] compilation terminated.
+[0.139s] make[2]: *** [CMakeFiles/first_pubsub.dir/build.make:76: CMakeFiles/first_pubsub.dir/src/logger.cpp.o] Error 1
+[0.140s] make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/first_pubsub.dir/all] Error 2
+[0.140s] make[1]: *** Waiting for unfinished jobs....
+[0.156s] [01m[K/home/azharanas17/setunggal_ws/src/first_pubsub/src/logger_node.cpp:5:10:[m[K [01;31m[Kfatal error: [m[Kfirst_pubsub/logger.hpp: No such file or directory
+[0.156s]     5 | #include [01;31m[K"first_pubsub/logger.hpp"[m[K
+[0.156s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.156s] compilation terminated.
+[0.158s] make[2]: *** [CMakeFiles/listener.dir/build.make:63: CMakeFiles/listener.dir/src/logger_node.cpp.o] Error 1
+[0.158s] make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/listener.dir/all] Error 2
+[0.158s] make: *** [Makefile:141: all] Error 2
+[0.160s] Invoked command in '/home/azharanas17/setunggal_ws/build/first_pubsub' returned '2': AMENT_PREFIX_PATH=/home/azharanas17/setunggal_ws/install/first_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/azharanas17/setunggal_ws/install/first_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/azharanas17/setunggal_ws/install/first_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/azharanas17/setunggal_ws/install/first_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/azharanas17/setunggal_ws/build/first_pubsub -- -j4 -l4

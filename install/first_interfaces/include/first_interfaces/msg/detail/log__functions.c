@@ -13,6 +13,7 @@
 // Member `filename`
 // Member `message_log`
 // Member `level`
+// Member `time`
 #include "rosidl_runtime_c/string_functions.h"
 
 bool
@@ -36,6 +37,11 @@ first_interfaces__msg__Log__init(first_interfaces__msg__Log * msg)
     first_interfaces__msg__Log__fini(msg);
     return false;
   }
+  // time
+  if (!rosidl_runtime_c__String__init(&msg->time)) {
+    first_interfaces__msg__Log__fini(msg);
+    return false;
+  }
   return true;
 }
 
@@ -51,6 +57,8 @@ first_interfaces__msg__Log__fini(first_interfaces__msg__Log * msg)
   rosidl_runtime_c__String__fini(&msg->message_log);
   // level
   rosidl_runtime_c__String__fini(&msg->level);
+  // time
+  rosidl_runtime_c__String__fini(&msg->time);
 }
 
 first_interfaces__msg__Log *

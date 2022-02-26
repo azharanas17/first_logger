@@ -56,40 +56,6 @@ CMAKE_BINARY_DIR = /home/azharanas17/setunggal_ws/build/first_pubsub
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target install/strip
-install/strip: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
-.PHONY : install/strip
-
-# Special rule for the target install/strip
-install/strip/fast: preinstall/fast
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
-.PHONY : install/strip/fast
-
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-
-.PHONY : edit_cache/fast
-
-# Special rule for the target test
-test:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running tests..."
-	/usr/bin/ctest --force-new-ctest-process $(ARGS)
-.PHONY : test
-
-# Special rule for the target test
-test/fast: test
-
-.PHONY : test/fast
-
 # Special rule for the target install
 install: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
@@ -122,6 +88,40 @@ rebuild_cache:
 rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
+
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+
+.PHONY : edit_cache/fast
+
+# Special rule for the target test
+test:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running tests..."
+	/usr/bin/ctest --force-new-ctest-process $(ARGS)
+.PHONY : test
+
+# Special rule for the target test
+test/fast: test
+
+.PHONY : test/fast
+
+# Special rule for the target install/strip
+install/strip: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
+	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+.PHONY : install/strip
+
+# Special rule for the target install/strip
+install/strip/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
+	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+.PHONY : install/strip/fast
 
 # Special rule for the target install/local
 install/local: preinstall
@@ -168,17 +168,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named listener
+# Target rules for targets named first_pubsub
 
 # Build rule for target.
-listener: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 listener
-.PHONY : listener
+first_pubsub: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 first_pubsub
+.PHONY : first_pubsub
 
 # fast build rule for target.
-listener/fast:
-	$(MAKE) -f CMakeFiles/listener.dir/build.make CMakeFiles/listener.dir/build
-.PHONY : listener/fast
+first_pubsub/fast:
+	$(MAKE) -f CMakeFiles/first_pubsub.dir/build.make CMakeFiles/first_pubsub.dir/build
+.PHONY : first_pubsub/fast
 
 #=============================================================================
 # Target rules for targets named first_pubsub_uninstall
@@ -206,32 +206,59 @@ uninstall/fast:
 	$(MAKE) -f CMakeFiles/uninstall.dir/build.make CMakeFiles/uninstall.dir/build
 .PHONY : uninstall/fast
 
-src/subscriber_log.o: src/subscriber_log.cpp.o
+src/logger.o: src/logger.cpp.o
 
-.PHONY : src/subscriber_log.o
+.PHONY : src/logger.o
 
 # target to build an object file
-src/subscriber_log.cpp.o:
-	$(MAKE) -f CMakeFiles/listener.dir/build.make CMakeFiles/listener.dir/src/subscriber_log.cpp.o
-.PHONY : src/subscriber_log.cpp.o
+src/logger.cpp.o:
+	$(MAKE) -f CMakeFiles/first_pubsub.dir/build.make CMakeFiles/first_pubsub.dir/src/logger.cpp.o
+.PHONY : src/logger.cpp.o
 
-src/subscriber_log.i: src/subscriber_log.cpp.i
+src/logger.i: src/logger.cpp.i
 
-.PHONY : src/subscriber_log.i
+.PHONY : src/logger.i
 
 # target to preprocess a source file
-src/subscriber_log.cpp.i:
-	$(MAKE) -f CMakeFiles/listener.dir/build.make CMakeFiles/listener.dir/src/subscriber_log.cpp.i
-.PHONY : src/subscriber_log.cpp.i
+src/logger.cpp.i:
+	$(MAKE) -f CMakeFiles/first_pubsub.dir/build.make CMakeFiles/first_pubsub.dir/src/logger.cpp.i
+.PHONY : src/logger.cpp.i
 
-src/subscriber_log.s: src/subscriber_log.cpp.s
+src/logger.s: src/logger.cpp.s
 
-.PHONY : src/subscriber_log.s
+.PHONY : src/logger.s
 
 # target to generate assembly for a file
-src/subscriber_log.cpp.s:
-	$(MAKE) -f CMakeFiles/listener.dir/build.make CMakeFiles/listener.dir/src/subscriber_log.cpp.s
-.PHONY : src/subscriber_log.cpp.s
+src/logger.cpp.s:
+	$(MAKE) -f CMakeFiles/first_pubsub.dir/build.make CMakeFiles/first_pubsub.dir/src/logger.cpp.s
+.PHONY : src/logger.cpp.s
+
+src/logger_node.o: src/logger_node.cpp.o
+
+.PHONY : src/logger_node.o
+
+# target to build an object file
+src/logger_node.cpp.o:
+	$(MAKE) -f CMakeFiles/first_pubsub.dir/build.make CMakeFiles/first_pubsub.dir/src/logger_node.cpp.o
+.PHONY : src/logger_node.cpp.o
+
+src/logger_node.i: src/logger_node.cpp.i
+
+.PHONY : src/logger_node.i
+
+# target to preprocess a source file
+src/logger_node.cpp.i:
+	$(MAKE) -f CMakeFiles/first_pubsub.dir/build.make CMakeFiles/first_pubsub.dir/src/logger_node.cpp.i
+.PHONY : src/logger_node.cpp.i
+
+src/logger_node.s: src/logger_node.cpp.s
+
+.PHONY : src/logger_node.s
+
+# target to generate assembly for a file
+src/logger_node.cpp.s:
+	$(MAKE) -f CMakeFiles/first_pubsub.dir/build.make CMakeFiles/first_pubsub.dir/src/logger_node.cpp.s
+.PHONY : src/logger_node.cpp.s
 
 # Help Target
 help:
@@ -239,19 +266,22 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... install/strip"
-	@echo "... edit_cache"
-	@echo "... test"
 	@echo "... install"
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
-	@echo "... listener"
+	@echo "... edit_cache"
+	@echo "... test"
+	@echo "... install/strip"
+	@echo "... first_pubsub"
 	@echo "... install/local"
 	@echo "... first_pubsub_uninstall"
 	@echo "... uninstall"
-	@echo "... src/subscriber_log.o"
-	@echo "... src/subscriber_log.i"
-	@echo "... src/subscriber_log.s"
+	@echo "... src/logger.o"
+	@echo "... src/logger.i"
+	@echo "... src/logger.s"
+	@echo "... src/logger_node.o"
+	@echo "... src/logger_node.i"
+	@echo "... src/logger_node.s"
 .PHONY : help
 
 

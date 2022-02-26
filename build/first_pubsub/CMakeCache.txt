@@ -385,6 +385,12 @@ first_interfaces_DIR:PATH=/home/azharanas17/setunggal_ws/install/first_interface
 //Value Computed by CMake
 first_pubsub_BINARY_DIR:STATIC=/home/azharanas17/setunggal_ws/build/first_pubsub
 
+//The directory containing a CMake configuration file for first_pubsub.
+first_pubsub_DIR:PATH=/home/azharanas17/setunggal_ws/install/first_pubsub/share/first_pubsub/cmake
+
+//Dependencies for the target
+first_pubsub_LIB_DEPENDS:STATIC=general;rclcpp::rclcpp;general;first_interfaces::first_interfaces__rosidl_generator_c;general;first_interfaces::first_interfaces__rosidl_typesupport_introspection_c;general;first_interfaces::first_interfaces__rosidl_typesupport_c;general;first_interfaces::first_interfaces__rosidl_typesupport_introspection_cpp;general;first_interfaces::first_interfaces__rosidl_typesupport_cpp;
+
 //Value Computed by CMake
 first_pubsub_SOURCE_DIR:STATIC=/home/azharanas17/setunggal_ws/src/first_pubsub
 

@@ -1,2 +1,3 @@
 source;share/first_pubsub/environment/ament_prefix_path.sh
+source;share/first_pubsub/environment/library_path.sh
 source;share/first_pubsub/environment/path.sh

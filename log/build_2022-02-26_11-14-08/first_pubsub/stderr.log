@@ -1,0 +1,5 @@
+CMake Error at CMakeLists.txt:24 (protobuf_generate_cpp):
+  Unknown CMake command "protobuf_generate_cpp".
+
+
+make: *** [Makefile:266: cmake_check_build_system] Error 1

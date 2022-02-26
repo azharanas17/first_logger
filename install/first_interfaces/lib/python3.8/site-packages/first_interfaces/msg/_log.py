@@ -56,15 +56,18 @@ class Log(metaclass=Metaclass_Log):
         '_filename',
         '_message_log',
         '_level',
+        '_time',
     ]
 
     _fields_and_field_types = {
         'filename': 'string',
         'message_log': 'string',
         'level': 'string',
+        'time': 'string',
     }
 
     SLOT_TYPES = (
+        rosidl_parser.definition.UnboundedString(),  # noqa: E501
         rosidl_parser.definition.UnboundedString(),  # noqa: E501
         rosidl_parser.definition.UnboundedString(),  # noqa: E501
         rosidl_parser.definition.UnboundedString(),  # noqa: E501
@@ -77,6 +80,7 @@ class Log(metaclass=Metaclass_Log):
         self.filename = kwargs.get('filename', str())
         self.message_log = kwargs.get('message_log', str())
         self.level = kwargs.get('level', str())
+        self.time = kwargs.get('time', str())
 
     def __repr__(self):
         typename = self.__class__.__module__.split('.')
@@ -112,6 +116,8 @@ class Log(metaclass=Metaclass_Log):
         if self.message_log != other.message_log:
             return False
         if self.level != other.level:
+            return False
+        if self.time != other.time:
             return False
         return True
 
@@ -158,3 +164,16 @@ class Log(metaclass=Metaclass_Log):
                 isinstance(value, str), \
                 "The 'level' field must be of type 'str'"
         self._level = value
+
+    @property
+    def time(self):
+        """Message field 'time'."""
+        return self._time
+
+    @time.setter
+    def time(self, value):
+        if __debug__:
+            assert \
+                isinstance(value, str), \
+                "The 'time' field must be of type 'str'"
+        self._time = value

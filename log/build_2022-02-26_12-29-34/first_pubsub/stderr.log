@@ -1,0 +1,28 @@
+In file included from [01m[K/home/azharanas17/setunggal_ws/src/first_pubsub/include/first_pubsub/logger_node.hpp:5[m[K,
+                 from [01m[K/home/azharanas17/setunggal_ws/src/first_pubsub/src/logger_node.cpp:6[m[K:
+[01m[K/home/azharanas17/setunggal_ws/src/first_pubsub/include/first_pubsub/logger.hpp:4:7:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kclass Logger[m[K’
+    4 | class [01;31m[KLogger[m[K
+      |       [01;31m[K^~~~~~[m[K
+In file included from [01m[K/home/azharanas17/setunggal_ws/src/first_pubsub/src/logger_node.cpp:5[m[K:
+[01m[K/home/azharanas17/setunggal_ws/src/first_pubsub/include/first_pubsub/logger.hpp:4:7:[m[K [01;36m[Knote: [m[Kprevious definition of ‘[01m[Kclass Logger[m[K’
+    4 | class [01;36m[KLogger[m[K
+      |       [01;36m[K^~~~~~[m[K
+[01m[K/home/azharanas17/setunggal_ws/src/first_pubsub/src/logger_node.cpp:10:7:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kclass LoggerNode[m[K’
+   10 | class [01;31m[KLoggerNode[m[K : public rclcpp::Node
+      |       [01;31m[K^~~~~~~~~~[m[K
+In file included from [01m[K/home/azharanas17/setunggal_ws/src/first_pubsub/src/logger_node.cpp:6[m[K:
+[01m[K/home/azharanas17/setunggal_ws/src/first_pubsub/include/first_pubsub/logger_node.hpp:8:7:[m[K [01;36m[Knote: [m[Kprevious definition of ‘[01m[Kclass LoggerNode[m[K’
+    8 | class [01;36m[KLoggerNode[m[K : public rclcpp::Node
+      |       [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/azharanas17/setunggal_ws/src/first_pubsub/src/logger.cpp:17:7:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kclass Logger[m[K’
+   17 | class [01;31m[KLogger[m[K
+      |       [01;31m[K^~~~~~[m[K
+In file included from [01m[K/home/azharanas17/setunggal_ws/src/first_pubsub/src/logger.cpp:10[m[K:
+[01m[K/home/azharanas17/setunggal_ws/src/first_pubsub/include/first_pubsub/logger.hpp:4:7:[m[K [01;36m[Knote: [m[Kprevious definition of ‘[01m[Kclass Logger[m[K’
+    4 | class [01;36m[KLogger[m[K
+      |       [01;36m[K^~~~~~[m[K
+make[2]: *** [CMakeFiles/first_pubsub.dir/build.make:63: CMakeFiles/first_pubsub.dir/src/logger_node.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+make[2]: *** [CMakeFiles/first_pubsub.dir/build.make:76: CMakeFiles/first_pubsub.dir/src/logger.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/first_pubsub.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

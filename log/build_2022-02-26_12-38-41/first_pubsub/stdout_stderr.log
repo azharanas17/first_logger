@@ -1,0 +1,30 @@
+[35m[1mScanning dependencies of target first_pubsub[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/first_pubsub.dir/src/logger.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/first_pubsub.dir/src/logger_node.cpp.o[0m
+[01m[K/home/azharanas17/setunggal_ws/src/first_pubsub/src/logger_node.cpp:32:17:[m[K [01;31m[Kerror: [m[Kinvalid use of incomplete type ‘[01m[Kclass LoggerNode[m[K’
+   32 |     LoggerNode::[01;31m[Klogger[m[K.write_logger();
+      |                 [01;31m[K^~~~~~[m[K
+[01m[K/home/azharanas17/setunggal_ws/src/first_pubsub/src/logger_node.cpp:13:7:[m[K [01;36m[Knote: [m[Kdefinition of ‘[01m[Kclass LoggerNode[m[K’ is not complete until the closing brace
+   13 | class [01;36m[KLoggerNode[m[K : public rclcpp::Node
+      |       [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/azharanas17/setunggal_ws/src/first_pubsub/src/logger.cpp:[m[K In member function ‘[01m[Kvoid Logger::write_logger(first_interfaces::msg::Log_<std::allocator<void> >::SharedPtr) const[m[K’:
+[01m[K/home/azharanas17/setunggal_ws/src/first_pubsub/src/logger.cpp:36:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst class Logger[m[K’ has no member named ‘[01m[Kget_logger[m[K’; did you mean ‘[01m[Kwrite_logger[m[K’?
+   36 |                     {"", this->[01;31m[Kget_logger[m[K()},
+      |                                [01;31m[K^~~~~~~~~~[m[K
+      |                                [32m[Kwrite_logger[m[K
+[01m[K/home/azharanas17/setunggal_ws/src/first_pubsub/src/logger.cpp:39:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct first_interfaces::msg::Log_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct first_interfaces::msg::Log_<std::allocator<void> >[m[K’} has no member named ‘[01m[Ktime[m[K’
+   39 |                     {"time", msg->[01;31m[Ktime[m[K}
+      |                                   [01;31m[K^~~~[m[K
+[01m[K/home/azharanas17/setunggal_ws/src/first_pubsub/src/logger.cpp:40:17:[m[K [01;31m[Kerror: [m[Kcould not convert ‘[01m[K{{"", <expression error>}, {"message_log", ((const std::__shared_ptr_access<first_interfaces::msg::Log_<std::allocator<void> >, __gnu_cxx::_S_atomic, false, false>*)(& msg))->std::__shared_ptr_access<first_interfaces::msg::Log_<std::allocator<void> >, __gnu_cxx::_S_atomic, false, false>::operator->()->first_interfaces::msg::Log_<std::allocator<void> >::message_log}, {"level", ((const std::__shared_ptr_access<first_interfaces::msg::Log_<std::allocator<void> >, __gnu_cxx::_S_atomic, false, false>*)(& msg))->std::__shared_ptr_access<first_interfaces::msg::Log_<std::allocator<void> >, __gnu_cxx::_S_atomic, false, false>::operator->()->first_interfaces::msg::Log_<std::allocator<void> >::level}, {"time", <expression error>}}[m[K’ from ‘[01m[K<brace-enclosed initializer list>[m[K’ to ‘[01m[Kjson[m[K’ {aka ‘[01m[Knlohmann::basic_json<>[m[K’}
+   40 |                 [01;31m[K}[m[K;
+      |                 [01;31m[K^[m[K
+      |                 [01;31m[K|[m[K
+      |                 [01;31m[K<brace-enclosed initializer list>[m[K
+[01m[K/home/azharanas17/setunggal_ws/src/first_pubsub/src/logger.cpp:48:20:[m[K [01;31m[Kerror: [m[Kreturn-statement with a value, in function returning ‘[01m[Kvoid[m[K’ [[01;31m[K-fpermissive[m[K]
+   48 |             return [01;31m[K0[m[K;
+      |                    [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/first_pubsub.dir/build.make:76: CMakeFiles/first_pubsub.dir/src/logger.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+make[2]: *** [CMakeFiles/first_pubsub.dir/build.make:63: CMakeFiles/first_pubsub.dir/src/logger_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/first_pubsub.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

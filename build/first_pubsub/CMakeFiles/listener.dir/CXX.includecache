@@ -50,13 +50,17 @@ first_interfaces/msg/detail/log__builder.hpp
 first_interfaces/msg/detail/log__traits.hpp
 /home/azharanas17/setunggal_ws/install/first_interfaces/include/first_interfaces/msg/first_interfaces/msg/detail/log__traits.hpp
 
-/home/azharanas17/setunggal_ws/src/first_pubsub/src/subscriber_log.cpp
+/home/azharanas17/setunggal_ws/src/first_pubsub/src/logger_node.cpp
 memory
 -
 rclcpp/rclcpp.hpp
 /home/azharanas17/setunggal_ws/src/first_pubsub/src/rclcpp/rclcpp.hpp
 first_interfaces/msg/log.hpp
 /home/azharanas17/setunggal_ws/src/first_pubsub/src/first_interfaces/msg/log.hpp
+first_pubsub/logger.hpp
+/home/azharanas17/setunggal_ws/src/first_pubsub/src/first_pubsub/logger.hpp
+first_pubsub/logger_node.hpp
+/home/azharanas17/setunggal_ws/src/first_pubsub/src/first_pubsub/logger_node.hpp
 
 /opt/ros/foxy/include/builtin_interfaces/msg/detail/duration__builder.hpp
 builtin_interfaces/msg/detail/duration__struct.hpp

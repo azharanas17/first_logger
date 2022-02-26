@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/listener.dir/src/subscriber_log.cpp.o"
+  "CMakeFiles/listener.dir/src/logger_node.cpp.o"
   "listener"
   "listener.pdb"
 )
