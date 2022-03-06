@@ -1,0 +1,13 @@
+[35m[1mScanning dependencies of target first_pubsub[0m
+[ 14%] [32mBuilding CXX object CMakeFiles/first_pubsub.dir/src/logger_sub_node.cpp.o[0m
+[01m[K/home/azharanas17/setunggal_ws/src/first_pubsub/src/logger_sub_node.cpp:[m[K In member function ‘[01m[Kvoid LoggerSub::topic_callback(first_interfaces::msg::Log_<std::allocator<void> >::SharedPtr) const[m[K’:
+[01m[K/home/azharanas17/setunggal_ws/src/first_pubsub/src/logger_sub_node.cpp:65:31:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KLoggerSub::filter_log() const[m[K’
+   65 |         LoggerSub::filter_log([01;31m[K)[m[K;
+      |                               [01;31m[K^[m[K
+[01m[K/home/azharanas17/setunggal_ws/src/first_pubsub/src/logger_sub_node.cpp:29:10:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid LoggerSub::filter_log(first_interfaces::msg::Log_<std::allocator<void> >::SharedPtr) const[m[K’
+   29 |     void [01;36m[KLoggerSub[m[K::filter_log(const first_interfaces::msg::Log::SharedPtr msg) const
+      |          [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/azharanas17/setunggal_ws/src/first_pubsub/src/logger_sub_node.cpp:29:10:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+make[2]: *** [CMakeFiles/first_pubsub.dir/build.make:76: CMakeFiles/first_pubsub.dir/src/logger_sub_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:136: CMakeFiles/first_pubsub.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

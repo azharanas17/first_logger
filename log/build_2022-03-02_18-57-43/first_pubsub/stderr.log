@@ -1,0 +1,11 @@
+CMake Error at CMakeLists.txt:49 (target_include_directories):
+  Cannot specify include directories for target "logger" which is not built
+  by this project.
+
+
+CMake Error at CMakeLists.txt:52 (target_link_libraries):
+  Cannot specify link libraries for target "logger" which is not built by
+  this project.
+
+
+make: *** [Makefile:370: cmake_check_build_system] Error 1

@@ -1,0 +1,27 @@
+In file included from [01m[K/home/azharanas17/setunggal_ws/src/first_pubsub/src/logger_pub_node.cpp:6[m[K:
+[01m[K/home/azharanas17/setunggal_ws/src/first_pubsub/include/first_pubsub/logger_pub_node.hpp:13:8:[m[K [01;31m[Kerror: [m[Kextra qualification ‘[01m[KLoggerPub::[m[K’ on member ‘[01m[Ktopic_callback[m[K’ [[01;31m[K-fpermissive[m[K]
+   13 |   void [01;31m[KLoggerPub[m[K::topic_callback(const first_interfaces::msg::Log::SharedPtr msg);
+      |        [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/azharanas17/setunggal_ws/src/first_pubsub/src/logger_pub_node.cpp:[m[K In constructor ‘[01m[KLoggerPub::LoggerPub()[m[K’:
+[01m[K/home/azharanas17/setunggal_ws/src/first_pubsub/src/logger_pub_node.cpp:15:9:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KLoggerPub::create_publisher<first_interfaces::msg::Log>(const char [6], int, std::_Bind_helper<false, void (LoggerPub::*)(std::shared_ptr<first_interfaces::msg::Log_<std::allocator<void> > >), LoggerPub*, const std::_Placeholder<1>&>::type)[m[K’
+   15 |         [01;31m[K)[m[K;
+      |         [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+                 from [01m[K/home/azharanas17/setunggal_ws/src/first_pubsub/src/logger_pub_node.cpp:4[m[K:
+[01m[K/opt/ros/foxy/include/rclcpp/node.hpp:184:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)[m[K’
+  184 |   [01;36m[Kcreate_publisher[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/foxy/include/rclcpp/node.hpp:184:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/azharanas17/setunggal_ws/src/first_pubsub/src/logger_pub_node.cpp:15:9:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::_Bind_helper<false, void (LoggerPub::*)(std::shared_ptr<first_interfaces::msg::Log_<std::allocator<void> > >), LoggerPub*, const std::_Placeholder<1>&>::type[m[K’ {aka ‘[01m[Kstd::_Bind<void (LoggerPub::*(LoggerPub*, std::_Placeholder<1>))(std::shared_ptr<first_interfaces::msg::Log_<std::allocator<void> > >)>[m[K’} is not derived from ‘[01m[Kconst rclcpp::PublisherOptionsWithAllocator<AllocatorT>[m[K’
+   15 |         [01;36m[K)[m[K;
+      |         [01;36m[K^[m[K
+[01m[K/home/azharanas17/setunggal_ws/src/first_pubsub/src/logger_pub_node.cpp:[m[K In member function ‘[01m[Kvoid LoggerPub::topic_callback(first_interfaces::msg::Log_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/azharanas17/setunggal_ws/src/first_pubsub/src/logger_pub_node.cpp:20:78:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   20 | :topic_callback([01;35m[Kconst first_interfaces::msg::Log::SharedPtr msg[m[K)
+      |                 [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+
+make[2]: *** [CMakeFiles/first_pubsub.dir/build.make:63: CMakeFiles/first_pubsub.dir/src/logger_pub_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/first_pubsub.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

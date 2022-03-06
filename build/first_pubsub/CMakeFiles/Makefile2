@@ -53,6 +53,8 @@ CMAKE_BINARY_DIR = /home/azharanas17/setunggal_ws/build/first_pubsub
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
+all: CMakeFiles/loggersub.dir/all
+all: CMakeFiles/loggerpub.dir/all
 all: CMakeFiles/first_pubsub.dir/all
 
 .PHONY : all
@@ -63,11 +65,67 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
+clean: CMakeFiles/loggersub.dir/clean
+clean: CMakeFiles/loggerpub.dir/clean
 clean: CMakeFiles/first_pubsub.dir/clean
 clean: CMakeFiles/first_pubsub_uninstall.dir/clean
 clean: CMakeFiles/uninstall.dir/clean
 
 .PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/loggersub.dir
+
+# All Build rule for target.
+CMakeFiles/loggersub.dir/all: CMakeFiles/first_pubsub.dir/all
+	$(MAKE) -f CMakeFiles/loggersub.dir/build.make CMakeFiles/loggersub.dir/depend
+	$(MAKE) -f CMakeFiles/loggersub.dir/build.make CMakeFiles/loggersub.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/azharanas17/setunggal_ws/build/first_pubsub/CMakeFiles --progress-num=6,7 "Built target loggersub"
+.PHONY : CMakeFiles/loggersub.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/loggersub.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/azharanas17/setunggal_ws/build/first_pubsub/CMakeFiles 5
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/loggersub.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/azharanas17/setunggal_ws/build/first_pubsub/CMakeFiles 0
+.PHONY : CMakeFiles/loggersub.dir/rule
+
+# Convenience name for target.
+loggersub: CMakeFiles/loggersub.dir/rule
+
+.PHONY : loggersub
+
+# clean rule for target.
+CMakeFiles/loggersub.dir/clean:
+	$(MAKE) -f CMakeFiles/loggersub.dir/build.make CMakeFiles/loggersub.dir/clean
+.PHONY : CMakeFiles/loggersub.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/loggerpub.dir
+
+# All Build rule for target.
+CMakeFiles/loggerpub.dir/all: CMakeFiles/first_pubsub.dir/all
+	$(MAKE) -f CMakeFiles/loggerpub.dir/build.make CMakeFiles/loggerpub.dir/depend
+	$(MAKE) -f CMakeFiles/loggerpub.dir/build.make CMakeFiles/loggerpub.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/azharanas17/setunggal_ws/build/first_pubsub/CMakeFiles --progress-num=4,5 "Built target loggerpub"
+.PHONY : CMakeFiles/loggerpub.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/loggerpub.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/azharanas17/setunggal_ws/build/first_pubsub/CMakeFiles 5
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/loggerpub.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/azharanas17/setunggal_ws/build/first_pubsub/CMakeFiles 0
+.PHONY : CMakeFiles/loggerpub.dir/rule
+
+# Convenience name for target.
+loggerpub: CMakeFiles/loggerpub.dir/rule
+
+.PHONY : loggerpub
+
+# clean rule for target.
+CMakeFiles/loggerpub.dir/clean:
+	$(MAKE) -f CMakeFiles/loggerpub.dir/build.make CMakeFiles/loggerpub.dir/clean
+.PHONY : CMakeFiles/loggerpub.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/first_pubsub.dir

@@ -1,0 +1,11 @@
+[0.008s] Invoking command in '/home/azharanas17/setunggal_ws/build/first_pubsub': AMENT_PREFIX_PATH=/home/azharanas17/setunggal_ws/install/first_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/azharanas17/setunggal_ws/install/first_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/azharanas17/setunggal_ws/install/first_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/azharanas17/setunggal_ws/install/first_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/azharanas17/setunggal_ws/build/first_pubsub -- -j4 -l4
+[0.043s] [35m[1mScanning dependencies of target first_pubsub[0m
+[0.061s] [ 16%] [32mBuilding CXX object CMakeFiles/first_pubsub.dir/src/logger_pub_node.cpp.o[0m
+[0.139s] [01m[K/home/azharanas17/setunggal_ws/src/first_pubsub/src/logger_pub_node.cpp:6:10:[m[K [01;31m[Kfatal error: [m[Kfirst_interfaces/msg/Log.hpp: No such file or directory
+[0.140s]     6 | #include [01;31m[K"first_interfaces/msg/Log.hpp"[m[K     // CHANGE
+[0.140s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.140s] compilation terminated.
+[0.141s] make[2]: *** [CMakeFiles/first_pubsub.dir/build.make:63: CMakeFiles/first_pubsub.dir/src/logger_pub_node.cpp.o] Error 1
+[0.142s] make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/first_pubsub.dir/all] Error 2
+[0.142s] make: *** [Makefile:141: all] Error 2
+[0.144s] Invoked command in '/home/azharanas17/setunggal_ws/build/first_pubsub' returned '2': AMENT_PREFIX_PATH=/home/azharanas17/setunggal_ws/install/first_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/azharanas17/setunggal_ws/install/first_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/azharanas17/setunggal_ws/install/first_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/azharanas17/setunggal_ws/install/first_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/azharanas17/setunggal_ws/build/first_pubsub -- -j4 -l4

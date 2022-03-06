@@ -1,0 +1,7 @@
+[01m[K/home/azharanas17/setunggal_ws/src/first_pubsub/src/logger_pub_node.cpp:[m[K In constructor ‘[01m[KLoggerPub::LoggerPub()[m[K’:
+[01m[K/home/azharanas17/setunggal_ws/src/first_pubsub/src/logger_pub_node.cpp:14:38:[m[K [01;31m[Kerror: [m[Kunable to find numeric literal operator ‘[01m[Koperator""ms[m[K’
+   14 |     timer_ = this->create_wall_timer([01;31m[K500ms[m[K, std::bind(&LoggerPub::topic_callback, this));
+      |                                      [01;31m[K^~~~~[m[K
+make[2]: *** [CMakeFiles/first_pubsub.dir/build.make:63: CMakeFiles/first_pubsub.dir/src/logger_pub_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/first_pubsub.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

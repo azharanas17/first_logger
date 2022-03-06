@@ -1,0 +1,22 @@
+[0.009s] Invoking command in '/home/azharanas17/setunggal_ws/build/first_pubsub': AMENT_PREFIX_PATH=/home/azharanas17/setunggal_ws/install/first_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/azharanas17/setunggal_ws/install/first_interfaces:/home/azharanas17/dev_ws/install/cpp_srvcli:/home/azharanas17/dev_ws/install/cpp_pubsub:/home/azharanas17/dev_ws/install/tutorial_interfaces:/home/azharanas17/dev_ws/install/turtlesim:/home/azharanas17/dev_ws/install/my_package:/home/azharanas17/dev_ws/install/more_interfaces:/home/azharanas17/dev_ws/install/first_interfaces:/home/azharanas17/dev_ws/install/cpp_parameters:/opt/ros/foxy LD_LIBRARY_PATH=/home/azharanas17/setunggal_ws/install/first_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/azharanas17/setunggal_ws/install/first_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/azharanas17/setunggal_ws/build/first_pubsub -- -j4 -l4
+[0.059s] [35m[1mScanning dependencies of target first_pubsub[0m
+[0.084s] [ 33%] [32mBuilding CXX object CMakeFiles/first_pubsub.dir/src/logger_sub_node.cpp.o[0m
+[0.084s] [ 33%] [32mBuilding CXX object CMakeFiles/first_pubsub.dir/src/logger_pub_node.cpp.o[0m
+[1.524s] [01m[K/home/azharanas17/setunggal_ws/src/first_pubsub/src/logger_pub_node.cpp:[m[K In constructor ‘[01m[KLoggerPub::LoggerPub()[m[K’:
+[1.524s] [01m[K/home/azharanas17/setunggal_ws/src/first_pubsub/src/logger_pub_node.cpp:14:48:[m[K [01;31m[Kerror: [m[K‘[01m[Ktopic_callback[m[K’ is not a member of ‘[01m[KLoggerPub[m[K’
+[1.524s]    14 |             "topic", 10, std::bind(&LoggerPub::[01;31m[Ktopic_callback[m[K, this, _1)
+[1.524s]       |                                                [01;31m[K^~~~~~~~~~~~~~[m[K
+[1.525s] [01m[K/home/azharanas17/setunggal_ws/src/first_pubsub/src/logger_pub_node.cpp:[m[K At global scope:
+[1.525s] [01m[K/home/azharanas17/setunggal_ws/src/first_pubsub/src/logger_pub_node.cpp:20:8:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kvoid LoggerPub::topic_callback(first_interfaces::msg::Log_<std::allocator<void> >::SharedPtr) const[m[K’
+[1.525s]    20 |   void [01;31m[KLoggerPub[m[K::topic_callback(const first_interfaces::msg::Log::SharedPtr msg) const
+[1.525s]       |        [01;31m[K^~~~~~~~~[m[K
+[1.525s] [01m[K/home/azharanas17/setunggal_ws/src/first_pubsub/src/logger_pub_node.cpp:20:8:[m[K [01;36m[Knote: [m[Kno functions named ‘[01m[Kvoid LoggerPub::topic_callback(first_interfaces::msg::Log_<std::allocator<void> >::SharedPtr) const[m[K’
+[1.534s] In file included from [01m[K/home/azharanas17/setunggal_ws/src/first_pubsub/src/logger_pub_node.cpp:6[m[K:
+[1.534s] [01m[K/home/azharanas17/setunggal_ws/src/first_pubsub/include/first_pubsub/logger_pub_node.hpp:7:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass LoggerPub[m[K’ defined here
+[1.534s]     7 | class [01;36m[KLoggerPub[m[K : public rclcpp::Node
+[1.535s]       |       [01;36m[K^~~~~~~~~[m[K
+[1.961s] make[2]: *** [CMakeFiles/first_pubsub.dir/build.make:63: CMakeFiles/first_pubsub.dir/src/logger_pub_node.cpp.o] Error 1
+[1.961s] make[2]: *** Waiting for unfinished jobs....
+[4.176s] make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/first_pubsub.dir/all] Error 2
+[4.176s] make: *** [Makefile:141: all] Error 2
+[4.180s] Invoked command in '/home/azharanas17/setunggal_ws/build/first_pubsub' returned '2': AMENT_PREFIX_PATH=/home/azharanas17/setunggal_ws/install/first_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/azharanas17/setunggal_ws/install/first_interfaces:/home/azharanas17/dev_ws/install/cpp_srvcli:/home/azharanas17/dev_ws/install/cpp_pubsub:/home/azharanas17/dev_ws/install/tutorial_interfaces:/home/azharanas17/dev_ws/install/turtlesim:/home/azharanas17/dev_ws/install/my_package:/home/azharanas17/dev_ws/install/more_interfaces:/home/azharanas17/dev_ws/install/first_interfaces:/home/azharanas17/dev_ws/install/cpp_parameters:/opt/ros/foxy LD_LIBRARY_PATH=/home/azharanas17/setunggal_ws/install/first_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/azharanas17/setunggal_ws/install/first_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/azharanas17/setunggal_ws/build/first_pubsub -- -j4 -l4

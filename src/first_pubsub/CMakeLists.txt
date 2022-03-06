@@ -22,8 +22,8 @@ find_package(first_interfaces REQUIRED)
 find_package(first_pubsub REQUIRED)
 
 add_library(${PROJECT_NAME} SHARED
-  "src/logger_node.cpp"
-  "src/logger.cpp")
+  "src/logger_pub_node.cpp"
+  "src/logger_sub_node.cpp")
 
 target_include_directories(${PROJECT_NAME} PUBLIC
   $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
@@ -40,6 +40,23 @@ install(TARGETS ${PROJECT_NAME}
   ARCHIVE DESTINATION "lib"
   LIBRARY DESTINATION "lib"
   RUNTIME DESTINATION "bin")
+
+add_executable(loggerpub "src/logger_mainpub_node.cpp")
+target_include_directories(loggerpub PUBLIC
+  $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
+  $<INSTALL_INTERFACE:include>)
+target_link_libraries(loggerpub ${PROJECT_NAME})
+
+add_executable(loggersub "src/logger_mainsub_node.cpp")
+target_include_directories(loggersub PUBLIC
+  $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
+  $<INSTALL_INTERFACE:include>)
+target_link_libraries(loggersub ${PROJECT_NAME})
+
+install (TARGETS
+  loggerpub
+  loggersub
+  DESTINATION lib/${PROJECT_NAME})
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)

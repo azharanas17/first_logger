@@ -1,0 +1,64 @@
+[0.009s] Invoking command in '/home/azharanas17/setunggal_ws/build/first_pubsub': AMENT_PREFIX_PATH=/home/azharanas17/setunggal_ws/install/first_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/azharanas17/setunggal_ws/install/first_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/azharanas17/setunggal_ws/install/first_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/azharanas17/setunggal_ws/install/first_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/azharanas17/setunggal_ws/build/first_pubsub -- -j4 -l4
+[0.044s] [35m[1mScanning dependencies of target first_pubsub[0m
+[0.063s] [ 16%] [32mBuilding CXX object CMakeFiles/first_pubsub.dir/src/logger_pub_node.cpp.o[0m
+[1.033s] [01m[K/home/azharanas17/setunggal_ws/src/first_pubsub/src/logger_pub_node.cpp:[m[K In member function ‘[01m[Kvoid LoggerPub::timer_callback()[m[K’:
+[1.033s] [01m[K/home/azharanas17/setunggal_ws/src/first_pubsub/src/logger_pub_node.cpp:24:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct first_interfaces::msg::Log_<std::allocator<void> >[m[K’ has no member named ‘[01m[Kdata[m[K’
+[1.033s]    24 |     message.[01;31m[Kdata[m[K = msg->filename + " " + msg->message_log + " " + msg->level + " " + msg->time);
+[1.033s]       |             [01;31m[K^~~~[m[K
+[1.033s] [01m[K/home/azharanas17/setunggal_ws/src/first_pubsub/src/logger_pub_node.cpp:24:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kmsg[m[K’ was not declared in this scope
+[1.033s]    24 |     message.data = [01;31m[Kmsg[m[K->filename + " " + msg->message_log + " " + msg->level + " " + msg->time);
+[1.034s]       |                    [01;31m[K^~~[m[K
+[1.034s] [01m[K/home/azharanas17/setunggal_ws/src/first_pubsub/src/logger_pub_node.cpp:24:20:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+[1.034s] In file included from [01m[K/opt/ros/foxy/include/builtin_interfaces/msg/duration.hpp:7[m[K,
+[1.034s]                  from [01m[K/opt/ros/foxy/include/rclcpp/duration.hpp:20[m[K,
+[1.034s]                  from [01m[K/opt/ros/foxy/include/rclcpp/qos.hpp:20[m[K,
+[1.034s]                  from [01m[K/opt/ros/foxy/include/rclcpp/node_interfaces/node_graph_interface.hpp:31[m[K,
+[1.034s]                  from [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:34[m[K,
+[1.034s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23[m[K,
+[1.034s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[1.034s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[1.034s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[1.034s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[1.034s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[1.034s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[1.034s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[1.035s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[1.035s]                  from [01m[K/home/azharanas17/setunggal_ws/src/first_pubsub/src/logger_pub_node.cpp:2[m[K:
+[1.035s] [01m[K/opt/ros/foxy/include/builtin_interfaces/msg/detail/duration__struct.hpp:26:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kbuiltin_interfaces::msg[m[K’
+[1.035s]    26 | namespace [01;36m[Kmsg[m[K
+[1.035s]       |           [01;36m[K^~~[m[K
+[1.035s] In file included from [01m[K/opt/ros/foxy/include/statistics_msgs/msg/detail/metrics_message__struct.hpp:22[m[K,
+[1.035s]                  from [01m[K/opt/ros/foxy/include/statistics_msgs/msg/metrics_message.hpp:7[m[K,
+[1.035s]                  from [01m[K/opt/ros/foxy/include/libstatistics_collector/collector/generate_statistics_message.hpp:21[m[K,
+[1.035s]                  from [01m[K/opt/ros/foxy/include/rclcpp/topic_statistics/subscription_topic_statistics.hpp:23[m[K,
+[1.035s]                  from [01m[K/opt/ros/foxy/include/rclcpp/subscription.hpp:50[m[K,
+[1.035s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:25[m[K,
+[1.035s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[1.035s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[1.035s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[1.035s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[1.035s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[1.035s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[1.035s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[1.035s]                  from [01m[K/home/azharanas17/setunggal_ws/src/first_pubsub/src/logger_pub_node.cpp:2[m[K:
+[1.036s] [01m[K/opt/ros/foxy/include/statistics_msgs/msg/detail/statistic_data_point__struct.hpp:26:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstatistics_msgs::msg[m[K’
+[1.036s]    26 | namespace [01;36m[Kmsg[m[K
+[1.036s]       |           [01;36m[K^~~[m[K
+[1.036s] In file included from [01m[K/opt/ros/foxy/include/rcl_interfaces/msg/list_parameters_result.hpp:7[m[K,
+[1.036s]                  from [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:34[m[K,
+[1.036s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[1.036s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:22[m[K,
+[1.036s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[1.036s]                  from [01m[K/home/azharanas17/setunggal_ws/src/first_pubsub/src/logger_pub_node.cpp:2[m[K:
+[1.036s] [01m[K/opt/ros/foxy/include/rcl_interfaces/msg/detail/list_parameters_result__struct.hpp:26:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Krcl_interfaces::msg[m[K’
+[1.036s]    26 | namespace [01;36m[Kmsg[m[K
+[1.036s]       |           [01;36m[K^~~[m[K
+[1.036s] In file included from [01m[K/home/azharanas17/setunggal_ws/install/first_interfaces/include/first_interfaces/msg/log.hpp:7[m[K,
+[1.036s]                  from [01m[K/home/azharanas17/setunggal_ws/src/first_pubsub/src/logger_pub_node.cpp:3[m[K:
+[1.036s] [01m[K/home/azharanas17/setunggal_ws/install/first_interfaces/include/first_interfaces/msg/detail/log__struct.hpp:26:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kfirst_interfaces::msg[m[K’
+[1.036s]    26 | namespace [01;36m[Kmsg[m[K
+[1.036s]       |           [01;36m[K^~~[m[K
+[1.719s] make[2]: *** [CMakeFiles/first_pubsub.dir/build.make:63: CMakeFiles/first_pubsub.dir/src/logger_pub_node.cpp.o] Error 1
+[1.720s] make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/first_pubsub.dir/all] Error 2
+[1.720s] make: *** [Makefile:141: all] Error 2
+[1.722s] Invoked command in '/home/azharanas17/setunggal_ws/build/first_pubsub' returned '2': AMENT_PREFIX_PATH=/home/azharanas17/setunggal_ws/install/first_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/azharanas17/setunggal_ws/install/first_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/azharanas17/setunggal_ws/install/first_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/azharanas17/setunggal_ws/install/first_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/azharanas17/setunggal_ws/build/first_pubsub -- -j4 -l4

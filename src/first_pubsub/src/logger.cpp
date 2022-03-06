@@ -1,14 +1,10 @@
-#ifndef LOGGER_H
-#define LOGGER_H
+
 
 #include <iostream>
 #include <fstream>
 #include <iomanip>
-#include <memory>
-#include <string>
 #include <nlohmann/json.hpp>
 
-#include "rclcpp/rclcpp.hpp"
 #include "first_interfaces/msg/log.hpp"
 #include "first_pubsub/logger.hpp"
 
@@ -17,11 +13,9 @@ using std::placeholders::_1;
 using json = nlohmann::json;
 
 
-class Logger 
-{
-    public:
-        Logger();
-        void write_logger(const first_interfaces::msg::Log::SharedPtr msg) const
+
+        Logger::Logger(){}
+        void Logger::write_logger(const first_interfaces::msg::Log::SharedPtr msg) const
         {
             std::ofstream file_log;
             file_log.open("logger.json", std::ios_base::trunc | std::ios_base::out);
@@ -42,11 +36,5 @@ class Logger
             file_log << json_log.dump(0);
 
             file_log.close();
-
         }
 
-    private:
-        
-};
-
-#endif

@@ -1,0 +1,24 @@
+[0.010s] Invoking command in '/home/azharanas17/setunggal_ws/build/first_pubsub': AMENT_PREFIX_PATH=/home/azharanas17/setunggal_ws/install/first_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/azharanas17/setunggal_ws/install/first_interfaces:/home/azharanas17/dev_ws/install/cpp_srvcli:/home/azharanas17/dev_ws/install/cpp_pubsub:/home/azharanas17/dev_ws/install/tutorial_interfaces:/home/azharanas17/dev_ws/install/turtlesim:/home/azharanas17/dev_ws/install/my_package:/home/azharanas17/dev_ws/install/more_interfaces:/home/azharanas17/dev_ws/install/first_interfaces:/home/azharanas17/dev_ws/install/cpp_parameters:/opt/ros/foxy LD_LIBRARY_PATH=/home/azharanas17/setunggal_ws/install/first_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/azharanas17/setunggal_ws/install/first_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/azharanas17/setunggal_ws/build/first_pubsub -- -j4 -l4
+[0.050s] [35m[1mScanning dependencies of target first_pubsub[0m
+[0.073s] [ 16%] [32mBuilding CXX object CMakeFiles/first_pubsub.dir/src/logger_pub_node.cpp.o[0m
+[1.103s] [01m[K/home/azharanas17/setunggal_ws/src/first_pubsub/src/logger_pub_node.cpp:[m[K In constructor ‘[01m[KLoggerPub::LoggerPub()[m[K’:
+[1.104s] [01m[K/home/azharanas17/setunggal_ws/src/first_pubsub/src/logger_pub_node.cpp:14:84:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KLoggerPub::create_wall_timer(int, std::_Bind_helper<false, void (LoggerPub::*)(), LoggerPub*>::type)[m[K’
+[1.104s]    14 | te_wall_timer(8, std::bind(&LoggerPub::topic_callback, this)[01;31m[K)[m[K;
+[1.104s]       |                                                             [01;31m[K^[m[K
+[1.104s] 
+[1.104s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[1.104s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:22[m[K,
+[1.104s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[1.104s]                  from [01m[K/home/azharanas17/setunggal_ws/src/first_pubsub/src/logger_pub_node.cpp:4[m[K:
+[1.104s] [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:232:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class DurationRepT, class DurationT, class CallbackT> typename rclcpp::WallTimer<CallbackT>::SharedPtr rclcpp::Node::create_wall_timer(std::chrono::duration<_Rep1, _Period1>, CallbackT, rclcpp::CallbackGroup::SharedPtr)[m[K’
+[1.104s]   232 |   [01;36m[Kcreate_wall_timer[m[K(
+[1.104s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[1.104s] [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:232:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.104s] [01m[K/home/azharanas17/setunggal_ws/src/first_pubsub/src/logger_pub_node.cpp:14:84:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kstd::chrono::duration<_Rep1, _Period1>[m[K’ and ‘[01m[Kint[m[K’
+[1.104s]    14 | te_wall_timer(8, std::bind(&LoggerPub::topic_callback, this)[01;36m[K)[m[K;
+[1.105s]       |                                                             [01;36m[K^[m[K
+[1.105s] 
+[1.597s] make[2]: *** [CMakeFiles/first_pubsub.dir/build.make:63: CMakeFiles/first_pubsub.dir/src/logger_pub_node.cpp.o] Error 1
+[1.598s] make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/first_pubsub.dir/all] Error 2
+[1.598s] make: *** [Makefile:141: all] Error 2
+[1.600s] Invoked command in '/home/azharanas17/setunggal_ws/build/first_pubsub' returned '2': AMENT_PREFIX_PATH=/home/azharanas17/setunggal_ws/install/first_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/azharanas17/setunggal_ws/install/first_interfaces:/home/azharanas17/dev_ws/install/cpp_srvcli:/home/azharanas17/dev_ws/install/cpp_pubsub:/home/azharanas17/dev_ws/install/tutorial_interfaces:/home/azharanas17/dev_ws/install/turtlesim:/home/azharanas17/dev_ws/install/my_package:/home/azharanas17/dev_ws/install/more_interfaces:/home/azharanas17/dev_ws/install/first_interfaces:/home/azharanas17/dev_ws/install/cpp_parameters:/opt/ros/foxy LD_LIBRARY_PATH=/home/azharanas17/setunggal_ws/install/first_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/azharanas17/setunggal_ws/install/first_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/azharanas17/setunggal_ws/build/first_pubsub -- -j4 -l4

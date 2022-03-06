@@ -1,0 +1,9 @@
+CMake Error at CMakeLists.txt:49 (target_include_directories):
+  target_include_directories called with invalid arguments
+
+
+CMake Error at CMakeLists.txt:56 (install):
+  install TARGETS given target "loggersub" which does not exist.
+
+
+make: *** [Makefile:370: cmake_check_build_system] Error 1

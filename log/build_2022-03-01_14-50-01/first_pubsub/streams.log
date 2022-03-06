@@ -1,0 +1,108 @@
+[0.008s] Invoking command in '/home/azharanas17/setunggal_ws/build/first_pubsub': AMENT_PREFIX_PATH=/home/azharanas17/setunggal_ws/install/first_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/azharanas17/setunggal_ws/install/first_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/azharanas17/setunggal_ws/install/first_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/azharanas17/setunggal_ws/install/first_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/azharanas17/setunggal_ws/build/first_pubsub -- -j4 -l4
+[0.033s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.055s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.200s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.232s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.235s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.337s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.378s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.380s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.495s] -- Found first_interfaces: 0.0.0 (/home/azharanas17/setunggal_ws/install/first_interfaces/share/first_interfaces/cmake)
+[0.500s] -- Found first_pubsub: 0.0.0 (/home/azharanas17/setunggal_ws/install/first_pubsub/share/first_pubsub/cmake)
+[0.503s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.563s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.564s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.564s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/azharanas17/setunggal_ws/src/first_pubsub/include>
+[0.564s] -- Configured cppcheck exclude dirs and/or files: 
+[0.564s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.565s] -- Configured cpplint exclude dirs and/or files: 
+[0.565s] -- Added test 'lint_cmake' to check CMake code style
+[0.566s] -- Added test 'uncrustify' to check C / C++ code style
+[0.566s] -- Configured uncrustify additional arguments: 
+[0.567s] -- Added test 'xmllint' to check XML markup files
+[0.572s] -- Configuring done
+[0.581s] -- Generating done
+[0.582s] -- Build files have been written to: /home/azharanas17/setunggal_ws/build/first_pubsub
+[0.603s] [35m[1mScanning dependencies of target first_pubsub[0m
+[0.629s] [ 33%] [32mBuilding CXX object CMakeFiles/first_pubsub.dir/src/logger_sub_node.cpp.o[0m
+[0.630s] [ 33%] [32mBuilding CXX object CMakeFiles/first_pubsub.dir/src/logger_pub_node.cpp.o[0m
+[1.900s] [01m[K/home/azharanas17/setunggal_ws/src/first_pubsub/src/logger_pub_node.cpp:[m[K In constructor ‘[01m[KLoggerPub::LoggerPub()[m[K’:
+[1.901s] [01m[K/home/azharanas17/setunggal_ws/src/first_pubsub/src/logger_pub_node.cpp:13:25:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[KLoggerPub[m[K’ does not have any field named ‘[01m[Kcount_[m[K’
+[1.901s]    13 |   : Node("logger_pub"), [01;31m[Kcount_[m[K(0)
+[1.901s]       |                         [01;31m[K^~~~~~[m[K
+[1.911s] [01m[K/home/azharanas17/setunggal_ws/src/first_pubsub/src/logger_pub_node.cpp:[m[K In member function ‘[01m[Kvoid LoggerPub::timer_callback()[m[K’:
+[1.911s] [01m[K/home/azharanas17/setunggal_ws/src/first_pubsub/src/logger_pub_node.cpp:24:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct first_interfaces::msg::Log_<std::allocator<void> >[m[K’ has no member named ‘[01m[Kdata[m[K’
+[1.911s]    24 |     message.[01;31m[Kdata[m[K = msg->filename + " " + msg->message_log + " " + msg->level + " " + msg->time);
+[1.911s]       |             [01;31m[K^~~~[m[K
+[1.911s] [01m[K/home/azharanas17/setunggal_ws/src/first_pubsub/src/logger_pub_node.cpp:24:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kmsg[m[K’ was not declared in this scope
+[1.911s]    24 |     message.data = [01;31m[Kmsg[m[K->filename + " " + msg->message_log + " " + msg->level + " " + msg->time);
+[1.911s]       |                    [01;31m[K^~~[m[K
+[1.912s] [01m[K/home/azharanas17/setunggal_ws/src/first_pubsub/src/logger_pub_node.cpp:24:20:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+[1.912s] In file included from [01m[K/opt/ros/foxy/include/builtin_interfaces/msg/duration.hpp:7[m[K,
+[1.912s]                  from [01m[K/opt/ros/foxy/include/rclcpp/duration.hpp:20[m[K,
+[1.912s]                  from [01m[K/opt/ros/foxy/include/rclcpp/qos.hpp:20[m[K,
+[1.912s]                  from [01m[K/opt/ros/foxy/include/rclcpp/node_interfaces/node_graph_interface.hpp:31[m[K,
+[1.912s]                  from [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:34[m[K,
+[1.912s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23[m[K,
+[1.912s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[1.912s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[1.912s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[1.912s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[1.912s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[1.912s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[1.913s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[1.913s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[1.913s]                  from [01m[K/home/azharanas17/setunggal_ws/src/first_pubsub/src/logger_pub_node.cpp:2[m[K:
+[1.913s] [01m[K/opt/ros/foxy/include/builtin_interfaces/msg/detail/duration__struct.hpp:26:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kbuiltin_interfaces::msg[m[K’
+[1.913s]    26 | namespace [01;36m[Kmsg[m[K
+[1.913s]       |           [01;36m[K^~~[m[K
+[1.913s] In file included from [01m[K/opt/ros/foxy/include/statistics_msgs/msg/detail/metrics_message__struct.hpp:22[m[K,
+[1.913s]                  from [01m[K/opt/ros/foxy/include/statistics_msgs/msg/metrics_message.hpp:7[m[K,
+[1.913s]                  from [01m[K/opt/ros/foxy/include/libstatistics_collector/collector/generate_statistics_message.hpp:21[m[K,
+[1.913s]                  from [01m[K/opt/ros/foxy/include/rclcpp/topic_statistics/subscription_topic_statistics.hpp:23[m[K,
+[1.913s]                  from [01m[K/opt/ros/foxy/include/rclcpp/subscription.hpp:50[m[K,
+[1.913s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:25[m[K,
+[1.913s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[1.913s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[1.914s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[1.914s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[1.914s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[1.914s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[1.914s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[1.914s]                  from [01m[K/home/azharanas17/setunggal_ws/src/first_pubsub/src/logger_pub_node.cpp:2[m[K:
+[1.914s] [01m[K/opt/ros/foxy/include/statistics_msgs/msg/detail/statistic_data_point__struct.hpp:26:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstatistics_msgs::msg[m[K’
+[1.914s]    26 | namespace [01;36m[Kmsg[m[K
+[1.914s]       |           [01;36m[K^~~[m[K
+[1.914s] In file included from [01m[K/opt/ros/foxy/include/rcl_interfaces/msg/list_parameters_result.hpp:7[m[K,
+[1.915s]                  from [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:34[m[K,
+[1.915s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[1.915s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:22[m[K,
+[1.915s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[1.915s]                  from [01m[K/home/azharanas17/setunggal_ws/src/first_pubsub/src/logger_pub_node.cpp:2[m[K:
+[1.915s] [01m[K/opt/ros/foxy/include/rcl_interfaces/msg/detail/list_parameters_result__struct.hpp:26:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Krcl_interfaces::msg[m[K’
+[1.915s]    26 | namespace [01;36m[Kmsg[m[K
+[1.915s]       |           [01;36m[K^~~[m[K
+[1.915s] In file included from [01m[K/home/azharanas17/setunggal_ws/install/first_interfaces/include/first_interfaces/msg/log.hpp:7[m[K,
+[1.915s]                  from [01m[K/home/azharanas17/setunggal_ws/src/first_pubsub/src/logger_pub_node.cpp:3[m[K:
+[1.916s] [01m[K/home/azharanas17/setunggal_ws/install/first_interfaces/include/first_interfaces/msg/detail/log__struct.hpp:26:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kfirst_interfaces::msg[m[K’
+[1.916s]    26 | namespace [01;36m[Kmsg[m[K
+[1.916s]       |           [01;36m[K^~~[m[K
+[1.916s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:40[m[K,
+[1.916s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23[m[K,
+[1.916s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[1.916s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[1.916s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[1.916s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[1.916s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[1.917s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[1.917s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[1.917s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[1.917s]                  from [01m[K/home/azharanas17/setunggal_ws/src/first_pubsub/src/logger_pub_node.cpp:2[m[K:
+[1.917s] [01m[K/home/azharanas17/setunggal_ws/src/first_pubsub/src/logger_pub_node.cpp:25:65:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct first_interfaces::msg::Log_<std::allocator<void> >[m[K’ has no member named ‘[01m[Kdata[m[K’
+[1.917s]    25 |     RCLCPP_INFO(this->get_logger(), "Publishing: '%s'", message.[01;31m[Kdata[m[K.c_str());
+[1.917s]       |                                                                 [01;31m[K^~~~[m[K
+[2.817s] make[2]: *** [CMakeFiles/first_pubsub.dir/build.make:63: CMakeFiles/first_pubsub.dir/src/logger_pub_node.cpp.o] Error 1
+[2.817s] make[2]: *** Waiting for unfinished jobs....
+[4.812s] make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/first_pubsub.dir/all] Error 2
+[4.812s] make: *** [Makefile:141: all] Error 2
+[4.817s] Invoked command in '/home/azharanas17/setunggal_ws/build/first_pubsub' returned '2': AMENT_PREFIX_PATH=/home/azharanas17/setunggal_ws/install/first_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/azharanas17/setunggal_ws/install/first_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/azharanas17/setunggal_ws/install/first_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/azharanas17/setunggal_ws/install/first_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/azharanas17/setunggal_ws/build/first_pubsub -- -j4 -l4

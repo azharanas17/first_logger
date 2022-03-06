@@ -1,0 +1,10 @@
+CMake Error at CMakeLists.txt:53 (target_include_directories):
+  Cannot specify include directories for target "loggersub" which is not
+  built by this project.
+
+
+CMake Error at CMakeLists.txt:61 (install):
+  install TARGETS given target "loggersub" which does not exist.
+
+
+make: *** [Makefile:370: cmake_check_build_system] Error 1

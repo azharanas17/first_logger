@@ -1,0 +1,33 @@
+[01m[K/home/azharanas17/setunggal_ws/src/first_pubsub/src/logger_sub_node.cpp:[m[K In constructor ‘[01m[KLoggerSub::LoggerSub()[m[K’:
+[01m[K/home/azharanas17/setunggal_ws/src/first_pubsub/src/logger_sub_node.cpp:18:29:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KLogger::write_logger()[m[K’
+   18 |         logger.write_logger([01;31m[K)[m[K;
+      |                             [01;31m[K^[m[K
+[01m[K/home/azharanas17/setunggal_ws/src/first_pubsub/src/logger_pub_node.cpp:[m[K In member function ‘[01m[Kvoid LoggerPub::timer_callback()[m[K’:
+[01m[K/home/azharanas17/setunggal_ws/src/first_pubsub/src/logger_pub_node.cpp:22:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct first_interfaces::msg::Log_<std::allocator<void> >[m[K’ has no member named ‘[01m[Knum[m[K’
+   22 |     message.[01;31m[Knum[m[K = this->count_++;                                        // CHANGE
+      |             [01;31m[K^~~[m[K
+In file included from [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+                 from [01m[K/home/azharanas17/setunggal_ws/src/first_pubsub/src/logger_pub_node.cpp:4[m[K:
+[01m[K/home/azharanas17/setunggal_ws/src/first_pubsub/src/logger_pub_node.cpp:23:65:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct first_interfaces::msg::Log_<std::allocator<void> >[m[K’ has no member named ‘[01m[Knum[m[K’
+   23 |  RCLCPP_INFO(this->get_logger(), "Publishing: '%d'", message.[01;31m[Knum[m[K);    // CHANGE
+      |                                                              [01;31m[K^~~[m[K
+
+In file included from [01m[K/home/azharanas17/setunggal_ws/src/first_pubsub/src/logger_sub_node.cpp:4[m[K:
+[01m[K/home/azharanas17/setunggal_ws/src/first_pubsub/include/first_pubsub/logger.hpp:10:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid Logger::write_logger(first_interfaces::msg::Log_<std::allocator<void> >::SharedPtr) const[m[K’
+   10 |         void [01;36m[Kwrite_logger[m[K(const first_interfaces::msg::Log::SharedPtr msg) const;
+      |              [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/home/azharanas17/setunggal_ws/src/first_pubsub/include/first_pubsub/logger.hpp:10:14:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+make[2]: *** [CMakeFiles/first_pubsub.dir/build.make:63: CMakeFiles/first_pubsub.dir/src/logger_pub_node.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+make[2]: *** [CMakeFiles/first_pubsub.dir/build.make:76: CMakeFiles/first_pubsub.dir/src/logger_sub_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/first_pubsub.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

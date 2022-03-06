@@ -1,0 +1,7 @@
+[01m[K/home/azharanas17/setunggal_ws/src/first_pubsub/src/logger_sub_node.cpp:[m[K In member function ‘[01m[Kvoid LoggerSub::filter_log(first_interfaces::msg::Log_<std::allocator<void> >::SharedPtr) const[m[K’:
+[01m[K/home/azharanas17/setunggal_ws/src/first_pubsub/src/logger_sub_node.cpp:41:13:[m[K [01;31m[Kerror: [m[K‘[01m[Klevel_log[m[K’ was not declared in this scope
+   41 |         if ([01;31m[Klevel_log[m[K >= 1)
+      |             [01;31m[K^~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/first_pubsub.dir/build.make:76: CMakeFiles/first_pubsub.dir/src/logger_sub_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:136: CMakeFiles/first_pubsub.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

@@ -168,6 +168,32 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named loggersub
+
+# Build rule for target.
+loggersub: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 loggersub
+.PHONY : loggersub
+
+# fast build rule for target.
+loggersub/fast:
+	$(MAKE) -f CMakeFiles/loggersub.dir/build.make CMakeFiles/loggersub.dir/build
+.PHONY : loggersub/fast
+
+#=============================================================================
+# Target rules for targets named loggerpub
+
+# Build rule for target.
+loggerpub: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 loggerpub
+.PHONY : loggerpub
+
+# fast build rule for target.
+loggerpub/fast:
+	$(MAKE) -f CMakeFiles/loggerpub.dir/build.make CMakeFiles/loggerpub.dir/build
+.PHONY : loggerpub/fast
+
+#=============================================================================
 # Target rules for targets named first_pubsub
 
 # Build rule for target.
@@ -206,59 +232,113 @@ uninstall/fast:
 	$(MAKE) -f CMakeFiles/uninstall.dir/build.make CMakeFiles/uninstall.dir/build
 .PHONY : uninstall/fast
 
-src/logger.o: src/logger.cpp.o
+src/logger_mainpub_node.o: src/logger_mainpub_node.cpp.o
 
-.PHONY : src/logger.o
-
-# target to build an object file
-src/logger.cpp.o:
-	$(MAKE) -f CMakeFiles/first_pubsub.dir/build.make CMakeFiles/first_pubsub.dir/src/logger.cpp.o
-.PHONY : src/logger.cpp.o
-
-src/logger.i: src/logger.cpp.i
-
-.PHONY : src/logger.i
-
-# target to preprocess a source file
-src/logger.cpp.i:
-	$(MAKE) -f CMakeFiles/first_pubsub.dir/build.make CMakeFiles/first_pubsub.dir/src/logger.cpp.i
-.PHONY : src/logger.cpp.i
-
-src/logger.s: src/logger.cpp.s
-
-.PHONY : src/logger.s
-
-# target to generate assembly for a file
-src/logger.cpp.s:
-	$(MAKE) -f CMakeFiles/first_pubsub.dir/build.make CMakeFiles/first_pubsub.dir/src/logger.cpp.s
-.PHONY : src/logger.cpp.s
-
-src/logger_node.o: src/logger_node.cpp.o
-
-.PHONY : src/logger_node.o
+.PHONY : src/logger_mainpub_node.o
 
 # target to build an object file
-src/logger_node.cpp.o:
-	$(MAKE) -f CMakeFiles/first_pubsub.dir/build.make CMakeFiles/first_pubsub.dir/src/logger_node.cpp.o
-.PHONY : src/logger_node.cpp.o
+src/logger_mainpub_node.cpp.o:
+	$(MAKE) -f CMakeFiles/loggerpub.dir/build.make CMakeFiles/loggerpub.dir/src/logger_mainpub_node.cpp.o
+.PHONY : src/logger_mainpub_node.cpp.o
 
-src/logger_node.i: src/logger_node.cpp.i
+src/logger_mainpub_node.i: src/logger_mainpub_node.cpp.i
 
-.PHONY : src/logger_node.i
+.PHONY : src/logger_mainpub_node.i
 
 # target to preprocess a source file
-src/logger_node.cpp.i:
-	$(MAKE) -f CMakeFiles/first_pubsub.dir/build.make CMakeFiles/first_pubsub.dir/src/logger_node.cpp.i
-.PHONY : src/logger_node.cpp.i
+src/logger_mainpub_node.cpp.i:
+	$(MAKE) -f CMakeFiles/loggerpub.dir/build.make CMakeFiles/loggerpub.dir/src/logger_mainpub_node.cpp.i
+.PHONY : src/logger_mainpub_node.cpp.i
 
-src/logger_node.s: src/logger_node.cpp.s
+src/logger_mainpub_node.s: src/logger_mainpub_node.cpp.s
 
-.PHONY : src/logger_node.s
+.PHONY : src/logger_mainpub_node.s
 
 # target to generate assembly for a file
-src/logger_node.cpp.s:
-	$(MAKE) -f CMakeFiles/first_pubsub.dir/build.make CMakeFiles/first_pubsub.dir/src/logger_node.cpp.s
-.PHONY : src/logger_node.cpp.s
+src/logger_mainpub_node.cpp.s:
+	$(MAKE) -f CMakeFiles/loggerpub.dir/build.make CMakeFiles/loggerpub.dir/src/logger_mainpub_node.cpp.s
+.PHONY : src/logger_mainpub_node.cpp.s
+
+src/logger_mainsub_node.o: src/logger_mainsub_node.cpp.o
+
+.PHONY : src/logger_mainsub_node.o
+
+# target to build an object file
+src/logger_mainsub_node.cpp.o:
+	$(MAKE) -f CMakeFiles/loggersub.dir/build.make CMakeFiles/loggersub.dir/src/logger_mainsub_node.cpp.o
+.PHONY : src/logger_mainsub_node.cpp.o
+
+src/logger_mainsub_node.i: src/logger_mainsub_node.cpp.i
+
+.PHONY : src/logger_mainsub_node.i
+
+# target to preprocess a source file
+src/logger_mainsub_node.cpp.i:
+	$(MAKE) -f CMakeFiles/loggersub.dir/build.make CMakeFiles/loggersub.dir/src/logger_mainsub_node.cpp.i
+.PHONY : src/logger_mainsub_node.cpp.i
+
+src/logger_mainsub_node.s: src/logger_mainsub_node.cpp.s
+
+.PHONY : src/logger_mainsub_node.s
+
+# target to generate assembly for a file
+src/logger_mainsub_node.cpp.s:
+	$(MAKE) -f CMakeFiles/loggersub.dir/build.make CMakeFiles/loggersub.dir/src/logger_mainsub_node.cpp.s
+.PHONY : src/logger_mainsub_node.cpp.s
+
+src/logger_pub_node.o: src/logger_pub_node.cpp.o
+
+.PHONY : src/logger_pub_node.o
+
+# target to build an object file
+src/logger_pub_node.cpp.o:
+	$(MAKE) -f CMakeFiles/first_pubsub.dir/build.make CMakeFiles/first_pubsub.dir/src/logger_pub_node.cpp.o
+.PHONY : src/logger_pub_node.cpp.o
+
+src/logger_pub_node.i: src/logger_pub_node.cpp.i
+
+.PHONY : src/logger_pub_node.i
+
+# target to preprocess a source file
+src/logger_pub_node.cpp.i:
+	$(MAKE) -f CMakeFiles/first_pubsub.dir/build.make CMakeFiles/first_pubsub.dir/src/logger_pub_node.cpp.i
+.PHONY : src/logger_pub_node.cpp.i
+
+src/logger_pub_node.s: src/logger_pub_node.cpp.s
+
+.PHONY : src/logger_pub_node.s
+
+# target to generate assembly for a file
+src/logger_pub_node.cpp.s:
+	$(MAKE) -f CMakeFiles/first_pubsub.dir/build.make CMakeFiles/first_pubsub.dir/src/logger_pub_node.cpp.s
+.PHONY : src/logger_pub_node.cpp.s
+
+src/logger_sub_node.o: src/logger_sub_node.cpp.o
+
+.PHONY : src/logger_sub_node.o
+
+# target to build an object file
+src/logger_sub_node.cpp.o:
+	$(MAKE) -f CMakeFiles/first_pubsub.dir/build.make CMakeFiles/first_pubsub.dir/src/logger_sub_node.cpp.o
+.PHONY : src/logger_sub_node.cpp.o
+
+src/logger_sub_node.i: src/logger_sub_node.cpp.i
+
+.PHONY : src/logger_sub_node.i
+
+# target to preprocess a source file
+src/logger_sub_node.cpp.i:
+	$(MAKE) -f CMakeFiles/first_pubsub.dir/build.make CMakeFiles/first_pubsub.dir/src/logger_sub_node.cpp.i
+.PHONY : src/logger_sub_node.cpp.i
+
+src/logger_sub_node.s: src/logger_sub_node.cpp.s
+
+.PHONY : src/logger_sub_node.s
+
+# target to generate assembly for a file
+src/logger_sub_node.cpp.s:
+	$(MAKE) -f CMakeFiles/first_pubsub.dir/build.make CMakeFiles/first_pubsub.dir/src/logger_sub_node.cpp.s
+.PHONY : src/logger_sub_node.cpp.s
 
 # Help Target
 help:
@@ -271,17 +351,25 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... test"
+	@echo "... loggersub"
+	@echo "... loggerpub"
 	@echo "... install/strip"
 	@echo "... first_pubsub"
 	@echo "... install/local"
 	@echo "... first_pubsub_uninstall"
 	@echo "... uninstall"
-	@echo "... src/logger.o"
-	@echo "... src/logger.i"
-	@echo "... src/logger.s"
-	@echo "... src/logger_node.o"
-	@echo "... src/logger_node.i"
-	@echo "... src/logger_node.s"
+	@echo "... src/logger_mainpub_node.o"
+	@echo "... src/logger_mainpub_node.i"
+	@echo "... src/logger_mainpub_node.s"
+	@echo "... src/logger_mainsub_node.o"
+	@echo "... src/logger_mainsub_node.i"
+	@echo "... src/logger_mainsub_node.s"
+	@echo "... src/logger_pub_node.o"
+	@echo "... src/logger_pub_node.i"
+	@echo "... src/logger_pub_node.s"
+	@echo "... src/logger_sub_node.o"
+	@echo "... src/logger_sub_node.i"
+	@echo "... src/logger_sub_node.s"
 .PHONY : help
 
 

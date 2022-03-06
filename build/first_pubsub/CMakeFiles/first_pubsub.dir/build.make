@@ -57,42 +57,42 @@ include CMakeFiles/first_pubsub.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/first_pubsub.dir/flags.make
 
-CMakeFiles/first_pubsub.dir/src/logger_node.cpp.o: CMakeFiles/first_pubsub.dir/flags.make
-CMakeFiles/first_pubsub.dir/src/logger_node.cpp.o: /home/azharanas17/setunggal_ws/src/first_pubsub/src/logger_node.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/azharanas17/setunggal_ws/build/first_pubsub/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/first_pubsub.dir/src/logger_node.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/first_pubsub.dir/src/logger_node.cpp.o -c /home/azharanas17/setunggal_ws/src/first_pubsub/src/logger_node.cpp
+CMakeFiles/first_pubsub.dir/src/logger_pub_node.cpp.o: CMakeFiles/first_pubsub.dir/flags.make
+CMakeFiles/first_pubsub.dir/src/logger_pub_node.cpp.o: /home/azharanas17/setunggal_ws/src/first_pubsub/src/logger_pub_node.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/azharanas17/setunggal_ws/build/first_pubsub/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/first_pubsub.dir/src/logger_pub_node.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/first_pubsub.dir/src/logger_pub_node.cpp.o -c /home/azharanas17/setunggal_ws/src/first_pubsub/src/logger_pub_node.cpp
 
-CMakeFiles/first_pubsub.dir/src/logger_node.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/first_pubsub.dir/src/logger_node.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/azharanas17/setunggal_ws/src/first_pubsub/src/logger_node.cpp > CMakeFiles/first_pubsub.dir/src/logger_node.cpp.i
+CMakeFiles/first_pubsub.dir/src/logger_pub_node.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/first_pubsub.dir/src/logger_pub_node.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/azharanas17/setunggal_ws/src/first_pubsub/src/logger_pub_node.cpp > CMakeFiles/first_pubsub.dir/src/logger_pub_node.cpp.i
 
-CMakeFiles/first_pubsub.dir/src/logger_node.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/first_pubsub.dir/src/logger_node.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/azharanas17/setunggal_ws/src/first_pubsub/src/logger_node.cpp -o CMakeFiles/first_pubsub.dir/src/logger_node.cpp.s
+CMakeFiles/first_pubsub.dir/src/logger_pub_node.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/first_pubsub.dir/src/logger_pub_node.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/azharanas17/setunggal_ws/src/first_pubsub/src/logger_pub_node.cpp -o CMakeFiles/first_pubsub.dir/src/logger_pub_node.cpp.s
 
-CMakeFiles/first_pubsub.dir/src/logger.cpp.o: CMakeFiles/first_pubsub.dir/flags.make
-CMakeFiles/first_pubsub.dir/src/logger.cpp.o: /home/azharanas17/setunggal_ws/src/first_pubsub/src/logger.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/azharanas17/setunggal_ws/build/first_pubsub/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/first_pubsub.dir/src/logger.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/first_pubsub.dir/src/logger.cpp.o -c /home/azharanas17/setunggal_ws/src/first_pubsub/src/logger.cpp
+CMakeFiles/first_pubsub.dir/src/logger_sub_node.cpp.o: CMakeFiles/first_pubsub.dir/flags.make
+CMakeFiles/first_pubsub.dir/src/logger_sub_node.cpp.o: /home/azharanas17/setunggal_ws/src/first_pubsub/src/logger_sub_node.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/azharanas17/setunggal_ws/build/first_pubsub/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/first_pubsub.dir/src/logger_sub_node.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/first_pubsub.dir/src/logger_sub_node.cpp.o -c /home/azharanas17/setunggal_ws/src/first_pubsub/src/logger_sub_node.cpp
 
-CMakeFiles/first_pubsub.dir/src/logger.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/first_pubsub.dir/src/logger.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/azharanas17/setunggal_ws/src/first_pubsub/src/logger.cpp > CMakeFiles/first_pubsub.dir/src/logger.cpp.i
+CMakeFiles/first_pubsub.dir/src/logger_sub_node.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/first_pubsub.dir/src/logger_sub_node.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/azharanas17/setunggal_ws/src/first_pubsub/src/logger_sub_node.cpp > CMakeFiles/first_pubsub.dir/src/logger_sub_node.cpp.i
 
-CMakeFiles/first_pubsub.dir/src/logger.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/first_pubsub.dir/src/logger.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/azharanas17/setunggal_ws/src/first_pubsub/src/logger.cpp -o CMakeFiles/first_pubsub.dir/src/logger.cpp.s
+CMakeFiles/first_pubsub.dir/src/logger_sub_node.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/first_pubsub.dir/src/logger_sub_node.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/azharanas17/setunggal_ws/src/first_pubsub/src/logger_sub_node.cpp -o CMakeFiles/first_pubsub.dir/src/logger_sub_node.cpp.s
 
 # Object files for target first_pubsub
 first_pubsub_OBJECTS = \
-"CMakeFiles/first_pubsub.dir/src/logger_node.cpp.o" \
-"CMakeFiles/first_pubsub.dir/src/logger.cpp.o"
+"CMakeFiles/first_pubsub.dir/src/logger_pub_node.cpp.o" \
+"CMakeFiles/first_pubsub.dir/src/logger_sub_node.cpp.o"
 
 # External object files for target first_pubsub
 first_pubsub_EXTERNAL_OBJECTS =
 
-libfirst_pubsub.so: CMakeFiles/first_pubsub.dir/src/logger_node.cpp.o
-libfirst_pubsub.so: CMakeFiles/first_pubsub.dir/src/logger.cpp.o
+libfirst_pubsub.so: CMakeFiles/first_pubsub.dir/src/logger_pub_node.cpp.o
+libfirst_pubsub.so: CMakeFiles/first_pubsub.dir/src/logger_sub_node.cpp.o
 libfirst_pubsub.so: CMakeFiles/first_pubsub.dir/build.make
 libfirst_pubsub.so: /opt/ros/foxy/lib/librclcpp.so
 libfirst_pubsub.so: /home/azharanas17/setunggal_ws/install/first_interfaces/lib/libfirst_interfaces__rosidl_typesupport_introspection_c.so

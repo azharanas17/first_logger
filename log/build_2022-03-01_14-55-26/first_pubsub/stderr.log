@@ -1,0 +1,13 @@
+[01m[K/home/azharanas17/setunggal_ws/src/first_pubsub/src/logger_pub_node.cpp:21:8:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kvoid LoggerPub::timer_callback(first_interfaces::msg::Log_<std::allocator<void> >::SharedPtr)[m[K’
+   21 |   void [01;31m[KLoggerPub[m[K::timer_callback(const first_interfaces::msg::Log::SharedPtr msg)
+      |        [01;31m[K^~~~~~~~~[m[K
+In file included from [01m[K/home/azharanas17/setunggal_ws/src/first_pubsub/src/logger_pub_node.cpp:4[m[K:
+[01m[K/home/azharanas17/setunggal_ws/src/first_pubsub/include/first_pubsub/logger_pub_node.hpp:18:8:[m[K [01;36m[Knote: [m[Kcandidate is: ‘[01m[Kvoid LoggerPub::timer_callback()[m[K’
+   18 |   void [01;36m[Ktimer_callback[m[K();
+      |        [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/azharanas17/setunggal_ws/src/first_pubsub/include/first_pubsub/logger_pub_node.hpp:12:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass LoggerPub[m[K’ defined here
+   12 | class [01;36m[KLoggerPub[m[K : public rclcpp::Node
+      |       [01;36m[K^~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/first_pubsub.dir/build.make:63: CMakeFiles/first_pubsub.dir/src/logger_pub_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/first_pubsub.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

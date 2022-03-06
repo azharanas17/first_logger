@@ -1,0 +1,11 @@
+[35m[1mScanning dependencies of target first_pubsub[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/first_pubsub.dir/src/logger_node.cpp.o[0m
+[01m[K/home/azharanas17/setunggal_ws/src/first_pubsub/src/logger_node.cpp:33:79:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[Kwrite_logger[m[K’ with no type [[01;31m[K-fpermissive[m[K]
+   33 |     LoggerNode::write_logger(const first_interfaces::msg::Log::SharedPtr msg) [01;31m[Kconst[m[K;
+      |                                                                               [01;31m[K^~~~~[m[K
+[01m[K/home/azharanas17/setunggal_ws/src/first_pubsub/src/logger_node.cpp:33:5:[m[K [01;31m[Kerror: [m[Kextra qualification ‘[01m[KLoggerNode::[m[K’ on member ‘[01m[Kwrite_logger[m[K’ [[01;31m[K-fpermissive[m[K]
+   33 |     [01;31m[KLoggerNode[m[K::write_logger(const first_interfaces::msg::Log::SharedPtr msg) const;
+      |     [01;31m[K^~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/first_pubsub.dir/build.make:63: CMakeFiles/first_pubsub.dir/src/logger_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/first_pubsub.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

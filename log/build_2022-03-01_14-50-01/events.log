@@ -1,0 +1,287 @@
+[0.000000] (-) TimerEvent: {}
+[0.000204] (-) JobUnselected: {'identifier': 'turtlesim'}
+[0.000264] (first_interfaces) JobQueued: {'identifier': 'first_interfaces', 'dependencies': OrderedDict()}
+[0.000280] (first_pubsub) JobQueued: {'identifier': 'first_pubsub', 'dependencies': OrderedDict([('first_interfaces', '/home/azharanas17/setunggal_ws/install/first_interfaces')])}
+[0.000422] (first_interfaces) JobStarted: {'identifier': 'first_interfaces'}
+[0.011413] (first_interfaces) JobProgress: {'identifier': 'first_interfaces', 'progress': 'cmake'}
+[0.012142] (first_interfaces) JobProgress: {'identifier': 'first_interfaces', 'progress': 'build'}
+[0.012623] (first_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/azharanas17/setunggal_ws/build/first_interfaces', '--', '-j4', '-l4'], 'cwd': '/home/azharanas17/setunggal_ws/build/first_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'azharanas17'), ('LC_TIME', 'id_ID.UTF-8'), ('SSH_AGENT_PID', '1580'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/azharanas17'), ('OLDPWD', '/home/azharanas17/setunggal_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'id_ID.UTF-8'), ('MANAGERPID', '1400'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=fa339922a5d3f30758a22671621e2abe'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/foxy/'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'azharanas17'), ('JOURNAL_STREAM', '8:45752'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'azharanas17'), ('TERM', 'xterm-256color'), ('COPPELIASIM_ROOT_DIR', '/home/azharanas17/CoppeliaSim_Edu_V4_1_0_Ubuntu16_04'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/NAZSEVENTEEN:@/tmp/.ICE-unix/1618,unix/NAZSEVENTEEN:/tmp/.ICE-unix/1618'), ('INVOCATION_ID', '73a15fed52894591a5e589543ad915c4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/3b829e1f_4ad5_40bf_85a0_c1d6b82d01ba'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.119'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'id_ID.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/azharanas17/setunggal_ws/build/first_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=fa339922a5d3f30758a22671621e2abe'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.094551] (first_interfaces) StdoutLine: {'line': b'[  9%] Built target first_interfaces__rosidl_generator_c\n'}
+[0.099848] (-) TimerEvent: {}
+[0.104005] (first_interfaces) StdoutLine: {'line': b'[ 12%] Built target first_interfaces__cpp\n'}
+[0.129056] (first_interfaces) StdoutLine: {'line': b'[ 32%] Built target first_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[0.129322] (first_interfaces) StdoutLine: {'line': b'[ 32%] Built target first_interfaces__rosidl_typesupport_c\n'}
+[0.129403] (first_interfaces) StdoutLine: {'line': b'[ 41%] Built target first_interfaces__rosidl_typesupport_introspection_c\n'}
+[0.138085] (first_interfaces) StdoutLine: {'line': b'[ 51%] Built target first_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[0.146963] (first_interfaces) StdoutLine: {'line': b'[ 61%] Built target first_interfaces__rosidl_typesupport_cpp\n'}
+[0.157963] (first_interfaces) StdoutLine: {'line': b'[ 70%] Built target first_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[0.173974] (first_interfaces) StdoutLine: {'line': b'[ 70%] Built target first_interfaces\n'}
+[0.190000] (first_interfaces) StdoutLine: {'line': b'[ 74%] Built target first_interfaces__py\n'}
+[0.199948] (-) TimerEvent: {}
+[0.218562] (first_interfaces) StdoutLine: {'line': b'[ 80%] Built target first_interfaces__python\n'}
+[0.245775] (first_interfaces) StdoutLine: {'line': b'[ 87%] Built target first_interfaces__rosidl_typesupport_c__pyext\n'}
+[0.246590] (first_interfaces) StdoutLine: {'line': b'[ 93%] Built target first_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.247529] (first_interfaces) StdoutLine: {'line': b'[100%] Built target first_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[0.256730] (first_interfaces) CommandEnded: {'returncode': 0}
+[0.287510] (first_interfaces) JobProgress: {'identifier': 'first_interfaces', 'progress': 'install'}
+[0.295942] (first_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/azharanas17/setunggal_ws/build/first_interfaces'], 'cwd': '/home/azharanas17/setunggal_ws/build/first_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'azharanas17'), ('LC_TIME', 'id_ID.UTF-8'), ('SSH_AGENT_PID', '1580'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/azharanas17'), ('OLDPWD', '/home/azharanas17/setunggal_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'id_ID.UTF-8'), ('MANAGERPID', '1400'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=fa339922a5d3f30758a22671621e2abe'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/foxy/'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'azharanas17'), ('JOURNAL_STREAM', '8:45752'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'azharanas17'), ('TERM', 'xterm-256color'), ('COPPELIASIM_ROOT_DIR', '/home/azharanas17/CoppeliaSim_Edu_V4_1_0_Ubuntu16_04'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/NAZSEVENTEEN:@/tmp/.ICE-unix/1618,unix/NAZSEVENTEEN:/tmp/.ICE-unix/1618'), ('INVOCATION_ID', '73a15fed52894591a5e589543ad915c4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/3b829e1f_4ad5_40bf_85a0_c1d6b82d01ba'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.119'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'id_ID.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/azharanas17/setunggal_ws/build/first_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=fa339922a5d3f30758a22671621e2abe'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.300033] (-) TimerEvent: {}
+[0.304914] (first_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.305070] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/azharanas17/setunggal_ws/install/first_interfaces/share/ament_index/resource_index/rosidl_interfaces/first_interfaces\n'}
+[0.305422] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/azharanas17/setunggal_ws/install/first_interfaces/include/first_interfaces\n'}
+[0.305593] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/azharanas17/setunggal_ws/install/first_interfaces/include/first_interfaces/msg\n'}
+[0.305644] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/azharanas17/setunggal_ws/install/first_interfaces/include/first_interfaces/msg/log.h\n'}
+[0.305687] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/azharanas17/setunggal_ws/install/first_interfaces/include/first_interfaces/msg/detail\n'}
+[0.305731] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/azharanas17/setunggal_ws/install/first_interfaces/include/first_interfaces/msg/detail/log__functions.h\n'}
+[0.305773] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/azharanas17/setunggal_ws/install/first_interfaces/include/first_interfaces/msg/detail/log__struct.h\n'}
+[0.305832] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/azharanas17/setunggal_ws/install/first_interfaces/include/first_interfaces/msg/detail/log__functions.c\n'}
+[0.305875] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/azharanas17/setunggal_ws/install/first_interfaces/include/first_interfaces/msg/detail/log__type_support.h\n'}
+[0.305956] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/azharanas17/setunggal_ws/install/first_interfaces/include/first_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[0.306008] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/azharanas17/setunggal_ws/install/first_interfaces/share/first_interfaces/environment/library_path.sh\n'}
+[0.306058] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/azharanas17/setunggal_ws/install/first_interfaces/share/first_interfaces/environment/library_path.dsv\n'}
+[0.306111] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/azharanas17/setunggal_ws/install/first_interfaces/lib/libfirst_interfaces__rosidl_generator_c.so\n'}
+[0.306390] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/azharanas17/setunggal_ws/install/first_interfaces/include/first_interfaces\n'}
+[0.306469] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/azharanas17/setunggal_ws/install/first_interfaces/include/first_interfaces/msg\n'}
+[0.306545] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/azharanas17/setunggal_ws/install/first_interfaces/include/first_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[0.306587] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/azharanas17/setunggal_ws/install/first_interfaces/include/first_interfaces/msg/detail\n'}
+[0.306631] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/azharanas17/setunggal_ws/install/first_interfaces/include/first_interfaces/msg/detail/log__rosidl_typesupport_fastrtps_c.h\n'}
+[0.306694] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/azharanas17/setunggal_ws/install/first_interfaces/lib/libfirst_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[0.306758] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/azharanas17/setunggal_ws/install/first_interfaces/include/first_interfaces\n'}
+[0.306837] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/azharanas17/setunggal_ws/install/first_interfaces/include/first_interfaces/msg\n'}
+[0.306881] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/azharanas17/setunggal_ws/install/first_interfaces/include/first_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[0.306924] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/azharanas17/setunggal_ws/install/first_interfaces/include/first_interfaces/msg/detail\n'}
+[0.306966] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/azharanas17/setunggal_ws/install/first_interfaces/include/first_interfaces/msg/detail/dds_fastrtps\n'}
+[0.307038] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/azharanas17/setunggal_ws/install/first_interfaces/include/first_interfaces/msg/detail/log__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.307081] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/azharanas17/setunggal_ws/install/first_interfaces/lib/libfirst_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[0.307147] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/azharanas17/setunggal_ws/install/first_interfaces/include/first_interfaces\n'}
+[0.307232] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/azharanas17/setunggal_ws/install/first_interfaces/include/first_interfaces/msg\n'}
+[0.307270] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/azharanas17/setunggal_ws/install/first_interfaces/include/first_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[0.307306] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/azharanas17/setunggal_ws/install/first_interfaces/include/first_interfaces/msg/detail\n'}
+[0.307359] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/azharanas17/setunggal_ws/install/first_interfaces/include/first_interfaces/msg/detail/log__type_support.c\n'}
+[0.307423] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/azharanas17/setunggal_ws/install/first_interfaces/include/first_interfaces/msg/detail/log__rosidl_typesupport_introspection_c.h\n'}
+[0.307472] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/azharanas17/setunggal_ws/install/first_interfaces/lib/libfirst_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[0.308036] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/azharanas17/setunggal_ws/install/first_interfaces/lib/libfirst_interfaces__rosidl_typesupport_c.so\n'}
+[0.308090] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/azharanas17/setunggal_ws/install/first_interfaces/include/first_interfaces\n'}
+[0.308130] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/azharanas17/setunggal_ws/install/first_interfaces/include/first_interfaces/msg\n'}
+[0.308170] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/azharanas17/setunggal_ws/install/first_interfaces/include/first_interfaces/msg/log.hpp\n'}
+[0.308210] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/azharanas17/setunggal_ws/install/first_interfaces/include/first_interfaces/msg/detail\n'}
+[0.308252] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/azharanas17/setunggal_ws/install/first_interfaces/include/first_interfaces/msg/detail/log__builder.hpp\n'}
+[0.308326] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/azharanas17/setunggal_ws/install/first_interfaces/include/first_interfaces/msg/detail/log__traits.hpp\n'}
+[0.308372] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/azharanas17/setunggal_ws/install/first_interfaces/include/first_interfaces/msg/detail/log__struct.hpp\n'}
+[0.308446] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/azharanas17/setunggal_ws/install/first_interfaces/include/first_interfaces\n'}
+[0.308504] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/azharanas17/setunggal_ws/install/first_interfaces/include/first_interfaces/msg\n'}
+[0.308545] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/azharanas17/setunggal_ws/install/first_interfaces/include/first_interfaces/msg/detail\n'}
+[0.308585] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/azharanas17/setunggal_ws/install/first_interfaces/include/first_interfaces/msg/detail/log__type_support.cpp\n'}
+[0.308623] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/azharanas17/setunggal_ws/install/first_interfaces/include/first_interfaces/msg/detail/log__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.308662] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/azharanas17/setunggal_ws/install/first_interfaces/lib/libfirst_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[0.308701] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/azharanas17/setunggal_ws/install/first_interfaces/lib/libfirst_interfaces__rosidl_typesupport_cpp.so\n'}
+[0.308739] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/azharanas17/setunggal_ws/install/first_interfaces/share/first_interfaces/environment/pythonpath.sh\n'}
+[0.308784] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/azharanas17/setunggal_ws/install/first_interfaces/share/first_interfaces/environment/pythonpath.dsv\n'}
+[0.308822] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/azharanas17/setunggal_ws/install/first_interfaces/lib/python3.8/site-packages/first_interfaces/__init__.py\n'}
+[0.339596] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/azharanas17/setunggal_ws/install/first_interfaces/lib/python3.8/site-packages/first_interfaces/msg\n'}
+[0.339769] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/azharanas17/setunggal_ws/install/first_interfaces/lib/python3.8/site-packages/first_interfaces/msg/__init__.py\n'}
+[0.339827] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/azharanas17/setunggal_ws/install/first_interfaces/lib/python3.8/site-packages/first_interfaces/msg/_log.py\n'}
+[0.339894] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/azharanas17/setunggal_ws/install/first_interfaces/lib/python3.8/site-packages/first_interfaces/msg/_log_s.c\n'}
+[0.340000] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/azharanas17/setunggal_ws/install/first_interfaces/lib/python3.8/site-packages/first_interfaces/first_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\n'}
+[0.340364] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/azharanas17/setunggal_ws/install/first_interfaces/lib/python3.8/site-packages/first_interfaces/first_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\n'}
+[0.340808] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/azharanas17/setunggal_ws/install/first_interfaces/lib/python3.8/site-packages/first_interfaces/first_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\n'}
+[0.341089] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/azharanas17/setunggal_ws/install/first_interfaces/lib/libfirst_interfaces__python.so\n'}
+[0.341211] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/azharanas17/setunggal_ws/install/first_interfaces/share/first_interfaces/msg/Log.idl\n'}
+[0.341279] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/azharanas17/setunggal_ws/install/first_interfaces/share/first_interfaces/msg/Log.msg\n'}
+[0.341352] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/azharanas17/setunggal_ws/install/first_interfaces/share/ament_index/resource_index/package_run_dependencies/first_interfaces\n'}
+[0.341398] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/azharanas17/setunggal_ws/install/first_interfaces/share/ament_index/resource_index/parent_prefix_path/first_interfaces\n'}
+[0.341474] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/azharanas17/setunggal_ws/install/first_interfaces/share/first_interfaces/environment/ament_prefix_path.sh\n'}
+[0.341520] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/azharanas17/setunggal_ws/install/first_interfaces/share/first_interfaces/environment/ament_prefix_path.dsv\n'}
+[0.341563] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/azharanas17/setunggal_ws/install/first_interfaces/share/first_interfaces/environment/path.sh\n'}
+[0.341825] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/azharanas17/setunggal_ws/install/first_interfaces/share/first_interfaces/environment/path.dsv\n'}
+[0.341916] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/azharanas17/setunggal_ws/install/first_interfaces/share/first_interfaces/local_setup.bash\n'}
+[0.342023] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/azharanas17/setunggal_ws/install/first_interfaces/share/first_interfaces/local_setup.sh\n'}
+[0.342077] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/azharanas17/setunggal_ws/install/first_interfaces/share/first_interfaces/local_setup.zsh\n'}
+[0.342140] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/azharanas17/setunggal_ws/install/first_interfaces/share/first_interfaces/local_setup.dsv\n'}
+[0.342185] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/azharanas17/setunggal_ws/install/first_interfaces/share/first_interfaces/package.dsv\n'}
+[0.342252] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/azharanas17/setunggal_ws/install/first_interfaces/share/ament_index/resource_index/packages/first_interfaces\n'}
+[0.342424] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/azharanas17/setunggal_ws/install/first_interfaces/share/first_interfaces/cmake/first_interfaces__rosidl_generator_cExport.cmake\n'}
+[0.342489] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/azharanas17/setunggal_ws/install/first_interfaces/share/first_interfaces/cmake/first_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[0.342712] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/azharanas17/setunggal_ws/install/first_interfaces/share/first_interfaces/cmake/first_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[0.342776] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/azharanas17/setunggal_ws/install/first_interfaces/share/first_interfaces/cmake/first_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[0.342960] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/azharanas17/setunggal_ws/install/first_interfaces/share/first_interfaces/cmake/first_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[0.343026] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/azharanas17/setunggal_ws/install/first_interfaces/share/first_interfaces/cmake/first_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[0.343231] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/azharanas17/setunggal_ws/install/first_interfaces/share/first_interfaces/cmake/first_interfaces__rosidl_generator_cppExport.cmake\n'}
+[0.343456] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/azharanas17/setunggal_ws/install/first_interfaces/share/first_interfaces/cmake/first_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[0.343512] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/azharanas17/setunggal_ws/install/first_interfaces/share/first_interfaces/cmake/first_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[0.343711] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/azharanas17/setunggal_ws/install/first_interfaces/share/first_interfaces/cmake/first_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[0.343778] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/azharanas17/setunggal_ws/install/first_interfaces/share/first_interfaces/cmake/first_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[0.343851] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/azharanas17/setunggal_ws/install/first_interfaces/share/first_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[0.343897] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/azharanas17/setunggal_ws/install/first_interfaces/share/first_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[0.343963] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/azharanas17/setunggal_ws/install/first_interfaces/share/first_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[0.344032] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/azharanas17/setunggal_ws/install/first_interfaces/share/first_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[0.344081] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/azharanas17/setunggal_ws/install/first_interfaces/share/first_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[0.344160] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/azharanas17/setunggal_ws/install/first_interfaces/share/first_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[0.344200] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/azharanas17/setunggal_ws/install/first_interfaces/share/first_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[0.344238] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/azharanas17/setunggal_ws/install/first_interfaces/share/first_interfaces/cmake/first_interfacesConfig.cmake\n'}
+[0.344274] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/azharanas17/setunggal_ws/install/first_interfaces/share/first_interfaces/cmake/first_interfacesConfig-version.cmake\n'}
+[0.344311] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/azharanas17/setunggal_ws/install/first_interfaces/share/first_interfaces/package.xml\n'}
+[0.346030] (first_interfaces) CommandEnded: {'returncode': 0}
+[0.396523] (first_interfaces) JobEnded: {'identifier': 'first_interfaces', 'rc': 0}
+[0.398131] (first_pubsub) JobStarted: {'identifier': 'first_pubsub'}
+[0.400220] (-) TimerEvent: {}
+[0.403879] (first_pubsub) JobProgress: {'identifier': 'first_pubsub', 'progress': 'cmake'}
+[0.404451] (first_pubsub) JobProgress: {'identifier': 'first_pubsub', 'progress': 'build'}
+[0.404610] (first_pubsub) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/azharanas17/setunggal_ws/build/first_pubsub', '--', '-j4', '-l4'], 'cwd': '/home/azharanas17/setunggal_ws/build/first_pubsub', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'azharanas17'), ('LC_TIME', 'id_ID.UTF-8'), ('SSH_AGENT_PID', '1580'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/azharanas17/setunggal_ws/install/first_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/azharanas17'), ('OLDPWD', '/home/azharanas17/setunggal_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'id_ID.UTF-8'), ('MANAGERPID', '1400'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=fa339922a5d3f30758a22671621e2abe'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/foxy/'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'azharanas17'), ('JOURNAL_STREAM', '8:45752'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'azharanas17'), ('TERM', 'xterm-256color'), ('COPPELIASIM_ROOT_DIR', '/home/azharanas17/CoppeliaSim_Edu_V4_1_0_Ubuntu16_04'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/NAZSEVENTEEN:@/tmp/.ICE-unix/1618,unix/NAZSEVENTEEN:/tmp/.ICE-unix/1618'), ('INVOCATION_ID', '73a15fed52894591a5e589543ad915c4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/3b829e1f_4ad5_40bf_85a0_c1d6b82d01ba'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.119'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/azharanas17/setunggal_ws/install/first_interfaces:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'id_ID.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/azharanas17/setunggal_ws/build/first_pubsub'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=fa339922a5d3f30758a22671621e2abe'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/azharanas17/setunggal_ws/install/first_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/azharanas17/setunggal_ws/install/first_interfaces:/opt/ros/foxy')]), 'shell': False}
+[0.431046] (first_pubsub) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.453196] (first_pubsub) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.500296] (-) TimerEvent: {}
+[0.598311] (first_pubsub) StdoutLine: {'line': b'-- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[0.600376] (-) TimerEvent: {}
+[0.630023] (first_pubsub) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.633508] (first_pubsub) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.700620] (-) TimerEvent: {}
+[0.735050] (first_pubsub) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.776347] (first_pubsub) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[0.777888] (first_pubsub) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.800683] (-) TimerEvent: {}
+[0.892908] (first_pubsub) StdoutLine: {'line': b'-- Found first_interfaces: 0.0.0 (/home/azharanas17/setunggal_ws/install/first_interfaces/share/first_interfaces/cmake)\n'}
+[0.897602] (first_pubsub) StdoutLine: {'line': b'-- Found first_pubsub: 0.0.0 (/home/azharanas17/setunggal_ws/install/first_pubsub/share/first_pubsub/cmake)\n'}
+[0.900735] (-) TimerEvent: {}
+[0.901131] (first_pubsub) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[0.960949] (first_pubsub) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[0.961717] (first_pubsub) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.961873] (first_pubsub) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/azharanas17/setunggal_ws/src/first_pubsub/include>\n'}
+[0.961954] (first_pubsub) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.962611] (first_pubsub) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[0.962665] (first_pubsub) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[0.963170] (first_pubsub) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.964218] (first_pubsub) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.964375] (first_pubsub) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.964636] (first_pubsub) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.970080] (first_pubsub) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.979481] (first_pubsub) StdoutLine: {'line': b'-- Generating done\n'}
+[0.980449] (first_pubsub) StdoutLine: {'line': b'-- Build files have been written to: /home/azharanas17/setunggal_ws/build/first_pubsub\n'}
+[1.000640] (first_pubsub) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target first_pubsub\x1b[0m\n'}
+[1.000799] (-) TimerEvent: {}
+[1.027331] (first_pubsub) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/first_pubsub.dir/src/logger_sub_node.cpp.o\x1b[0m\n'}
+[1.027724] (first_pubsub) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/first_pubsub.dir/src/logger_pub_node.cpp.o\x1b[0m\n'}
+[1.100913] (-) TimerEvent: {}
+[1.201734] (-) TimerEvent: {}
+[1.302312] (-) TimerEvent: {}
+[1.402710] (-) TimerEvent: {}
+[1.503653] (-) TimerEvent: {}
+[1.604104] (-) TimerEvent: {}
+[1.704493] (-) TimerEvent: {}
+[1.805013] (-) TimerEvent: {}
+[1.905379] (-) TimerEvent: {}
+[2.005754] (-) TimerEvent: {}
+[2.106228] (-) TimerEvent: {}
+[2.206723] (-) TimerEvent: {}
+[2.298085] (first_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/azharanas17/setunggal_ws/src/first_pubsub/src/logger_pub_node.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KLoggerPub::LoggerPub()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.298667] (first_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/azharanas17/setunggal_ws/src/first_pubsub/src/logger_pub_node.cpp:13:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kclass \xe2\x80\x98\x1b[01m\x1b[KLoggerPub\x1b[m\x1b[K\xe2\x80\x99 does not have any field named \xe2\x80\x98\x1b[01m\x1b[Kcount_\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.298800] (first_pubsub) StderrLine: {'line': b'   13 |   : Node("logger_pub"), \x1b[01;31m\x1b[Kcount_\x1b[m\x1b[K(0)\n'}
+[2.298881] (first_pubsub) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[2.306810] (-) TimerEvent: {}
+[2.308648] (first_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/azharanas17/setunggal_ws/src/first_pubsub/src/logger_pub_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid LoggerPub::timer_callback()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.308883] (first_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/azharanas17/setunggal_ws/src/first_pubsub/src/logger_pub_node.cpp:24:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstruct first_interfaces::msg::Log_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kdata\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.308970] (first_pubsub) StderrLine: {'line': b'   24 |     message.\x1b[01;31m\x1b[Kdata\x1b[m\x1b[K = msg->filename + " " + msg->message_log + " " + msg->level + " " + msg->time);\n'}
+[2.309040] (first_pubsub) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.309357] (first_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/azharanas17/setunggal_ws/src/first_pubsub/src/logger_pub_node.cpp:24:20:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmsg\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.309490] (first_pubsub) StderrLine: {'line': b'   24 |     message.data = \x1b[01;31m\x1b[Kmsg\x1b[m\x1b[K->filename + " " + msg->message_log + " " + msg->level + " " + msg->time);\n'}
+[2.309593] (first_pubsub) StderrLine: {'line': b'      |                    \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[2.309667] (first_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/azharanas17/setunggal_ws/src/first_pubsub/src/logger_pub_node.cpp:24:20:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Ksuggested alternatives:\n'}
+[2.309741] (first_pubsub) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/builtin_interfaces/msg/duration.hpp:7\x1b[m\x1b[K,\n'}
+[2.309811] (first_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/duration.hpp:20\x1b[m\x1b[K,\n'}
+[2.309890] (first_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/qos.hpp:20\x1b[m\x1b[K,\n'}
+[2.309967] (first_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node_interfaces/node_graph_interface.hpp:31\x1b[m\x1b[K,\n'}
+[2.310040] (first_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/client.hpp:34\x1b[m\x1b[K,\n'}
+[2.310114] (first_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23\x1b[m\x1b[K,\n'}
+[2.310187] (first_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.310260] (first_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24\x1b[m\x1b[K,\n'}
+[2.310341] (first_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.310413] (first_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.310481] (first_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor.hpp:33\x1b[m\x1b[K,\n'}
+[2.310551] (first_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[2.310629] (first_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.310700] (first_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[2.310771] (first_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/azharanas17/setunggal_ws/src/first_pubsub/src/logger_pub_node.cpp:2\x1b[m\x1b[K:\n'}
+[2.310843] (first_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/builtin_interfaces/msg/detail/duration__struct.hpp:26:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kbuiltin_interfaces::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.310915] (first_pubsub) StderrLine: {'line': b'   26 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[2.310986] (first_pubsub) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[2.311057] (first_pubsub) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/statistics_msgs/msg/detail/metrics_message__struct.hpp:22\x1b[m\x1b[K,\n'}
+[2.311129] (first_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/statistics_msgs/msg/metrics_message.hpp:7\x1b[m\x1b[K,\n'}
+[2.311203] (first_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/libstatistics_collector/collector/generate_statistics_message.hpp:21\x1b[m\x1b[K,\n'}
+[2.311276] (first_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/topic_statistics/subscription_topic_statistics.hpp:23\x1b[m\x1b[K,\n'}
+[2.311345] (first_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/subscription.hpp:50\x1b[m\x1b[K,\n'}
+[2.311419] (first_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:25\x1b[m\x1b[K,\n'}
+[2.311495] (first_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24\x1b[m\x1b[K,\n'}
+[2.311566] (first_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.311637] (first_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.311708] (first_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor.hpp:33\x1b[m\x1b[K,\n'}
+[2.311787] (first_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[2.311859] (first_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.311930] (first_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[2.312001] (first_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/azharanas17/setunggal_ws/src/first_pubsub/src/logger_pub_node.cpp:2\x1b[m\x1b[K:\n'}
+[2.312073] (first_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/statistics_msgs/msg/detail/statistic_data_point__struct.hpp:26:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstatistics_msgs::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.312146] (first_pubsub) StderrLine: {'line': b'   26 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[2.312228] (first_pubsub) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[2.312568] (first_pubsub) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rcl_interfaces/msg/list_parameters_result.hpp:7\x1b[m\x1b[K,\n'}
+[2.312667] (first_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node.hpp:34\x1b[m\x1b[K,\n'}
+[2.312739] (first_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[2.312817] (first_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[2.312888] (first_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[2.312957] (first_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/azharanas17/setunggal_ws/src/first_pubsub/src/logger_pub_node.cpp:2\x1b[m\x1b[K:\n'}
+[2.313030] (first_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rcl_interfaces/msg/detail/list_parameters_result__struct.hpp:26:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Krcl_interfaces::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.313102] (first_pubsub) StderrLine: {'line': b'   26 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[2.313171] (first_pubsub) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[2.313325] (first_pubsub) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/azharanas17/setunggal_ws/install/first_interfaces/include/first_interfaces/msg/log.hpp:7\x1b[m\x1b[K,\n'}
+[2.313404] (first_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/azharanas17/setunggal_ws/src/first_pubsub/src/logger_pub_node.cpp:3\x1b[m\x1b[K:\n'}
+[2.313475] (first_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/azharanas17/setunggal_ws/install/first_interfaces/include/first_interfaces/msg/detail/log__struct.hpp:26:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kfirst_interfaces::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.313706] (first_pubsub) StderrLine: {'line': b'   26 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[2.313782] (first_pubsub) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[2.313863] (first_pubsub) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[2.313947] (first_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23\x1b[m\x1b[K,\n'}
+[2.314024] (first_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.314100] (first_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24\x1b[m\x1b[K,\n'}
+[2.314171] (first_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.314244] (first_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.314544] (first_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor.hpp:33\x1b[m\x1b[K,\n'}
+[2.314630] (first_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[2.314701] (first_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.314769] (first_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[2.314842] (first_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/azharanas17/setunggal_ws/src/first_pubsub/src/logger_pub_node.cpp:2\x1b[m\x1b[K:\n'}
+[2.314913] (first_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/azharanas17/setunggal_ws/src/first_pubsub/src/logger_pub_node.cpp:25:65:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstruct first_interfaces::msg::Log_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kdata\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.314989] (first_pubsub) StderrLine: {'line': b'   25 |     RCLCPP_INFO(this->get_logger(), "Publishing: \'%s\'", message.\x1b[01;31m\x1b[Kdata\x1b[m\x1b[K.c_str());\n'}
+[2.315062] (first_pubsub) StderrLine: {'line': b'      |                                                                 \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.406926] (-) TimerEvent: {}
+[2.507288] (-) TimerEvent: {}
+[2.607773] (-) TimerEvent: {}
+[2.711460] (-) TimerEvent: {}
+[2.811872] (-) TimerEvent: {}
+[2.912246] (-) TimerEvent: {}
+[3.012607] (-) TimerEvent: {}
+[3.113002] (-) TimerEvent: {}
+[3.213493] (-) TimerEvent: {}
+[3.215247] (first_pubsub) StderrLine: {'line': b'make[2]: *** [CMakeFiles/first_pubsub.dir/build.make:63: CMakeFiles/first_pubsub.dir/src/logger_pub_node.cpp.o] Error 1\n'}
+[3.215542] (first_pubsub) StderrLine: {'line': b'make[2]: *** Waiting for unfinished jobs....\n'}
+[3.313579] (-) TimerEvent: {}
+[3.413837] (-) TimerEvent: {}
+[3.514159] (-) TimerEvent: {}
+[3.614440] (-) TimerEvent: {}
+[3.714715] (-) TimerEvent: {}
+[3.815007] (-) TimerEvent: {}
+[3.915339] (-) TimerEvent: {}
+[4.015623] (-) TimerEvent: {}
+[4.115904] (-) TimerEvent: {}
+[4.216204] (-) TimerEvent: {}
+[4.316492] (-) TimerEvent: {}
+[4.417056] (-) TimerEvent: {}
+[4.517309] (-) TimerEvent: {}
+[4.617575] (-) TimerEvent: {}
+[4.717839] (-) TimerEvent: {}
+[4.818165] (-) TimerEvent: {}
+[4.918831] (-) TimerEvent: {}
+[5.019107] (-) TimerEvent: {}
+[5.119422] (-) TimerEvent: {}
+[5.210378] (first_pubsub) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/first_pubsub.dir/all] Error 2\n'}
+[5.210605] (first_pubsub) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[5.213768] (first_pubsub) CommandEnded: {'returncode': 2}
+[5.219502] (-) TimerEvent: {}
+[5.251902] (first_pubsub) JobEnded: {'identifier': 'first_pubsub', 'rc': 2}
+[5.262569] (-) EventReactorShutdown: {}

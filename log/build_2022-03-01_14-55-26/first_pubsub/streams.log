@@ -1,0 +1,17 @@
+[0.007s] Invoking command in '/home/azharanas17/setunggal_ws/build/first_pubsub': AMENT_PREFIX_PATH=/home/azharanas17/setunggal_ws/install/first_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/azharanas17/setunggal_ws/install/first_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/azharanas17/setunggal_ws/install/first_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/azharanas17/setunggal_ws/install/first_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/azharanas17/setunggal_ws/build/first_pubsub -- -j4 -l4
+[0.041s] [35m[1mScanning dependencies of target first_pubsub[0m
+[0.061s] [ 16%] [32mBuilding CXX object CMakeFiles/first_pubsub.dir/src/logger_pub_node.cpp.o[0m
+[1.026s] [01m[K/home/azharanas17/setunggal_ws/src/first_pubsub/src/logger_pub_node.cpp:21:8:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kvoid LoggerPub::timer_callback(first_interfaces::msg::Log_<std::allocator<void> >::SharedPtr)[m[K’
+[1.026s]    21 |   void [01;31m[KLoggerPub[m[K::timer_callback(const first_interfaces::msg::Log::SharedPtr msg)
+[1.026s]       |        [01;31m[K^~~~~~~~~[m[K
+[1.027s] In file included from [01m[K/home/azharanas17/setunggal_ws/src/first_pubsub/src/logger_pub_node.cpp:4[m[K:
+[1.027s] [01m[K/home/azharanas17/setunggal_ws/src/first_pubsub/include/first_pubsub/logger_pub_node.hpp:18:8:[m[K [01;36m[Knote: [m[Kcandidate is: ‘[01m[Kvoid LoggerPub::timer_callback()[m[K’
+[1.027s]    18 |   void [01;36m[Ktimer_callback[m[K();
+[1.027s]       |        [01;36m[K^~~~~~~~~~~~~~[m[K
+[1.027s] [01m[K/home/azharanas17/setunggal_ws/src/first_pubsub/include/first_pubsub/logger_pub_node.hpp:12:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass LoggerPub[m[K’ defined here
+[1.027s]    12 | class [01;36m[KLoggerPub[m[K : public rclcpp::Node
+[1.027s]       |       [01;36m[K^~~~~~~~~[m[K
+[1.707s] make[2]: *** [CMakeFiles/first_pubsub.dir/build.make:63: CMakeFiles/first_pubsub.dir/src/logger_pub_node.cpp.o] Error 1
+[1.707s] make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/first_pubsub.dir/all] Error 2
+[1.707s] make: *** [Makefile:141: all] Error 2
+[1.709s] Invoked command in '/home/azharanas17/setunggal_ws/build/first_pubsub' returned '2': AMENT_PREFIX_PATH=/home/azharanas17/setunggal_ws/install/first_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/azharanas17/setunggal_ws/install/first_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/azharanas17/setunggal_ws/install/first_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/azharanas17/setunggal_ws/install/first_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/azharanas17/setunggal_ws/build/first_pubsub -- -j4 -l4

@@ -1,0 +1,55 @@
+[0.011s] Invoking command in '/home/azharanas17/setunggal_ws/build/first_interfaces': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/azharanas17/setunggal_ws/build/first_interfaces -- -j4 -l4
+[0.047s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.067s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.067s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.196s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[0.199s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.202s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.314s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.350s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[0.565s] CMake Error at /opt/ros/foxy/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:60 (message):
+[0.565s]   execute_process(/usr/bin/python3 -m rosidl_adapter --package-name
+[0.565s]   first_interfaces --arguments-file
+[0.565s]   /home/azharanas17/setunggal_ws/build/first_interfaces/rosidl_adapter__arguments__first_interfaces.json
+[0.565s]   --output-dir
+[0.565s]   /home/azharanas17/setunggal_ws/build/first_interfaces/rosidl_adapter/first_interfaces
+[0.565s]   --output-file
+[0.565s]   /home/azharanas17/setunggal_ws/build/first_interfaces/rosidl_adapter/first_interfaces.idls)
+[0.566s]   returned error code 1:
+[0.566s] 
+[0.566s]   Error processing 'int num' of 'first_interfaces/Log': ''int' is an invalid
+[0.566s]   message name.  It should have the pattern '^[A-Z][A-Za-z0-9]*$''
+[0.566s] 
+[0.566s]   Traceback (most recent call last):
+[0.566s] 
+[0.566s]     File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+[0.566s]       return _run_code(code, main_globals, None,
+[0.566s]     File "/usr/lib/python3.8/runpy.py", line 87, in _run_code
+[0.566s]       exec(code, run_globals)
+[0.566s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/__main__.py", line 19, in <module>
+[0.566s]       sys.exit(main())
+[0.566s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/main.py", line 53, in main
+[0.566s]       abs_idl_file = convert_to_idl(
+[0.566s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/__init__.py", line 19, in convert_to_idl
+[0.566s]       return convert_msg_to_idl(
+[0.566s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/msg/__init__.py", line 28, in convert_msg_to_idl
+[0.566s]       msg = parse_message_string(package_name, input_file.stem, content)
+[0.566s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 516, in parse_message_string
+[0.566s]       Type(type_string, context_package_name=pkg_name),
+[0.566s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 276, in __init__
+[0.566s]       super(Type, self).__init__(
+[0.566s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 204, in __init__
+[0.567s]       raise InvalidResourceName(
+[0.567s] 
+[0.567s]   rosidl_adapter.parser.InvalidResourceName: 'int' is an invalid message
+[0.567s]   name.  It should have the pattern '^[A-Z][A-Za-z0-9]*$'
+[0.567s] 
+[0.567s] Call Stack (most recent call first):
+[0.567s]   /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)
+[0.567s]   CMakeLists.txt:22 (rosidl_generate_interfaces)
+[0.567s] 
+[0.567s] 
+[0.567s] -- Configuring incomplete, errors occurred!
+[0.567s] See also "/home/azharanas17/setunggal_ws/build/first_interfaces/CMakeFiles/CMakeOutput.log".
+[0.570s] make: *** [Makefile:748: cmake_check_build_system] Error 1
+[0.572s] Invoked command in '/home/azharanas17/setunggal_ws/build/first_interfaces' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/azharanas17/setunggal_ws/build/first_interfaces -- -j4 -l4

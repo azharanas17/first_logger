@@ -1,0 +1,56 @@
+[0.009s] Invoking command in '/home/azharanas17/setunggal_ws/build/first_pubsub': AMENT_PREFIX_PATH=/home/azharanas17/setunggal_ws/install/first_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/azharanas17/setunggal_ws/install/first_interfaces:/home/azharanas17/dev_ws/install/cpp_srvcli:/home/azharanas17/dev_ws/install/cpp_pubsub:/home/azharanas17/dev_ws/install/tutorial_interfaces:/home/azharanas17/dev_ws/install/turtlesim:/home/azharanas17/dev_ws/install/my_package:/home/azharanas17/dev_ws/install/more_interfaces:/home/azharanas17/dev_ws/install/first_interfaces:/home/azharanas17/dev_ws/install/cpp_parameters:/opt/ros/foxy LD_LIBRARY_PATH=/home/azharanas17/setunggal_ws/install/first_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/azharanas17/setunggal_ws/install/first_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/azharanas17/setunggal_ws/build/first_pubsub -- -j4 -l4
+[0.036s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.052s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.174s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.203s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.206s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.291s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.334s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.336s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.445s] -- Found first_interfaces: 0.0.0 (/home/azharanas17/setunggal_ws/install/first_interfaces/share/first_interfaces/cmake)
+[0.450s] -- Found first_pubsub: 0.0.0 (/home/azharanas17/setunggal_ws/install/first_pubsub/share/first_pubsub/cmake)
+[0.453s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.499s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.500s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.500s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/azharanas17/setunggal_ws/src/first_pubsub/include>
+[0.500s] -- Configured cppcheck exclude dirs and/or files: 
+[0.501s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.501s] -- Configured cpplint exclude dirs and/or files: 
+[0.501s] -- Added test 'lint_cmake' to check CMake code style
+[0.502s] -- Added test 'uncrustify' to check C / C++ code style
+[0.502s] -- Configured uncrustify additional arguments: 
+[0.502s] -- Added test 'xmllint' to check XML markup files
+[0.505s] -- Configuring done
+[0.516s] -- Generating done
+[0.517s] -- Build files have been written to: /home/azharanas17/setunggal_ws/build/first_pubsub
+[0.543s] [35m[1mScanning dependencies of target first_pubsub[0m
+[0.566s] [ 33%] [32mBuilding CXX object CMakeFiles/first_pubsub.dir/src/logger_pub_node.cpp.o[0m
+[0.566s] [ 33%] [32mBuilding CXX object CMakeFiles/first_pubsub.dir/src/logger_sub_node.cpp.o[0m
+[1.750s] [01m[K/home/azharanas17/setunggal_ws/src/first_pubsub/src/logger_pub_node.cpp:[m[K In constructor ‘[01m[KLoggerPub::LoggerPub()[m[K’:
+[1.751s] [01m[K/home/azharanas17/setunggal_ws/src/first_pubsub/src/logger_pub_node.cpp:14:48:[m[K [01;31m[Kerror: [m[K‘[01m[Ktopic_callback[m[K’ is not a member of ‘[01m[KLoggerPub[m[K’
+[1.751s]    14 |             "topic", 10, std::bind(&LoggerPub::[01;31m[Ktopic_callback[m[K, this, _1)
+[1.751s]       |                                                [01;31m[K^~~~~~~~~~~~~~[m[K
+[1.751s] [01m[K/home/azharanas17/setunggal_ws/src/first_pubsub/src/logger_pub_node.cpp:[m[K At global scope:
+[1.752s] [01m[K/home/azharanas17/setunggal_ws/src/first_pubsub/src/logger_pub_node.cpp:20:8:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kvoid LoggerPub::topic_callback(first_interfaces::msg::Log_<std::allocator<void> >::SharedPtr) const[m[K’
+[1.752s]    20 |   void [01;31m[KLoggerPub[m[K::topic_callback(const first_interfaces::msg::Log::SharedPtr msg) const
+[1.752s]       |        [01;31m[K^~~~~~~~~[m[K
+[1.752s] [01m[K/home/azharanas17/setunggal_ws/src/first_pubsub/src/logger_pub_node.cpp:20:8:[m[K [01;36m[Knote: [m[Kno functions named ‘[01m[Kvoid LoggerPub::topic_callback(first_interfaces::msg::Log_<std::allocator<void> >::SharedPtr) const[m[K’
+[1.752s] In file included from [01m[K/home/azharanas17/setunggal_ws/src/first_pubsub/src/logger_pub_node.cpp:6[m[K:
+[1.752s] [01m[K/home/azharanas17/setunggal_ws/src/first_pubsub/include/first_pubsub/logger_pub_node.hpp:7:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass LoggerPub[m[K’ defined here
+[1.752s]     7 | class [01;36m[KLoggerPub[m[K : public rclcpp::Node
+[1.752s]       |       [01;36m[K^~~~~~~~~[m[K
+[1.834s] [01m[K/home/azharanas17/setunggal_ws/src/first_pubsub/src/logger_sub_node.cpp:[m[K In constructor ‘[01m[KLoggerSub::LoggerSub()[m[K’:
+[1.834s] [01m[K/home/azharanas17/setunggal_ws/src/first_pubsub/src/logger_sub_node.cpp:18:29:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KLogger::write_logger()[m[K’
+[1.834s]    18 |         logger.write_logger([01;31m[K)[m[K;
+[1.834s]       |                             [01;31m[K^[m[K
+[1.834s] In file included from [01m[K/home/azharanas17/setunggal_ws/src/first_pubsub/src/logger_sub_node.cpp:4[m[K:
+[1.834s] [01m[K/home/azharanas17/setunggal_ws/src/first_pubsub/include/first_pubsub/logger.hpp:10:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid Logger::write_logger(first_interfaces::msg::Log_<std::allocator<void> >::SharedPtr) const[m[K’
+[1.834s]    10 |         void [01;36m[Kwrite_logger[m[K(const first_interfaces::msg::Log::SharedPtr msg) const;
+[1.834s]       |              [01;36m[K^~~~~~~~~~~~[m[K
+[1.835s] [01m[K/home/azharanas17/setunggal_ws/src/first_pubsub/include/first_pubsub/logger.hpp:10:14:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[2.068s] make[2]: *** [CMakeFiles/first_pubsub.dir/build.make:63: CMakeFiles/first_pubsub.dir/src/logger_pub_node.cpp.o] Error 1
+[2.068s] make[2]: *** Waiting for unfinished jobs....
+[2.903s] make[2]: *** [CMakeFiles/first_pubsub.dir/build.make:76: CMakeFiles/first_pubsub.dir/src/logger_sub_node.cpp.o] Error 1
+[2.904s] make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/first_pubsub.dir/all] Error 2
+[2.904s] make: *** [Makefile:141: all] Error 2
+[2.909s] Invoked command in '/home/azharanas17/setunggal_ws/build/first_pubsub' returned '2': AMENT_PREFIX_PATH=/home/azharanas17/setunggal_ws/install/first_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/azharanas17/setunggal_ws/install/first_interfaces:/home/azharanas17/dev_ws/install/cpp_srvcli:/home/azharanas17/dev_ws/install/cpp_pubsub:/home/azharanas17/dev_ws/install/tutorial_interfaces:/home/azharanas17/dev_ws/install/turtlesim:/home/azharanas17/dev_ws/install/my_package:/home/azharanas17/dev_ws/install/more_interfaces:/home/azharanas17/dev_ws/install/first_interfaces:/home/azharanas17/dev_ws/install/cpp_parameters:/opt/ros/foxy LD_LIBRARY_PATH=/home/azharanas17/setunggal_ws/install/first_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/azharanas17/setunggal_ws/install/first_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/azharanas17/setunggal_ws/build/first_pubsub -- -j4 -l4

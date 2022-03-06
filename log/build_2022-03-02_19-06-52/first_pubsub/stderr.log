@@ -1,0 +1,12 @@
+[01m[K/home/azharanas17/setunggal_ws/src/first_pubsub/src/logger_sub_node.cpp:[m[K In constructor ‘[01m[KLoggerSub::LoggerSub()[m[K’:
+[01m[K/home/azharanas17/setunggal_ws/src/first_pubsub/src/logger_sub_node.cpp:18:29:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KLogger::write_logger()[m[K’
+   18 |         logger.write_logger([01;31m[K)[m[K;
+      |                             [01;31m[K^[m[K
+In file included from [01m[K/home/azharanas17/setunggal_ws/src/first_pubsub/src/logger_sub_node.cpp:4[m[K:
+[01m[K/home/azharanas17/setunggal_ws/src/first_pubsub/include/first_pubsub/logger.hpp:10:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid Logger::write_logger(first_interfaces::msg::Log_<std::allocator<void> >::SharedPtr) const[m[K’
+   10 |         void [01;36m[Kwrite_logger[m[K(const first_interfaces::msg::Log::SharedPtr msg) const;
+      |              [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/home/azharanas17/setunggal_ws/src/first_pubsub/include/first_pubsub/logger.hpp:10:14:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+make[2]: *** [CMakeFiles/first_pubsub.dir/build.make:76: CMakeFiles/first_pubsub.dir/src/logger_sub_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:136: CMakeFiles/first_pubsub.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

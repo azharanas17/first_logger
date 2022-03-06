@@ -1,6 +1,9 @@
+/home/azharanas17/setunggal_ws/install/first_pubsub/./include/first_pubsub/logger_sub_node.hpp
+/home/azharanas17/setunggal_ws/install/first_pubsub/./include/first_pubsub/logger_pub_node.hpp
 /home/azharanas17/setunggal_ws/install/first_pubsub/./include/first_pubsub/logger.hpp
-/home/azharanas17/setunggal_ws/install/first_pubsub/./include/first_pubsub/logger_node.hpp
 /home/azharanas17/setunggal_ws/install/first_pubsub/lib/libfirst_pubsub.so
+/home/azharanas17/setunggal_ws/install/first_pubsub/lib/first_pubsub/loggerpub
+/home/azharanas17/setunggal_ws/install/first_pubsub/lib/first_pubsub/loggersub
 /home/azharanas17/setunggal_ws/install/first_pubsub/share/first_pubsub/environment/library_path.sh
 /home/azharanas17/setunggal_ws/install/first_pubsub/share/first_pubsub/environment/library_path.dsv
 /home/azharanas17/setunggal_ws/install/first_pubsub/share/ament_index/resource_index/package_run_dependencies/first_pubsub

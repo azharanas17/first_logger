@@ -1,0 +1,30 @@
+[0.020s] Invoking command in '/home/azharanas17/setunggal_ws/build/first_pubsub': AMENT_PREFIX_PATH=/home/azharanas17/setunggal_ws/install/first_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/azharanas17/setunggal_ws/install/first_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/azharanas17/setunggal_ws/install/first_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/azharanas17/setunggal_ws/install/first_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/azharanas17/setunggal_ws/build/first_pubsub -- -j4 -l4
+[0.058s] [35m[1mScanning dependencies of target first_pubsub[0m
+[0.081s] [ 33%] [32mBuilding CXX object CMakeFiles/first_pubsub.dir/src/logger.cpp.o[0m
+[0.081s] [ 66%] [32mBuilding CXX object CMakeFiles/first_pubsub.dir/src/logger_node.cpp.o[0m
+[1.646s] In file included from [01m[K/home/azharanas17/setunggal_ws/src/first_pubsub/src/logger_node.cpp:8[m[K:
+[1.646s] [01m[K/home/azharanas17/setunggal_ws/src/first_pubsub/include/first_pubsub/logger_node.hpp:17:75:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[Kwrite_logger[m[K’ with no type [[01;31m[K-fpermissive[m[K]
+[1.646s]    17 | rite_logger(const first_interfaces::msg::Log::SharedPtr msg) [01;31m[Kconst[m[K;
+[1.646s]       |                                                              [01;31m[K^~~~~[m[K
+[1.646s] 
+[1.646s] [01m[K/home/azharanas17/setunggal_ws/src/first_pubsub/include/first_pubsub/logger_node.hpp:17:75:[m[K [01;31m[Kerror: [m[Kcannot declare member function ‘[01m[KLogger::write_logger[m[K’ within ‘[01m[KLoggerNode[m[K’
+[1.665s] [01m[K/home/azharanas17/setunggal_ws/src/first_pubsub/src/logger_node.cpp:12:7:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kclass LoggerNode[m[K’
+[1.665s]    12 | class [01;31m[KLoggerNode[m[K : public rclcpp::Node
+[1.665s]       |       [01;31m[K^~~~~~~~~~[m[K
+[1.665s] In file included from [01m[K/home/azharanas17/setunggal_ws/src/first_pubsub/src/logger_node.cpp:8[m[K:
+[1.665s] [01m[K/home/azharanas17/setunggal_ws/src/first_pubsub/include/first_pubsub/logger_node.hpp:11:7:[m[K [01;36m[Knote: [m[Kprevious definition of ‘[01m[Kclass LoggerNode[m[K’
+[1.665s]    11 | class [01;36m[KLoggerNode[m[K : public rclcpp::Node
+[1.665s]       |       [01;36m[K^~~~~~~~~~[m[K
+[2.018s] [01m[K/home/azharanas17/setunggal_ws/src/first_pubsub/src/logger.cpp:20:7:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kclass Logger[m[K’
+[2.018s]    20 | class [01;31m[KLogger[m[K
+[2.018s]       |       [01;31m[K^~~~~~[m[K
+[2.018s] In file included from [01m[K/home/azharanas17/setunggal_ws/src/first_pubsub/src/logger.cpp:13[m[K:
+[2.018s] [01m[K/home/azharanas17/setunggal_ws/src/first_pubsub/include/first_pubsub/logger.hpp:10:7:[m[K [01;36m[Knote: [m[Kprevious definition of ‘[01m[Kclass Logger[m[K’
+[2.018s]    10 | class [01;36m[KLogger[m[K
+[2.018s]       |       [01;36m[K^~~~~~[m[K
+[2.120s] make[2]: *** [CMakeFiles/first_pubsub.dir/build.make:63: CMakeFiles/first_pubsub.dir/src/logger_node.cpp.o] Error 1
+[2.120s] make[2]: *** Waiting for unfinished jobs....
+[2.840s] make[2]: *** [CMakeFiles/first_pubsub.dir/build.make:76: CMakeFiles/first_pubsub.dir/src/logger.cpp.o] Error 1
+[2.841s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/first_pubsub.dir/all] Error 2
+[2.841s] make: *** [Makefile:141: all] Error 2
+[2.843s] Invoked command in '/home/azharanas17/setunggal_ws/build/first_pubsub' returned '2': AMENT_PREFIX_PATH=/home/azharanas17/setunggal_ws/install/first_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/azharanas17/setunggal_ws/install/first_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/azharanas17/setunggal_ws/install/first_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/azharanas17/setunggal_ws/install/first_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/azharanas17/setunggal_ws/build/first_pubsub -- -j4 -l4
