@@ -11,7 +11,7 @@ public:
     LoggerSub();
 
 private:
-    void filter_log(const first_interfaces::msg::Log::SharedPtr msg) const;
+    // void filter_log(const first_interfaces::msg::Log::SharedPtr msg) const;
 
     void topic_callback(const first_interfaces::msg::Log::SharedPtr msg) const;
 

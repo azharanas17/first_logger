@@ -1,0 +1,4 @@
+Invoking command in '/home/azharanas17/setunggal_ws/build/first_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/azharanas17/setunggal_ws/build/first_interfaces -- -j4 -l4
+Invoked command in '/home/azharanas17/setunggal_ws/build/first_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/azharanas17/setunggal_ws/build/first_interfaces -- -j4 -l4
+Invoking command in '/home/azharanas17/setunggal_ws/build/first_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/azharanas17/setunggal_ws/build/first_interfaces
+Invoked command in '/home/azharanas17/setunggal_ws/build/first_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/azharanas17/setunggal_ws/build/first_interfaces

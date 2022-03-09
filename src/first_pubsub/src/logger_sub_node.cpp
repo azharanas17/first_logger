@@ -1,6 +1,7 @@
 #include <iostream>
 #include <fstream>
 #include <iomanip>
+#include <string>
 #include <nlohmann/json.hpp>
 
 using std::placeholders::_1;
@@ -11,6 +12,8 @@ using std::placeholders::_1;
 
 using json = nlohmann::json;
 using std::placeholders::_1;
+
+enum level { DEBUG, INFO, WARN, ERROR, FATAL };
 
 
     LoggerSub::LoggerSub()
@@ -25,42 +28,42 @@ using std::placeholders::_1;
     }
 
 
-
-    void LoggerSub::filter_log(const first_interfaces::msg::Log::SharedPtr msg) const
-    {
-        enum level { DEBUG, INFO, WARN, ERROR, FATAL };
-        level level_log = msg->level;
-
-        if (level_log >= INFO)
-        {
-
-            std::ofstream file_log;
-            file_log.open("logger.json", std::ios_base::trunc | std::ios_base::out);
-
-            json json_log = json::array();
-
-            for(int i = 0; i < 10; i++){
-
-                json jsn_lg = {
-                    //{"", this->get_logger()},
-                    {"message_log", msg->message_log},
-                    {"level", msg->level},
-                    {"time", msg->time}
-                };
-                json_log.push_back(jsn_lg);
-            }
-
-            file_log << json_log.dump(0);
-
-            file_log.close();
-        }
-    }
-
     void LoggerSub::topic_callback(const first_interfaces::msg::Log::SharedPtr msg) const
     {
         RCLCPP_INFO(this->get_logger(), "filename: '%s'\nmessage log: '%s'\nlevel: '%s'\ntime: '%s'",
         msg->filename, msg->message_log, msg->level, msg->time);
 
-        LoggerSub::filter_log();
+        if(msg->level == "INFO" || msg->level == "WARN" || msg->level == "ERROR" || msg->level == "FATAL")
+        {
+            std::ofstream file_log;
+            file_log.open("logger.json", std::ios_base::app | std::ios_base::out);
+
+            json json_log = json::array();
+
+            json jsn_lg = {
+                //{"", this->get_logger()},
+                {"message_log", msg->message_log},
+                {"level", msg->level},
+                {"time", msg->time}
+            };
+            json_log.push_back(jsn_lg);
+
+            file_log << json_log.dump(0);
+
+            file_log.close();
+
+        }
 
     }
+
+    // void LoggerSub::filter_log(const first_interfaces::msg::Log::SharedPtr msg) const
+    // {
+    //     enum level { DEBUG, INFO, WARN, ERROR, FATAL };
+    //     level level_log = msg->level;
+    //     cout << msg->level;
+
+    //     if (level_log >= 1)
+    //     {
+
+    //     }
+    // }

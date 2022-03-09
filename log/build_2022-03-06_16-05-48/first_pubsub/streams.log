@@ -1,0 +1,46 @@
+[0.010s] Invoking command in '/home/azharanas17/setunggal_ws/build/first_pubsub': CMAKE_PREFIX_PATH=/home/azharanas17/setunggal_ws/install/first_interfaces:/home/azharanas17/setunggal_ws/install/turtlesim:/home/azharanas17/setunggal_ws/install/first_pubsub:/opt/ros/foxy LD_LIBRARY_PATH=/home/azharanas17/setunggal_ws/install/first_interfaces/lib:/home/azharanas17/setunggal_ws/install/turtlesim/lib:/home/azharanas17/setunggal_ws/install/first_pubsub/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/azharanas17/setunggal_ws/install/first_interfaces/lib/python3.8/site-packages:/home/azharanas17/setunggal_ws/install/turtlesim/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --build /home/azharanas17/setunggal_ws/build/first_pubsub -- -j4 -l4
+[0.053s] [35m[1mScanning dependencies of target first_pubsub[0m
+[0.076s] [ 14%] [32mBuilding CXX object CMakeFiles/first_pubsub.dir/src/logger_sub_node.cpp.o[0m
+[5.709s] [ 28%] [32m[1mLinking CXX shared library libfirst_pubsub.so[0m
+[6.020s] [ 42%] Built target first_pubsub
+[6.035s] [35m[1mScanning dependencies of target loggersub[0m
+[6.060s] [ 57%] [32m[1mLinking CXX executable loggerpub[0m
+[6.064s] [ 71%] [32mBuilding CXX object CMakeFiles/loggersub.dir/src/logger_mainsub_node.cpp.o[0m
+[6.257s] [ 85%] Built target loggerpub
+[7.567s] [100%] [32m[1mLinking CXX executable loggersub[0m
+[7.821s] [100%] Built target loggersub
+[7.832s] Invoked command in '/home/azharanas17/setunggal_ws/build/first_pubsub' returned '0': CMAKE_PREFIX_PATH=/home/azharanas17/setunggal_ws/install/first_interfaces:/home/azharanas17/setunggal_ws/install/turtlesim:/home/azharanas17/setunggal_ws/install/first_pubsub:/opt/ros/foxy LD_LIBRARY_PATH=/home/azharanas17/setunggal_ws/install/first_interfaces/lib:/home/azharanas17/setunggal_ws/install/turtlesim/lib:/home/azharanas17/setunggal_ws/install/first_pubsub/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/azharanas17/setunggal_ws/install/first_interfaces/lib/python3.8/site-packages:/home/azharanas17/setunggal_ws/install/turtlesim/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --build /home/azharanas17/setunggal_ws/build/first_pubsub -- -j4 -l4
+[7.861s] Invoking command in '/home/azharanas17/setunggal_ws/build/first_pubsub': CMAKE_PREFIX_PATH=/home/azharanas17/setunggal_ws/install/first_interfaces:/home/azharanas17/setunggal_ws/install/turtlesim:/home/azharanas17/setunggal_ws/install/first_pubsub:/opt/ros/foxy LD_LIBRARY_PATH=/home/azharanas17/setunggal_ws/install/first_interfaces/lib:/home/azharanas17/setunggal_ws/install/turtlesim/lib:/home/azharanas17/setunggal_ws/install/first_pubsub/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/azharanas17/setunggal_ws/install/first_interfaces/lib/python3.8/site-packages:/home/azharanas17/setunggal_ws/install/turtlesim/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --install /home/azharanas17/setunggal_ws/build/first_pubsub
+[7.872s] -- Install configuration: ""
+[7.872s] -- Up-to-date: /home/azharanas17/setunggal_ws/install/first_pubsub/./include
+[7.873s] -- Up-to-date: /home/azharanas17/setunggal_ws/install/first_pubsub/./include/first_pubsub
+[7.873s] -- Installing: /home/azharanas17/setunggal_ws/install/first_pubsub/./include/first_pubsub/logger_sub_node.hpp
+[7.873s] -- Up-to-date: /home/azharanas17/setunggal_ws/install/first_pubsub/./include/first_pubsub/logger_pub_node.hpp
+[7.873s] -- Up-to-date: /home/azharanas17/setunggal_ws/install/first_pubsub/./include/first_pubsub/logger.hpp
+[7.873s] -- Installing: /home/azharanas17/setunggal_ws/install/first_pubsub/lib/libfirst_pubsub.so
+[7.876s] -- Set runtime path of "/home/azharanas17/setunggal_ws/install/first_pubsub/lib/libfirst_pubsub.so" to ""
+[7.876s] -- Installing: /home/azharanas17/setunggal_ws/install/first_pubsub/lib/first_pubsub/loggerpub
+[7.876s] -- Set runtime path of "/home/azharanas17/setunggal_ws/install/first_pubsub/lib/first_pubsub/loggerpub" to ""
+[7.877s] -- Installing: /home/azharanas17/setunggal_ws/install/first_pubsub/lib/first_pubsub/loggersub
+[7.877s] -- Set runtime path of "/home/azharanas17/setunggal_ws/install/first_pubsub/lib/first_pubsub/loggersub" to ""
+[7.877s] -- Up-to-date: /home/azharanas17/setunggal_ws/install/first_pubsub/share/first_pubsub/environment/library_path.sh
+[7.877s] -- Up-to-date: /home/azharanas17/setunggal_ws/install/first_pubsub/share/first_pubsub/environment/library_path.dsv
+[7.877s] -- Up-to-date: /home/azharanas17/setunggal_ws/install/first_pubsub/share/ament_index/resource_index/package_run_dependencies/first_pubsub
+[7.877s] -- Up-to-date: /home/azharanas17/setunggal_ws/install/first_pubsub/share/ament_index/resource_index/parent_prefix_path/first_pubsub
+[7.877s] -- Up-to-date: /home/azharanas17/setunggal_ws/install/first_pubsub/share/first_pubsub/environment/ament_prefix_path.sh
+[7.877s] -- Up-to-date: /home/azharanas17/setunggal_ws/install/first_pubsub/share/first_pubsub/environment/ament_prefix_path.dsv
+[7.877s] -- Up-to-date: /home/azharanas17/setunggal_ws/install/first_pubsub/share/first_pubsub/environment/path.sh
+[7.877s] -- Up-to-date: /home/azharanas17/setunggal_ws/install/first_pubsub/share/first_pubsub/environment/path.dsv
+[7.878s] -- Up-to-date: /home/azharanas17/setunggal_ws/install/first_pubsub/share/first_pubsub/local_setup.bash
+[7.878s] -- Up-to-date: /home/azharanas17/setunggal_ws/install/first_pubsub/share/first_pubsub/local_setup.sh
+[7.878s] -- Up-to-date: /home/azharanas17/setunggal_ws/install/first_pubsub/share/first_pubsub/local_setup.zsh
+[7.878s] -- Up-to-date: /home/azharanas17/setunggal_ws/install/first_pubsub/share/first_pubsub/local_setup.dsv
+[7.878s] -- Installing: /home/azharanas17/setunggal_ws/install/first_pubsub/share/first_pubsub/package.dsv
+[7.878s] -- Up-to-date: /home/azharanas17/setunggal_ws/install/first_pubsub/share/ament_index/resource_index/packages/first_pubsub
+[7.878s] -- Up-to-date: /home/azharanas17/setunggal_ws/install/first_pubsub/share/first_pubsub/cmake/ament_cmake_export_dependencies-extras.cmake
+[7.878s] -- Up-to-date: /home/azharanas17/setunggal_ws/install/first_pubsub/share/first_pubsub/cmake/ament_cmake_export_include_directories-extras.cmake
+[7.878s] -- Up-to-date: /home/azharanas17/setunggal_ws/install/first_pubsub/share/first_pubsub/cmake/ament_cmake_export_libraries-extras.cmake
+[7.878s] -- Up-to-date: /home/azharanas17/setunggal_ws/install/first_pubsub/share/first_pubsub/cmake/first_pubsubConfig.cmake
+[7.879s] -- Up-to-date: /home/azharanas17/setunggal_ws/install/first_pubsub/share/first_pubsub/cmake/first_pubsubConfig-version.cmake
+[7.879s] -- Up-to-date: /home/azharanas17/setunggal_ws/install/first_pubsub/share/first_pubsub/package.xml
+[7.882s] Invoked command in '/home/azharanas17/setunggal_ws/build/first_pubsub' returned '0': CMAKE_PREFIX_PATH=/home/azharanas17/setunggal_ws/install/first_interfaces:/home/azharanas17/setunggal_ws/install/turtlesim:/home/azharanas17/setunggal_ws/install/first_pubsub:/opt/ros/foxy LD_LIBRARY_PATH=/home/azharanas17/setunggal_ws/install/first_interfaces/lib:/home/azharanas17/setunggal_ws/install/turtlesim/lib:/home/azharanas17/setunggal_ws/install/first_pubsub/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/azharanas17/setunggal_ws/install/first_interfaces/lib/python3.8/site-packages:/home/azharanas17/setunggal_ws/install/turtlesim/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --install /home/azharanas17/setunggal_ws/build/first_pubsub

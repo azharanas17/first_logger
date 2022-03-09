@@ -1,0 +1,30 @@
+[0.011s] Invoking command in '/home/azharanas17/setunggal_ws/build/first_pubsub': CMAKE_PREFIX_PATH=/home/azharanas17/setunggal_ws/install/first_interfaces:/home/azharanas17/setunggal_ws/install/turtlesim:/home/azharanas17/setunggal_ws/install/first_pubsub:/opt/ros/foxy LD_LIBRARY_PATH=/home/azharanas17/setunggal_ws/install/first_interfaces/lib:/home/azharanas17/setunggal_ws/install/turtlesim/lib:/home/azharanas17/setunggal_ws/install/first_pubsub/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/azharanas17/setunggal_ws/install/first_interfaces/lib/python3.8/site-packages:/home/azharanas17/setunggal_ws/install/turtlesim/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --build /home/azharanas17/setunggal_ws/build/first_pubsub -- -j4 -l4
+[0.042s] [35m[1mScanning dependencies of target first_pubsub[0m
+[0.062s] [ 14%] [32mBuilding CXX object CMakeFiles/first_pubsub.dir/src/logger_sub_node.cpp.o[0m
+[1.170s] [01m[K/home/azharanas17/setunggal_ws/src/first_pubsub/src/logger_sub_node.cpp:[m[K In member function ‘[01m[Kvoid LoggerSub::topic_callback(first_interfaces::msg::Log_<std::allocator<void> >::SharedPtr) const[m[K’:
+[1.170s] [01m[K/home/azharanas17/setunggal_ws/src/first_pubsub/src/logger_sub_node.cpp:36:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kstring[m[K’ was not declared in this scope
+[1.170s]    36 |         [01;31m[Kstring[m[K level_log = msg->level;
+[1.170s]       |         [01;31m[K^~~~~~[m[K
+[1.170s] [01m[K/home/azharanas17/setunggal_ws/src/first_pubsub/src/logger_sub_node.cpp:36:9:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+[1.170s] In file included from [01m[K/usr/include/c++/9/iosfwd:39[m[K,
+[1.170s]                  from [01m[K/usr/include/c++/9/ios:38[m[K,
+[1.170s]                  from [01m[K/usr/include/c++/9/ostream:38[m[K,
+[1.170s]                  from [01m[K/usr/include/c++/9/iostream:39[m[K,
+[1.170s]                  from [01m[K/home/azharanas17/setunggal_ws/src/first_pubsub/src/logger_sub_node.cpp:1[m[K:
+[1.170s] [01m[K/usr/include/c++/9/bits/stringfwd.h:79:33:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::string[m[K’
+[1.170s]    79 |   typedef basic_string<char>    [01;36m[Kstring[m[K;
+[1.170s]       |                                 [01;36m[K^~~~~~[m[K
+[1.170s] In file included from [01m[K/usr/include/nlohmann/detail/conversions/from_json.hpp:20[m[K,
+[1.170s]                  from [01m[K/usr/include/nlohmann/adl_serializer.hpp:5[m[K,
+[1.170s]                  from [01m[K/usr/include/nlohmann/json.hpp:51[m[K,
+[1.170s]                  from [01m[K/home/azharanas17/setunggal_ws/src/first_pubsub/src/logger_sub_node.cpp:5[m[K:
+[1.170s] [01m[K/usr/include/nlohmann/detail/value_t.hpp:46:5:[m[K [01;36m[Knote: [m[K  ‘[01m[Knlohmann::detail::value_t::string[m[K’
+[1.171s]    46 |     [01;36m[Kstring[m[K,           ///< string value
+[1.171s]       |     [01;36m[K^~~~~~[m[K
+[1.172s] [01m[K/home/azharanas17/setunggal_ws/src/first_pubsub/src/logger_sub_node.cpp:38:12:[m[K [01;31m[Kerror: [m[K‘[01m[Klevel_log[m[K’ was not declared in this scope
+[1.172s]    38 |         if([01;31m[Klevel_log[m[K >= INFO)
+[1.172s]       |            [01;31m[K^~~~~~~~~[m[K
+[2.558s] make[2]: *** [CMakeFiles/first_pubsub.dir/build.make:76: CMakeFiles/first_pubsub.dir/src/logger_sub_node.cpp.o] Error 1
+[2.558s] make[1]: *** [CMakeFiles/Makefile2:136: CMakeFiles/first_pubsub.dir/all] Error 2
+[2.558s] make: *** [Makefile:141: all] Error 2
+[2.560s] Invoked command in '/home/azharanas17/setunggal_ws/build/first_pubsub' returned '2': CMAKE_PREFIX_PATH=/home/azharanas17/setunggal_ws/install/first_interfaces:/home/azharanas17/setunggal_ws/install/turtlesim:/home/azharanas17/setunggal_ws/install/first_pubsub:/opt/ros/foxy LD_LIBRARY_PATH=/home/azharanas17/setunggal_ws/install/first_interfaces/lib:/home/azharanas17/setunggal_ws/install/turtlesim/lib:/home/azharanas17/setunggal_ws/install/first_pubsub/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/azharanas17/setunggal_ws/install/first_interfaces/lib/python3.8/site-packages:/home/azharanas17/setunggal_ws/install/turtlesim/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --build /home/azharanas17/setunggal_ws/build/first_pubsub -- -j4 -l4

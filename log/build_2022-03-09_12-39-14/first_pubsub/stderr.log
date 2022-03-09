@@ -1,0 +1,70 @@
+[01m[K/home/azharanas17/setunggal_ws/src/first_pubsub/src/logger_sub_node.cpp:[m[K In member function ‘[01m[Kvoid LoggerSub::topic_callback(first_interfaces::msg::Log_<std::allocator<void> >::SharedPtr) const[m[K’:
+[01m[K/home/azharanas17/setunggal_ws/src/first_pubsub/src/logger_sub_node.cpp:36:26:[m[K [01;31m[Kerror: [m[Kswitch quantity not an integer
+   36 |         switch(msg->level[01;31m[K)[m[K
+      |                          [01;31m[K^[m[K
+[01m[K/home/azharanas17/setunggal_ws/src/first_pubsub/src/logger_sub_node.cpp:60:18:[m[K [01;31m[Kerror: [m[Kjump to case label
+   60 |             case [01;31m[K"WARN"[m[K :
+      |                  [01;31m[K^~~~~~[m[K
+[01m[K/home/azharanas17/setunggal_ws/src/first_pubsub/src/logger_sub_node.cpp:42:26:[m[K [01;36m[Knote: [m[K  crosses initialization of ‘[01m[Kjson json_log[m[K’
+   42 |                     json [01;36m[Kjson_log[m[K = json::array();
+      |                          [01;36m[K^~~~~~~~[m[K
+[01m[K/home/azharanas17/setunggal_ws/src/first_pubsub/src/logger_sub_node.cpp:39:35:[m[K [01;36m[Knote: [m[K  crosses initialization of ‘[01m[Kstd::ofstream file_log[m[K’
+   39 |                     std::ofstream [01;36m[Kfile_log[m[K;
+      |                                   [01;36m[K^~~~~~~~[m[K
+[01m[K/home/azharanas17/setunggal_ws/src/first_pubsub/src/logger_sub_node.cpp:61:35:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kstd::ofstream file_log[m[K’
+   61 |                     std::ofstream [01;31m[Kfile_log[m[K;
+      |                                   [01;31m[K^~~~~~~~[m[K
+[01m[K/home/azharanas17/setunggal_ws/src/first_pubsub/src/logger_sub_node.cpp:39:35:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::ofstream file_log[m[K’ previously declared here
+   39 |                     std::ofstream [01;36m[Kfile_log[m[K;
+      |                                   [01;36m[K^~~~~~~~[m[K
+[01m[K/home/azharanas17/setunggal_ws/src/first_pubsub/src/logger_sub_node.cpp:64:26:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kjson json_log[m[K’
+   64 |                     json [01;31m[Kjson_log[m[K = json::array();
+      |                          [01;31m[K^~~~~~~~[m[K
+[01m[K/home/azharanas17/setunggal_ws/src/first_pubsub/src/logger_sub_node.cpp:42:26:[m[K [01;36m[Knote: [m[K‘[01m[Kjson json_log[m[K’ previously declared here
+   42 |                     json [01;36m[Kjson_log[m[K = json::array();
+      |                          [01;36m[K^~~~~~~~[m[K
+[01m[K/home/azharanas17/setunggal_ws/src/first_pubsub/src/logger_sub_node.cpp:82:18:[m[K [01;31m[Kerror: [m[Kjump to case label
+   82 |             case [01;31m[K"ERROR"[m[K :
+      |                  [01;31m[K^~~~~~~[m[K
+[01m[K/home/azharanas17/setunggal_ws/src/first_pubsub/src/logger_sub_node.cpp:42:26:[m[K [01;36m[Knote: [m[K  crosses initialization of ‘[01m[Kjson json_log[m[K’
+   42 |                     json [01;36m[Kjson_log[m[K = json::array();
+      |                          [01;36m[K^~~~~~~~[m[K
+[01m[K/home/azharanas17/setunggal_ws/src/first_pubsub/src/logger_sub_node.cpp:39:35:[m[K [01;36m[Knote: [m[K  crosses initialization of ‘[01m[Kstd::ofstream file_log[m[K’
+   39 |                     std::ofstream [01;36m[Kfile_log[m[K;
+      |                                   [01;36m[K^~~~~~~~[m[K
+[01m[K/home/azharanas17/setunggal_ws/src/first_pubsub/src/logger_sub_node.cpp:83:35:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kstd::ofstream file_log[m[K’
+   83 |                     std::ofstream [01;31m[Kfile_log[m[K;
+      |                                   [01;31m[K^~~~~~~~[m[K
+[01m[K/home/azharanas17/setunggal_ws/src/first_pubsub/src/logger_sub_node.cpp:39:35:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::ofstream file_log[m[K’ previously declared here
+   39 |                     std::ofstream [01;36m[Kfile_log[m[K;
+      |                                   [01;36m[K^~~~~~~~[m[K
+[01m[K/home/azharanas17/setunggal_ws/src/first_pubsub/src/logger_sub_node.cpp:86:26:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kjson json_log[m[K’
+   86 |                     json [01;31m[Kjson_log[m[K = json::array();
+      |                          [01;31m[K^~~~~~~~[m[K
+[01m[K/home/azharanas17/setunggal_ws/src/first_pubsub/src/logger_sub_node.cpp:42:26:[m[K [01;36m[Knote: [m[K‘[01m[Kjson json_log[m[K’ previously declared here
+   42 |                     json [01;36m[Kjson_log[m[K = json::array();
+      |                          [01;36m[K^~~~~~~~[m[K
+[01m[K/home/azharanas17/setunggal_ws/src/first_pubsub/src/logger_sub_node.cpp:104:18:[m[K [01;31m[Kerror: [m[Kjump to case label
+  104 |             case [01;31m[K"FATAL"[m[K :
+      |                  [01;31m[K^~~~~~~[m[K
+[01m[K/home/azharanas17/setunggal_ws/src/first_pubsub/src/logger_sub_node.cpp:42:26:[m[K [01;36m[Knote: [m[K  crosses initialization of ‘[01m[Kjson json_log[m[K’
+   42 |                     json [01;36m[Kjson_log[m[K = json::array();
+      |                          [01;36m[K^~~~~~~~[m[K
+[01m[K/home/azharanas17/setunggal_ws/src/first_pubsub/src/logger_sub_node.cpp:39:35:[m[K [01;36m[Knote: [m[K  crosses initialization of ‘[01m[Kstd::ofstream file_log[m[K’
+   39 |                     std::ofstream [01;36m[Kfile_log[m[K;
+      |                                   [01;36m[K^~~~~~~~[m[K
+[01m[K/home/azharanas17/setunggal_ws/src/first_pubsub/src/logger_sub_node.cpp:105:35:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kstd::ofstream file_log[m[K’
+  105 |                     std::ofstream [01;31m[Kfile_log[m[K;
+      |                                   [01;31m[K^~~~~~~~[m[K
+[01m[K/home/azharanas17/setunggal_ws/src/first_pubsub/src/logger_sub_node.cpp:39:35:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::ofstream file_log[m[K’ previously declared here
+   39 |                     std::ofstream [01;36m[Kfile_log[m[K;
+      |                                   [01;36m[K^~~~~~~~[m[K
+[01m[K/home/azharanas17/setunggal_ws/src/first_pubsub/src/logger_sub_node.cpp:108:26:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kjson json_log[m[K’
+  108 |                     json [01;31m[Kjson_log[m[K = json::array();
+      |                          [01;31m[K^~~~~~~~[m[K
+[01m[K/home/azharanas17/setunggal_ws/src/first_pubsub/src/logger_sub_node.cpp:42:26:[m[K [01;36m[Knote: [m[K‘[01m[Kjson json_log[m[K’ previously declared here
+   42 |                     json [01;36m[Kjson_log[m[K = json::array();
+      |                          [01;36m[K^~~~~~~~[m[K
+make[2]: *** [CMakeFiles/first_pubsub.dir/build.make:76: CMakeFiles/first_pubsub.dir/src/logger_sub_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:136: CMakeFiles/first_pubsub.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

@@ -1,0 +1,51 @@
+[01m[K/home/azharanas17/setunggal_ws/src/first_pubsub/src/logger_sub_node.cpp:[m[K In member function ‘[01m[Kvoid LoggerSub::topic_callback(first_interfaces::msg::Log_<std::allocator<void> >::SharedPtr) const[m[K’:
+[01m[K/home/azharanas17/setunggal_ws/src/first_pubsub/src/logger_sub_node.cpp:36:26:[m[K [01;31m[Kerror: [m[Kswitch quantity not an integer
+   36 |         switch(msg->level[01;31m[K)[m[K
+      |                          [01;31m[K^[m[K
+[01m[K/home/azharanas17/setunggal_ws/src/first_pubsub/src/logger_sub_node.cpp:40:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kfile_log[m[K’ was not declared in this scope; did you mean ‘[01m[Kfileno[m[K’?
+   40 |                     [01;31m[Kfile_log[m[K.open("logger.json", std::ios_base::app | std::ios_base::out);
+      |                     [01;31m[K^~~~~~~~[m[K
+      |                     [32m[Kfileno[m[K
+[01m[K/home/azharanas17/setunggal_ws/src/first_pubsub/src/logger_sub_node.cpp:50:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kjson_log[m[K’ was not declared in this scope; did you mean ‘[01m[Kjsn_lg[m[K’?
+   50 |                     [01;31m[Kjson_log[m[K.push_back(jsn_lg);
+      |                     [01;31m[K^~~~~~~~[m[K
+      |                     [32m[Kjsn_lg[m[K
+[01m[K/home/azharanas17/setunggal_ws/src/first_pubsub/src/logger_sub_node.cpp:57:18:[m[K [01;31m[Kerror: [m[Kjump to case label
+   57 |             case [01;31m[K"WARN"[m[K :
+      |                  [01;31m[K^~~~~~[m[K
+[01m[K/home/azharanas17/setunggal_ws/src/first_pubsub/src/logger_sub_node.cpp:44:26:[m[K [01;36m[Knote: [m[K  crosses initialization of ‘[01m[Kjson jsn_lg[m[K’
+   44 |                     json [01;36m[Kjsn_lg[m[K = {
+      |                          [01;36m[K^~~~~~[m[K
+[01m[K/home/azharanas17/setunggal_ws/src/first_pubsub/src/logger_sub_node.cpp:63:26:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kjson jsn_lg[m[K’
+   63 |                     json [01;31m[Kjsn_lg[m[K = {
+      |                          [01;31m[K^~~~~~[m[K
+[01m[K/home/azharanas17/setunggal_ws/src/first_pubsub/src/logger_sub_node.cpp:44:26:[m[K [01;36m[Knote: [m[K‘[01m[Kjson jsn_lg[m[K’ previously declared here
+   44 |                     json [01;36m[Kjsn_lg[m[K = {
+      |                          [01;36m[K^~~~~~[m[K
+[01m[K/home/azharanas17/setunggal_ws/src/first_pubsub/src/logger_sub_node.cpp:76:18:[m[K [01;31m[Kerror: [m[Kjump to case label
+   76 |             case [01;31m[K"ERROR"[m[K :
+      |                  [01;31m[K^~~~~~~[m[K
+[01m[K/home/azharanas17/setunggal_ws/src/first_pubsub/src/logger_sub_node.cpp:44:26:[m[K [01;36m[Knote: [m[K  crosses initialization of ‘[01m[Kjson jsn_lg[m[K’
+   44 |                     json [01;36m[Kjsn_lg[m[K = {
+      |                          [01;36m[K^~~~~~[m[K
+[01m[K/home/azharanas17/setunggal_ws/src/first_pubsub/src/logger_sub_node.cpp:82:26:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kjson jsn_lg[m[K’
+   82 |                     json [01;31m[Kjsn_lg[m[K = {
+      |                          [01;31m[K^~~~~~[m[K
+[01m[K/home/azharanas17/setunggal_ws/src/first_pubsub/src/logger_sub_node.cpp:44:26:[m[K [01;36m[Knote: [m[K‘[01m[Kjson jsn_lg[m[K’ previously declared here
+   44 |                     json [01;36m[Kjsn_lg[m[K = {
+      |                          [01;36m[K^~~~~~[m[K
+[01m[K/home/azharanas17/setunggal_ws/src/first_pubsub/src/logger_sub_node.cpp:95:18:[m[K [01;31m[Kerror: [m[Kjump to case label
+   95 |             case [01;31m[K"FATAL"[m[K :
+      |                  [01;31m[K^~~~~~~[m[K
+[01m[K/home/azharanas17/setunggal_ws/src/first_pubsub/src/logger_sub_node.cpp:44:26:[m[K [01;36m[Knote: [m[K  crosses initialization of ‘[01m[Kjson jsn_lg[m[K’
+   44 |                     json [01;36m[Kjsn_lg[m[K = {
+      |                          [01;36m[K^~~~~~[m[K
+[01m[K/home/azharanas17/setunggal_ws/src/first_pubsub/src/logger_sub_node.cpp:101:26:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kjson jsn_lg[m[K’
+  101 |                     json [01;31m[Kjsn_lg[m[K = {
+      |                          [01;31m[K^~~~~~[m[K
+[01m[K/home/azharanas17/setunggal_ws/src/first_pubsub/src/logger_sub_node.cpp:44:26:[m[K [01;36m[Knote: [m[K‘[01m[Kjson jsn_lg[m[K’ previously declared here
+   44 |                     json [01;36m[Kjsn_lg[m[K = {
+      |                          [01;36m[K^~~~~~[m[K
+make[2]: *** [CMakeFiles/first_pubsub.dir/build.make:76: CMakeFiles/first_pubsub.dir/src/logger_sub_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:136: CMakeFiles/first_pubsub.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

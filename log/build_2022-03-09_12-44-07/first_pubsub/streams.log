@@ -1,0 +1,44 @@
+[0.010s] Invoking command in '/home/azharanas17/setunggal_ws/build/first_pubsub': AMENT_PREFIX_PATH=/home/azharanas17/setunggal_ws/install/first_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/azharanas17/setunggal_ws/install/first_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/azharanas17/setunggal_ws/install/first_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/azharanas17/setunggal_ws/install/first_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/azharanas17/setunggal_ws/build/first_pubsub -- -j4 -l4
+[0.041s] [35m[1mScanning dependencies of target first_pubsub[0m
+[0.058s] [ 14%] [32mBuilding CXX object CMakeFiles/first_pubsub.dir/src/logger_sub_node.cpp.o[0m
+[4.657s] [ 28%] [32m[1mLinking CXX shared library libfirst_pubsub.so[0m
+[4.897s] [ 42%] Built target first_pubsub
+[4.919s] [ 71%] [32m[1mLinking CXX executable loggersub[0m
+[4.919s] [ 71%] [32m[1mLinking CXX executable loggerpub[0m
+[5.100s] [100%] Built target loggersub
+[5.100s] [100%] Built target loggerpub
+[5.108s] Invoked command in '/home/azharanas17/setunggal_ws/build/first_pubsub' returned '0': AMENT_PREFIX_PATH=/home/azharanas17/setunggal_ws/install/first_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/azharanas17/setunggal_ws/install/first_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/azharanas17/setunggal_ws/install/first_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/azharanas17/setunggal_ws/install/first_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/azharanas17/setunggal_ws/build/first_pubsub -- -j4 -l4
+[5.127s] Invoking command in '/home/azharanas17/setunggal_ws/build/first_pubsub': AMENT_PREFIX_PATH=/home/azharanas17/setunggal_ws/install/first_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/azharanas17/setunggal_ws/install/first_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/azharanas17/setunggal_ws/install/first_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/azharanas17/setunggal_ws/install/first_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/azharanas17/setunggal_ws/build/first_pubsub
+[5.134s] -- Install configuration: ""
+[5.134s] -- Up-to-date: /home/azharanas17/setunggal_ws/install/first_pubsub/./include
+[5.134s] -- Up-to-date: /home/azharanas17/setunggal_ws/install/first_pubsub/./include/first_pubsub
+[5.134s] -- Up-to-date: /home/azharanas17/setunggal_ws/install/first_pubsub/./include/first_pubsub/logger_sub_node.hpp
+[5.134s] -- Up-to-date: /home/azharanas17/setunggal_ws/install/first_pubsub/./include/first_pubsub/logger_pub_node.hpp
+[5.134s] -- Up-to-date: /home/azharanas17/setunggal_ws/install/first_pubsub/./include/first_pubsub/logger.hpp
+[5.135s] -- Installing: /home/azharanas17/setunggal_ws/install/first_pubsub/lib/libfirst_pubsub.so
+[5.137s] -- Set runtime path of "/home/azharanas17/setunggal_ws/install/first_pubsub/lib/libfirst_pubsub.so" to ""
+[5.137s] -- Installing: /home/azharanas17/setunggal_ws/install/first_pubsub/lib/first_pubsub/loggerpub
+[5.138s] -- Set runtime path of "/home/azharanas17/setunggal_ws/install/first_pubsub/lib/first_pubsub/loggerpub" to ""
+[5.138s] -- Installing: /home/azharanas17/setunggal_ws/install/first_pubsub/lib/first_pubsub/loggersub
+[5.138s] -- Set runtime path of "/home/azharanas17/setunggal_ws/install/first_pubsub/lib/first_pubsub/loggersub" to ""
+[5.138s] -- Up-to-date: /home/azharanas17/setunggal_ws/install/first_pubsub/share/first_pubsub/environment/library_path.sh
+[5.138s] -- Up-to-date: /home/azharanas17/setunggal_ws/install/first_pubsub/share/first_pubsub/environment/library_path.dsv
+[5.138s] -- Up-to-date: /home/azharanas17/setunggal_ws/install/first_pubsub/share/ament_index/resource_index/package_run_dependencies/first_pubsub
+[5.138s] -- Up-to-date: /home/azharanas17/setunggal_ws/install/first_pubsub/share/ament_index/resource_index/parent_prefix_path/first_pubsub
+[5.138s] -- Up-to-date: /home/azharanas17/setunggal_ws/install/first_pubsub/share/first_pubsub/environment/ament_prefix_path.sh
+[5.138s] -- Up-to-date: /home/azharanas17/setunggal_ws/install/first_pubsub/share/first_pubsub/environment/ament_prefix_path.dsv
+[5.138s] -- Up-to-date: /home/azharanas17/setunggal_ws/install/first_pubsub/share/first_pubsub/environment/path.sh
+[5.139s] -- Up-to-date: /home/azharanas17/setunggal_ws/install/first_pubsub/share/first_pubsub/environment/path.dsv
+[5.139s] -- Up-to-date: /home/azharanas17/setunggal_ws/install/first_pubsub/share/first_pubsub/local_setup.bash
+[5.139s] -- Up-to-date: /home/azharanas17/setunggal_ws/install/first_pubsub/share/first_pubsub/local_setup.sh
+[5.139s] -- Up-to-date: /home/azharanas17/setunggal_ws/install/first_pubsub/share/first_pubsub/local_setup.zsh
+[5.139s] -- Up-to-date: /home/azharanas17/setunggal_ws/install/first_pubsub/share/first_pubsub/local_setup.dsv
+[5.139s] -- Installing: /home/azharanas17/setunggal_ws/install/first_pubsub/share/first_pubsub/package.dsv
+[5.139s] -- Up-to-date: /home/azharanas17/setunggal_ws/install/first_pubsub/share/ament_index/resource_index/packages/first_pubsub
+[5.139s] -- Up-to-date: /home/azharanas17/setunggal_ws/install/first_pubsub/share/first_pubsub/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.139s] -- Up-to-date: /home/azharanas17/setunggal_ws/install/first_pubsub/share/first_pubsub/cmake/ament_cmake_export_include_directories-extras.cmake
+[5.139s] -- Up-to-date: /home/azharanas17/setunggal_ws/install/first_pubsub/share/first_pubsub/cmake/ament_cmake_export_libraries-extras.cmake
+[5.139s] -- Up-to-date: /home/azharanas17/setunggal_ws/install/first_pubsub/share/first_pubsub/cmake/first_pubsubConfig.cmake
+[5.139s] -- Up-to-date: /home/azharanas17/setunggal_ws/install/first_pubsub/share/first_pubsub/cmake/first_pubsubConfig-version.cmake
+[5.139s] -- Up-to-date: /home/azharanas17/setunggal_ws/install/first_pubsub/share/first_pubsub/package.xml
+[5.141s] Invoked command in '/home/azharanas17/setunggal_ws/build/first_pubsub' returned '0': AMENT_PREFIX_PATH=/home/azharanas17/setunggal_ws/install/first_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/azharanas17/setunggal_ws/install/first_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/azharanas17/setunggal_ws/install/first_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/azharanas17/setunggal_ws/install/first_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/azharanas17/setunggal_ws/build/first_pubsub

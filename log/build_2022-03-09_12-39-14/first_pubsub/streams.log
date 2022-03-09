@@ -1,0 +1,74 @@
+[0.007s] Invoking command in '/home/azharanas17/setunggal_ws/build/first_pubsub': AMENT_PREFIX_PATH=/home/azharanas17/setunggal_ws/install/first_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/azharanas17/setunggal_ws/install/first_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/azharanas17/setunggal_ws/install/first_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/azharanas17/setunggal_ws/install/first_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/azharanas17/setunggal_ws/build/first_pubsub -- -j4 -l4
+[0.047s] [35m[1mScanning dependencies of target first_pubsub[0m
+[0.066s] [ 14%] [32mBuilding CXX object CMakeFiles/first_pubsub.dir/src/logger_sub_node.cpp.o[0m
+[1.322s] [01m[K/home/azharanas17/setunggal_ws/src/first_pubsub/src/logger_sub_node.cpp:[m[K In member function ‘[01m[Kvoid LoggerSub::topic_callback(first_interfaces::msg::Log_<std::allocator<void> >::SharedPtr) const[m[K’:
+[1.322s] [01m[K/home/azharanas17/setunggal_ws/src/first_pubsub/src/logger_sub_node.cpp:36:26:[m[K [01;31m[Kerror: [m[Kswitch quantity not an integer
+[1.322s]    36 |         switch(msg->level[01;31m[K)[m[K
+[1.322s]       |                          [01;31m[K^[m[K
+[1.332s] [01m[K/home/azharanas17/setunggal_ws/src/first_pubsub/src/logger_sub_node.cpp:60:18:[m[K [01;31m[Kerror: [m[Kjump to case label
+[1.332s]    60 |             case [01;31m[K"WARN"[m[K :
+[1.332s]       |                  [01;31m[K^~~~~~[m[K
+[1.332s] [01m[K/home/azharanas17/setunggal_ws/src/first_pubsub/src/logger_sub_node.cpp:42:26:[m[K [01;36m[Knote: [m[K  crosses initialization of ‘[01m[Kjson json_log[m[K’
+[1.332s]    42 |                     json [01;36m[Kjson_log[m[K = json::array();
+[1.332s]       |                          [01;36m[K^~~~~~~~[m[K
+[1.332s] [01m[K/home/azharanas17/setunggal_ws/src/first_pubsub/src/logger_sub_node.cpp:39:35:[m[K [01;36m[Knote: [m[K  crosses initialization of ‘[01m[Kstd::ofstream file_log[m[K’
+[1.332s]    39 |                     std::ofstream [01;36m[Kfile_log[m[K;
+[1.332s]       |                                   [01;36m[K^~~~~~~~[m[K
+[1.332s] [01m[K/home/azharanas17/setunggal_ws/src/first_pubsub/src/logger_sub_node.cpp:61:35:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kstd::ofstream file_log[m[K’
+[1.332s]    61 |                     std::ofstream [01;31m[Kfile_log[m[K;
+[1.332s]       |                                   [01;31m[K^~~~~~~~[m[K
+[1.332s] [01m[K/home/azharanas17/setunggal_ws/src/first_pubsub/src/logger_sub_node.cpp:39:35:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::ofstream file_log[m[K’ previously declared here
+[1.332s]    39 |                     std::ofstream [01;36m[Kfile_log[m[K;
+[1.332s]       |                                   [01;36m[K^~~~~~~~[m[K
+[1.332s] [01m[K/home/azharanas17/setunggal_ws/src/first_pubsub/src/logger_sub_node.cpp:64:26:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kjson json_log[m[K’
+[1.332s]    64 |                     json [01;31m[Kjson_log[m[K = json::array();
+[1.332s]       |                          [01;31m[K^~~~~~~~[m[K
+[1.332s] [01m[K/home/azharanas17/setunggal_ws/src/first_pubsub/src/logger_sub_node.cpp:42:26:[m[K [01;36m[Knote: [m[K‘[01m[Kjson json_log[m[K’ previously declared here
+[1.332s]    42 |                     json [01;36m[Kjson_log[m[K = json::array();
+[1.332s]       |                          [01;36m[K^~~~~~~~[m[K
+[1.333s] [01m[K/home/azharanas17/setunggal_ws/src/first_pubsub/src/logger_sub_node.cpp:82:18:[m[K [01;31m[Kerror: [m[Kjump to case label
+[1.333s]    82 |             case [01;31m[K"ERROR"[m[K :
+[1.333s]       |                  [01;31m[K^~~~~~~[m[K
+[1.333s] [01m[K/home/azharanas17/setunggal_ws/src/first_pubsub/src/logger_sub_node.cpp:42:26:[m[K [01;36m[Knote: [m[K  crosses initialization of ‘[01m[Kjson json_log[m[K’
+[1.333s]    42 |                     json [01;36m[Kjson_log[m[K = json::array();
+[1.333s]       |                          [01;36m[K^~~~~~~~[m[K
+[1.333s] [01m[K/home/azharanas17/setunggal_ws/src/first_pubsub/src/logger_sub_node.cpp:39:35:[m[K [01;36m[Knote: [m[K  crosses initialization of ‘[01m[Kstd::ofstream file_log[m[K’
+[1.333s]    39 |                     std::ofstream [01;36m[Kfile_log[m[K;
+[1.333s]       |                                   [01;36m[K^~~~~~~~[m[K
+[1.333s] [01m[K/home/azharanas17/setunggal_ws/src/first_pubsub/src/logger_sub_node.cpp:83:35:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kstd::ofstream file_log[m[K’
+[1.333s]    83 |                     std::ofstream [01;31m[Kfile_log[m[K;
+[1.333s]       |                                   [01;31m[K^~~~~~~~[m[K
+[1.333s] [01m[K/home/azharanas17/setunggal_ws/src/first_pubsub/src/logger_sub_node.cpp:39:35:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::ofstream file_log[m[K’ previously declared here
+[1.333s]    39 |                     std::ofstream [01;36m[Kfile_log[m[K;
+[1.333s]       |                                   [01;36m[K^~~~~~~~[m[K
+[1.333s] [01m[K/home/azharanas17/setunggal_ws/src/first_pubsub/src/logger_sub_node.cpp:86:26:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kjson json_log[m[K’
+[1.333s]    86 |                     json [01;31m[Kjson_log[m[K = json::array();
+[1.333s]       |                          [01;31m[K^~~~~~~~[m[K
+[1.333s] [01m[K/home/azharanas17/setunggal_ws/src/first_pubsub/src/logger_sub_node.cpp:42:26:[m[K [01;36m[Knote: [m[K‘[01m[Kjson json_log[m[K’ previously declared here
+[1.333s]    42 |                     json [01;36m[Kjson_log[m[K = json::array();
+[1.333s]       |                          [01;36m[K^~~~~~~~[m[K
+[1.334s] [01m[K/home/azharanas17/setunggal_ws/src/first_pubsub/src/logger_sub_node.cpp:104:18:[m[K [01;31m[Kerror: [m[Kjump to case label
+[1.334s]   104 |             case [01;31m[K"FATAL"[m[K :
+[1.334s]       |                  [01;31m[K^~~~~~~[m[K
+[1.334s] [01m[K/home/azharanas17/setunggal_ws/src/first_pubsub/src/logger_sub_node.cpp:42:26:[m[K [01;36m[Knote: [m[K  crosses initialization of ‘[01m[Kjson json_log[m[K’
+[1.334s]    42 |                     json [01;36m[Kjson_log[m[K = json::array();
+[1.334s]       |                          [01;36m[K^~~~~~~~[m[K
+[1.334s] [01m[K/home/azharanas17/setunggal_ws/src/first_pubsub/src/logger_sub_node.cpp:39:35:[m[K [01;36m[Knote: [m[K  crosses initialization of ‘[01m[Kstd::ofstream file_log[m[K’
+[1.334s]    39 |                     std::ofstream [01;36m[Kfile_log[m[K;
+[1.334s]       |                                   [01;36m[K^~~~~~~~[m[K
+[1.334s] [01m[K/home/azharanas17/setunggal_ws/src/first_pubsub/src/logger_sub_node.cpp:105:35:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kstd::ofstream file_log[m[K’
+[1.334s]   105 |                     std::ofstream [01;31m[Kfile_log[m[K;
+[1.334s]       |                                   [01;31m[K^~~~~~~~[m[K
+[1.334s] [01m[K/home/azharanas17/setunggal_ws/src/first_pubsub/src/logger_sub_node.cpp:39:35:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::ofstream file_log[m[K’ previously declared here
+[1.334s]    39 |                     std::ofstream [01;36m[Kfile_log[m[K;
+[1.334s]       |                                   [01;36m[K^~~~~~~~[m[K
+[1.334s] [01m[K/home/azharanas17/setunggal_ws/src/first_pubsub/src/logger_sub_node.cpp:108:26:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kjson json_log[m[K’
+[1.334s]   108 |                     json [01;31m[Kjson_log[m[K = json::array();
+[1.334s]       |                          [01;31m[K^~~~~~~~[m[K
+[1.334s] [01m[K/home/azharanas17/setunggal_ws/src/first_pubsub/src/logger_sub_node.cpp:42:26:[m[K [01;36m[Knote: [m[K‘[01m[Kjson json_log[m[K’ previously declared here
+[1.334s]    42 |                     json [01;36m[Kjson_log[m[K = json::array();
+[1.334s]       |                          [01;36m[K^~~~~~~~[m[K
+[2.678s] make[2]: *** [CMakeFiles/first_pubsub.dir/build.make:76: CMakeFiles/first_pubsub.dir/src/logger_sub_node.cpp.o] Error 1
+[2.679s] make[1]: *** [CMakeFiles/Makefile2:136: CMakeFiles/first_pubsub.dir/all] Error 2
+[2.679s] make: *** [Makefile:141: all] Error 2
+[2.680s] Invoked command in '/home/azharanas17/setunggal_ws/build/first_pubsub' returned '2': AMENT_PREFIX_PATH=/home/azharanas17/setunggal_ws/install/first_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/azharanas17/setunggal_ws/install/first_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/azharanas17/setunggal_ws/install/first_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/azharanas17/setunggal_ws/install/first_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/azharanas17/setunggal_ws/build/first_pubsub -- -j4 -l4

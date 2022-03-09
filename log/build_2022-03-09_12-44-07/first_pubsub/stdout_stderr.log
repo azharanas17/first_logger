@@ -1,0 +1,40 @@
+[35m[1mScanning dependencies of target first_pubsub[0m
+[ 14%] [32mBuilding CXX object CMakeFiles/first_pubsub.dir/src/logger_sub_node.cpp.o[0m
+[ 28%] [32m[1mLinking CXX shared library libfirst_pubsub.so[0m
+[ 42%] Built target first_pubsub
+[ 71%] [32m[1mLinking CXX executable loggersub[0m
+[ 71%] [32m[1mLinking CXX executable loggerpub[0m
+[100%] Built target loggersub
+[100%] Built target loggerpub
+-- Install configuration: ""
+-- Up-to-date: /home/azharanas17/setunggal_ws/install/first_pubsub/./include
+-- Up-to-date: /home/azharanas17/setunggal_ws/install/first_pubsub/./include/first_pubsub
+-- Up-to-date: /home/azharanas17/setunggal_ws/install/first_pubsub/./include/first_pubsub/logger_sub_node.hpp
+-- Up-to-date: /home/azharanas17/setunggal_ws/install/first_pubsub/./include/first_pubsub/logger_pub_node.hpp
+-- Up-to-date: /home/azharanas17/setunggal_ws/install/first_pubsub/./include/first_pubsub/logger.hpp
+-- Installing: /home/azharanas17/setunggal_ws/install/first_pubsub/lib/libfirst_pubsub.so
+-- Set runtime path of "/home/azharanas17/setunggal_ws/install/first_pubsub/lib/libfirst_pubsub.so" to ""
+-- Installing: /home/azharanas17/setunggal_ws/install/first_pubsub/lib/first_pubsub/loggerpub
+-- Set runtime path of "/home/azharanas17/setunggal_ws/install/first_pubsub/lib/first_pubsub/loggerpub" to ""
+-- Installing: /home/azharanas17/setunggal_ws/install/first_pubsub/lib/first_pubsub/loggersub
+-- Set runtime path of "/home/azharanas17/setunggal_ws/install/first_pubsub/lib/first_pubsub/loggersub" to ""
+-- Up-to-date: /home/azharanas17/setunggal_ws/install/first_pubsub/share/first_pubsub/environment/library_path.sh
+-- Up-to-date: /home/azharanas17/setunggal_ws/install/first_pubsub/share/first_pubsub/environment/library_path.dsv
+-- Up-to-date: /home/azharanas17/setunggal_ws/install/first_pubsub/share/ament_index/resource_index/package_run_dependencies/first_pubsub
+-- Up-to-date: /home/azharanas17/setunggal_ws/install/first_pubsub/share/ament_index/resource_index/parent_prefix_path/first_pubsub
+-- Up-to-date: /home/azharanas17/setunggal_ws/install/first_pubsub/share/first_pubsub/environment/ament_prefix_path.sh
+-- Up-to-date: /home/azharanas17/setunggal_ws/install/first_pubsub/share/first_pubsub/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/azharanas17/setunggal_ws/install/first_pubsub/share/first_pubsub/environment/path.sh
+-- Up-to-date: /home/azharanas17/setunggal_ws/install/first_pubsub/share/first_pubsub/environment/path.dsv
+-- Up-to-date: /home/azharanas17/setunggal_ws/install/first_pubsub/share/first_pubsub/local_setup.bash
+-- Up-to-date: /home/azharanas17/setunggal_ws/install/first_pubsub/share/first_pubsub/local_setup.sh
+-- Up-to-date: /home/azharanas17/setunggal_ws/install/first_pubsub/share/first_pubsub/local_setup.zsh
+-- Up-to-date: /home/azharanas17/setunggal_ws/install/first_pubsub/share/first_pubsub/local_setup.dsv
+-- Installing: /home/azharanas17/setunggal_ws/install/first_pubsub/share/first_pubsub/package.dsv
+-- Up-to-date: /home/azharanas17/setunggal_ws/install/first_pubsub/share/ament_index/resource_index/packages/first_pubsub
+-- Up-to-date: /home/azharanas17/setunggal_ws/install/first_pubsub/share/first_pubsub/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date: /home/azharanas17/setunggal_ws/install/first_pubsub/share/first_pubsub/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date: /home/azharanas17/setunggal_ws/install/first_pubsub/share/first_pubsub/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date: /home/azharanas17/setunggal_ws/install/first_pubsub/share/first_pubsub/cmake/first_pubsubConfig.cmake
+-- Up-to-date: /home/azharanas17/setunggal_ws/install/first_pubsub/share/first_pubsub/cmake/first_pubsubConfig-version.cmake
+-- Up-to-date: /home/azharanas17/setunggal_ws/install/first_pubsub/share/first_pubsub/package.xml
